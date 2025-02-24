@@ -1,0 +1,24 @@
+runtime: nodejs18
+env: standard
+service: player
+instance_class: $GAE_INSTANCE_CLASS
+
+automatic_scaling:
+  min_idle_instances: $GAE_MIN_IDLE_INSTANCES
+  min_instances: $GAE_MIN_INSTANCES
+  max_instances: $GAE_MAX_INSTANCES
+
+inbound_services:
+  - warmup
+
+handlers:
+  - url: /play/bundle
+    static_dir: build/bundle
+    expiration: 365d
+  - url: /play/static
+    static_dir: build/static
+    expiration: 1m
+    http_headers:
+      Access-Control-Allow-Origin: "*"
+  - url: /.*
+    script: auto

@@ -1,0 +1,3984 @@
+{
+    "story": {
+        "metadata": {
+            "XXavatar": "robot",
+            "avatar-comment": "robot, google, blob",
+            "XXXXblob5ColorArray": ["red", "red", "green", "green", "blue"],
+            "blobStrokeColor": "#00a2ff",
+            "blobStrokeWidth": 2.5,
+            "supressInterjectAutoFeedbackForScene": true,
+            "supressInterjectAutoFeedbackForScene__NOTIMPLEMENTED": true,
+            "fontHint": "Lato",
+            "fontHintChartTitle": "BioRhyme",
+            "autoFeedbackNarration": "Here are some personalized actions for you.  Feedback to improve your experience is appreciated.",
+            "autoFeedbackTitle": "Custom Auto Feedback Title from JSON",
+            "actionList": [
+                {
+                    "actionType": "web",
+                    "title": "Check out the NDR article",
+                    "weburl": "https://cast.app/net-dollar-retention"
+                },
+                {
+                    "actionType": "deeplink",
+                    "title": "Goto Twitter",
+                    "url": "twitter://user?screen_name=castdotapp",
+                    "iconUrl": "https://twitter.com",
+                    "eventType": "notclick"
+                },
+                {
+                    "actionType": "deeplink",
+                    "title": "Goto twitter default logo",
+                    "url": "twitter://user?screen_name=castdotapp"
+                },
+                {
+                    "actionType": "phone",
+                    "title": "Make a call",
+                    "phone": "1-415-794-6724"
+                },
+                {
+                    "actionType": "mailto",
+                    "title": "Contact via Email",
+                    "email": "daljeet@cast.app"
+                },
+                {
+                    "actionType": "web",
+                    "title": "Looker Community",
+                    "weburl": "https://community.looker.com",
+                    "webhook": "https://cast.app",
+                    "payload": "payload"
+                },
+                {
+                    "actionType": "web",
+                    "title": "Watch Get Started Looker video",
+                    "weburl": "https://www.youtube.com/watch?v=PuLUcmAzyO8",
+                    "webhook": "https://cast.app",
+                    "payload": "payload"
+                },
+                {
+                    "actionType": "cast.app",
+                    "webhook": "https://cast.app",
+                    "payload": "payload"
+                }
+            ],
+            "logoURL": "S_P_Global_Cast.svg",
+            "id": "story-Bl2NJLmVSOysXl-Lq9LEUA",
+            "name": "Cash Reserves Update",
+            "description": "Cash reserves changed by 8%",
+            "gmtGenerationTimestamp": "2020-12-05, 00:40 UTC",
+            "recipient": {
+                "name": "Zoey Bain-McFadden",
+                "id": "recipient-M94ls4txR524Znyz5e5Kxg"
+            },
+            "sceneSequence": ["scene-FGqMQlpoSl-EPPopAfVwXw", "scene-XfaRN6qMTa6rBwCjIuHpuw", "scene-D3BHs3w4SxCB9-5GF38ySw"],
+            "companyColorsidSunx": ["red", "green", "blue"],
+            "companyColorsidMoonx": ["yellow", "purple", "lightblue"],
+            "companyColorsidAccessible": ["pink", "green", "blue"]
+        },
+        "scenes": {
+            "scene-FGqMQlpoSl-EPPopAfVwXw": {
+                "name": "Scene 1",
+                "xxlocalhostChartSequence": ["waterfall"],
+                "localhostChartSequence": [
+                    "options-chart",
+                    "checklist",
+                    "bars-m3qkiAVg5ukR9uPf968ZqK",
+                    "piebar-vwblJzWFSNCC0bPHMfM-lw",
+                    "area-line-chart",
+                    "waterfall",
+                    "gauge-vwblJzWFSNCC1bPHMfM-PSA",
+                    "compareBar-11",
+                    "paths-7CJVRG3dqTqaFDRL8vzyJc",
+                    "landland",
+                    "poll-scene"
+                ],
+                "chartSequence": [
+                    "compareBar-11",
+                    "piebar-vwblJzWFSNCC0bPHMfM-lw",
+                    "options-chart",
+                    "area-line-chart",
+                    "landland",
+                    "chart-chute-metrics-card",
+                    "panel-editorial",
+                    "waterfall",
+                    "line-ntiVhGAAwhNjnXqBbBQ2y9",
+                    "line-a4yYs9wfhTVHK3286tweGg",
+                    "gauge-vwblJzWFSNCC1bPHMfM-PSA",
+                    "paths-7CJVRG3dqTqaFDRL8vzyJc",
+                    "paths",
+                    "heatmap-demo-json",
+                    "funnel-kQLj8EaSTl6d6_LXAWJBxA",
+                    "bars-m3qkiAVg5ukR9uPf968ZqK",
+                    "bars-3HZkxi79L5B4tUuyGtPSgG",
+                    "landing-DpNNMeJGnLMVzbFo8u2e3W",
+                    "bars-vwblJzWFSNCC1bPHMfM-PSA",
+                    "chart-26c38b3c-1182-4e97-9687-93fdbc3af7c7",
+                    "image-s0DDqA-sRFG65F3Dpzp9NQ",
+                    "poll-scene"
+                ]
+            }
+        },
+        "charts": {
+            "options-chart": {
+                "options": {
+                    "waitForClick": "4000",
+                    "__w__waitForClickait": "perpertually or number of milliseconds",
+                    "imageTextColor": "purple",
+                    "XXbgImg": "372/2dfd6e1aedd24d9789519ad94d50ac2b___Options-01.svg",
+                    "XXbgImgMode": "cover",
+                    "XXbgBlurImgForContain": "blurred_andy-sieg.jpg",
+                    "XXbgImgPosition": "bottom",
+                    "buttonColor": "red",
+                    "nonPrimaryButtonColor": "blue",
+                    "noCoverImageOverlay": true,
+                    "ddinlineImg": "woman.jpg",
+                    "____inlineImgHeight": 120,
+                    "buttonStyle": "roundedLeft",
+                    "segments": [
+                        {
+                            "primary": true,
+                            "acceptText": "Awesome! Showing Summary Cast",
+                            "title": "Summary Cast",
+                            "webhook": "https://cast.app",
+                            "weburl": "https://cast.app",
+                            "payload": "payload",
+                            "sequence": ["options-chart", "landland", "paths", "poll-scene"]
+                        },
+                        {
+                            "primary": true,
+                            "acceptText": "Awesome! Showing Summary Cast",
+                            "title": "Summary Cast",
+                            "webhook": "https://cast.app",
+                            "weburl": "https://cast.app",
+                            "payload": "payload",
+                            "sequence": ["options-chart", "landland", "paths", "poll-scene"]
+                        },
+                        {
+                            "primary": true,
+                            "acceptText": "Awesome! Showing Summary Cast",
+                            "title": "Summary Cast",
+                            "webhook": "https://cast.app",
+                            "weburl": "https://cast.app",
+                            "payload": "payload",
+                            "sequence": ["options-chart", "landland", "paths", "poll-scene"]
+                        },
+                        {
+                            "acceptText": "Great Alternative",
+                            "title": "Alternate Medium Cast",
+                            "pauseForAction": true,
+                            "sequence": ["options-chart", "paths", "options-chart"]
+                        },
+                        {
+                            "acceptText": "The devil is in the detail. Coming right up.",
+                            "title": "Bookmark"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["1"]
+                        },
+                        {
+                            "highlight": [0],
+                            "narrations": ["2"]
+                        },
+                        {
+                            "highlight": [1],
+                            "narrations": ["3"]
+                        },
+                        {
+                            "highlight": [2],
+                            "narrations": ["3"]
+                        },
+                        {
+                            "highlight": [0, 1, 2],
+                            "narrations": ["4"]
+                        },
+                        {
+                            "highlight": null,
+                            "narrations": ["💡 5"]
+                        }
+                    ]
+                },
+                "title": "OPTIONS",
+                "type": "options"
+            },
+            "poll-1": {
+                "poll": {
+                    "segments": [
+                        {
+                            "acceptText": "Great!",
+                            "link_title": "Add 25 user bundle",
+                            "link_type": "webhook",
+                            "link_url": "https://cast.app/onerent_price_drop?property_id=a0D1K00000dFvZNUA0&leasing_associate=Jay-ar Sarsosa&options=-10%:$210,-8%:$168, -5%:$105, -3%:$84, One time promos: $1050 off, $1500 off&price_change=LOWER BY $210&address=83 Mcallister Street, San Francisco, CA - $2100",
+                            "post_data": "",
+                            "title": "Add 25 business tier users"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["One", "two", "three"]
+                        }
+                    ]
+                },
+                "title": "Upgrade to Egnyte Business Tier",
+                "type": "poll"
+            },
+            "poll-scene": {
+                "poll": {
+                    "bookmarkIntro": "YO YO Here are the bookmarks you saved.",
+                    "bgImg": "woman.jpg",
+                    "bgImgMode": "cover",
+                    "XXbgBlurImgForContain": "blurred_andy-sieg.jpg",
+                    "bgImgPosition": "bottom",
+                    "imageTextColor": "light",
+                    "1segments": [
+                        {
+                            "acceptText": "Sending you to Cast. Please reach out if you have any questions.",
+                            "link_title": "Cast App",
+                            "link_type": "",
+                            "link_url": "https://cast.app",
+                            "post_data": "",
+                            "subtitle": "Cast App",
+                            "title": "Visit",
+                            "valuePrefix": ""
+                        }
+                    ],
+                    "segments": [
+                        {
+                            "acceptText": "Great! We will lower your rent by $210. This should speed up renting it and make it more competitive.",
+                            "link_title": "Add 25 user bundle",
+                            "link_type": "webhook",
+                            "link_url": "https://cast.app/onerent_price_drop?property_id=a0D1K00000dFvZNUA0&leasing_associate=Jay-ar Sarsosa&options=-10%:$210,-8%:$168, -5%:$105, -3%:$84, One time promos: $1050 off, $1500 off&price_change=LOWER BY $210&address=83 Mcallister Street, San Francisco, CA - $2100",
+                            "post_data": "",
+                            "title": "Add 25 business tier users"
+                        },
+                        {
+                            "acceptText": "Great! We will lower your rent by $168. This should speed up renting it and make it more competitive.",
+                            "link_title": "Recommended: Add 30 user bundle",
+                            "link_type": "webhook",
+                            "link_url": "https://cast.app/onerent_price_drop?property_id=a0D1K00000dFvZNUA0&leasing_associate=Jay-ar Sarsosa&options=-10%:$210,-8%:$168, -5%:$105, -3%:$84, One time promos: $1050 off, $1500 off&price_change=LOWER BY $168&address=83 Mcallister Street, San Francisco, CA - $2100",
+                            "post_data": "",
+                            "title": "Add 30 business tier users"
+                        },
+                        {
+                            "acceptText": "Great! We will lower your rent by $168. This should speed up renting it and make it more competitive.",
+                            "link_title": "Add 35 user bundle",
+                            "link_type": "webhook",
+                            "link_url": "https://cast.app/onerent_price_drop?property_id=a0D1K00000dFvZNUA0&leasing_associate=Jay-ar Sarsosa&options=-10%:$210,-8%:$168, -5%:$105, -3%:$84, One time promos: $1050 off, $1500 off&price_change=LOWER BY $168&address=83 Mcallister Street, San Francisco, CA - $2100",
+                            "post_data": "",
+                            "title": "Add 35 business tier users"
+                        },
+                        {
+                            "acceptText": "Great! We will lower your rent by $168. This should speed up renting it and make it more competitive.",
+                            "link_title": "Get Enterprise Price Quote",
+                            "link_type": "webhook",
+                            "link_url": "https://cast.app/onerent_price_drop?property_id=a0D1K00000dFvZNUA0&leasing_associate=Jay-ar Sarsosa&options=-10%:$210,-8%:$168, -5%:$105, -3%:$84, One time promos: $1050 off, $1500 off&price_change=LOWER BY $168&address=83 Mcallister Street, San Francisco, CA - $2100",
+                            "post_data": "",
+                            "title": "Talk to sales team"
+                        },
+                        {
+                            "acceptText": "Replaying your Egnyte Cast.",
+                            "link_title": "Replay EgnyteCast",
+                            "link_type": "replay",
+                            "link_url": "",
+                            "post_data": "",
+                            "subtitle": "EgnyteCast",
+                            "title": "Replay your",
+                            "valuePrefix": ""
+                        },
+                        {
+                            "acceptText": "Sending you to Cast. Please reach out if you have any questions.",
+                            "link_title": "Cast App",
+                            "link_type": "",
+                            "link_url": "https://cast.app",
+                            "post_data": "",
+                            "subtitle": "Cast App",
+                            "title": "Visit",
+                            "valuePrefix": ""
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["We noticed extreme changes in market price volatility last month.", "HELLO"]
+                        },
+                        {
+                            "narrations": [
+                                "There was an <cast:mark>85.81</cast:mark> increase in percent of price drops over <cast:mark>5%</cast:mark>, to a whopping <cast:mark>90.76</cast:mark>."
+                            ]
+                        },
+                        {
+                            "narrations": [
+                                "There was also a <cast:mark>39.43</cast:mark> drop in price changes between <cast:mark>1%</cast:mark> and <cast:mark>5%</cast:mark>, showing how far we've swung in the negative."
+                            ]
+                        }
+                    ]
+                },
+                "title": "Next STEPS",
+                "type": "poll"
+            },
+            "singlebars-3HZkxi79L5B4tUuyGtPSgG": {
+                "bars": {
+                    "segments": [
+                        {
+                            "title": "Dec-19",
+                            "value": [1.68],
+                            "valueLabel": []
+                        },
+                        {
+                            "title": "Jan-20",
+                            "value": [1.18],
+                            "valueLabel": []
+                        },
+                        {
+                            "title": "Feb-20",
+                            "value": [0.69],
+                            "valueLabel": []
+                        },
+                        {
+                            "title": "Mar-20",
+                            "value": [0.07]
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["We noticed extreme changes in market price volatility last month."]
+                        },
+                        {
+                            "narrations": [
+                                "There was an <cast:mark>85.81</cast:mark> increase in percent of price drops over <cast:mark>5%</cast:mark>, to a whopping <cast:mark>90.76</cast:mark>."
+                            ]
+                        },
+                        {
+                            "narrations": [
+                                "There was also a <cast:mark>39.43</cast:mark> drop in price changes between <cast:mark>1%</cast:mark> and <cast:mark>5%</cast:mark>, showing how far we've swung in the negative."
+                            ]
+                        }
+                    ]
+                },
+                "title": "MTM Price Volatility",
+                "type": "bars"
+            },
+            "bars-3HZkxi79L5B4tUuyGtPSgG": {
+                "bars": {
+                    "segments": [
+                        {
+                            "title": "Dec-19",
+                            "value": [1.68, 3.84, 9.04, 50.24, 30.88, 4.32],
+                            "valueLabel": []
+                        },
+                        {
+                            "title": "Jan-20",
+                            "value": [1.18, 5.91, 37.04, 38.14, 16.15, 1.58],
+                            "valueLabel": []
+                        },
+                        {
+                            "title": "Feb-20",
+                            "value": [4.95, 47.03, 39.79, 4.95, 2.59, 0.69],
+                            "valueLabel": []
+                        },
+                        {
+                            "title": "Mar-20",
+                            "value": [90.76, 8.66, 0.36, 0.14, 0.0, 0.07],
+                            "valueLabel": ["=<-5%", "-1% to < -5%", "-.001% to < -1%", ".001% to < 1%", "1% to <5%", ">=5%"]
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["We noticed extreme changes in market price volatility last month."]
+                        },
+                        {
+                            "narrations": ["Another narration"]
+                        }
+                    ]
+                },
+                "title": "MTM Price Volatility",
+                "type": "bars"
+            },
+            "line-a4yYs9wfhTVHK3286tweGg": {
+                "line": {
+                    "segments": [
+                        {
+                            "left": "Sep-19",
+                            "smoothing": "0",
+                            "lineColor": "#acacac",
+                            "lineHighColor": "green",
+                            "area2DataColor": "red",
+                            "lineLowColor": "red",
+                            "areaData": [
+                                [0, 31.0],
+                                [1, 75.0],
+                                [2, 33.0],
+                                [3, 13.0],
+                                [4, 39.0],
+                                [5, 89.0],
+                                [6, 100.0]
+                            ],
+                            "lineLowData": [
+                                [0, 57.0],
+                                [1, 16.0],
+                                [2, 54.0],
+                                [3, 76.0],
+                                [4, 50.0],
+                                [5, 8.0],
+                                [6, 0.0]
+                            ],
+                            "right": "Mar-20",
+                            "suffix": "% of price changes",
+                            "title": "MTM Market Breadth"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["Hi! My name is Joanna. I will read any text you type here."]
+                        },
+                        {
+                            "highlightData": {
+                                "0": {
+                                    "xHighlighter": "13",
+                                    "xHighlighterLabel": "Mar-20"
+                                }
+                            },
+                            "narrations": ["The highest ever came in last month at 14 months was last month, <cast:mark>Mar-20</cast:mark>."]
+                        }
+                    ]
+                },
+                "title": "MTM Market Breadth",
+                "type": "line"
+            },
+            "line-ntiVhGAAwhNjnXqBbBQ2y9": {
+                "line": {
+                    "segments": [
+                        {
+                            "areaData": [
+                                [0, 97.062],
+                                [1, 97.076],
+                                [2, 97.059],
+                                [3, 97.005],
+                                [4, 96.951],
+                                [5, 96.831],
+                                [6, 96.802],
+                                [7, 96.822],
+                                [8, 96.846],
+                                [9, 96.885],
+                                [10, 96.899],
+                                [11, 96.92],
+                                [12, 96.917],
+                                [13, 96.869],
+                                [14, 96.78],
+                                [15, 96.675],
+                                [16, 96.517],
+                                [17, 96.416],
+                                [18, 96.361],
+                                [19, 96.37],
+                                [20, 96.41],
+                                [21, 96.539],
+                                [22, 96.644],
+                                [23, 96.764],
+                                [24, 96.871],
+                                [25, 96.907],
+                                [26, 97.016],
+                                [27, 97.057],
+                                [28, 97.08],
+                                [29, 97.115],
+                                [30, 97.182],
+                                [31, 97.243],
+                                [32, 97.28],
+                                [33, 97.318],
+                                [34, 97.315],
+                                [35, 97.353],
+                                [36, 97.386],
+                                [37, 97.415],
+                                [38, 97.446],
+                                [39, 97.47],
+                                [40, 97.518],
+                                [41, 97.529],
+                                [42, 97.531],
+                                [43, 97.531],
+                                [44, 97.47],
+                                [45, 97.445],
+                                [46, 97.38],
+                                [47, 97.295],
+                                [48, 97.233],
+                                [49, 97.26],
+                                [50, 97.289],
+                                [51, 97.337],
+                                [52, 97.38],
+                                [53, 97.391],
+                                [54, 97.434],
+                                [55, 97.426],
+                                [56, 97.397],
+                                [57, 97.308],
+                                [58, 97.278],
+                                [59, 97.262],
+                                [60, 97.153],
+                                [61, 97.126],
+                                [62, 96.989],
+                                [63, 96.959],
+                                [64, 96.944],
+                                [65, 96.987],
+                                [66, 96.998],
+                                [67, 96.989],
+                                [68, 97.062],
+                                [69, 97.078],
+                                [70, 97.011],
+                                [71, 96.989],
+                                [72, 96.981],
+                                [73, 96.912],
+                                [74, 96.858],
+                                [75, 96.811],
+                                [76, 96.798],
+                                [77, 96.789],
+                                [78, 96.817],
+                                [79, 96.831],
+                                [80, 96.844],
+                                [81, 96.839],
+                                [82, 96.855],
+                                [83, 96.853],
+                                [84, 96.874],
+                                [85, 96.876],
+                                [86, 96.87],
+                                [87, 96.933],
+                                [88, 96.974],
+                                [89, 96.998],
+                                [90, 96.98],
+                                [91, 96.957],
+                                [92, 96.972],
+                                [93, 96.966],
+                                [94, 96.954],
+                                [95, 96.974],
+                                [96, 96.986],
+                                [97, 97.025],
+                                [98, 97.041],
+                                [99, 97.059],
+                                [100, 97.051],
+                                [101, 96.947],
+                                [102, 96.86],
+                                [103, 96.856],
+                                [104, 96.771],
+                                [105, 96.719],
+                                [106, 96.629],
+                                [107, 96.585],
+                                [108, 96.513],
+                                [109, 96.406],
+                                [110, 96.302],
+                                [111, 96.255],
+                                [112, 96.323],
+                                [113, 96.322],
+                                [114, 96.31],
+                                [115, 96.313],
+                                [116, 96.294],
+                                [117, 96.293],
+                                [118, 96.296],
+                                [119, 96.296],
+                                [120, 96.288],
+                                [121, 96.289],
+                                [122, 96.316],
+                                [123, 96.297],
+                                [124, 96.319],
+                                [125, 96.313],
+                                [126, 96.329],
+                                [127, 96.375],
+                                [128, 96.428],
+                                [129, 96.477],
+                                [130, 96.513],
+                                [131, 96.583],
+                                [132, 96.575],
+                                [133, 96.532],
+                                [134, 96.482],
+                                [135, 96.477],
+                                [136, 96.473],
+                                [137, 96.454],
+                                [138, 96.413],
+                                [139, 96.373],
+                                [140, 96.312],
+                                [141, 96.338],
+                                [142, 96.316],
+                                [143, 96.157],
+                                [144, 96.037],
+                                [145, 95.834],
+                                [146, 95.724],
+                                [147, 95.645],
+                                [148, 95.526],
+                                [149, 95.453],
+                                [150, 95.45],
+                                [151, 95.485],
+                                [152, 95.504],
+                                [153, 95.53],
+                                [154, 95.561],
+                                [155, 95.56],
+                                [156, 95.567],
+                                [157, 95.588],
+                                [158, 95.538],
+                                [159, 95.532],
+                                [160, 95.469],
+                                [161, 95.458],
+                                [162, 95.417],
+                                [163, 95.398],
+                                [164, 95.399],
+                                [165, 95.391],
+                                [166, 95.354],
+                                [167, 95.374],
+                                [168, 95.415],
+                                [169, 95.466],
+                                [170, 95.505],
+                                [171, 95.534],
+                                [172, 95.537],
+                                [173, 95.541],
+                                [174, 95.548],
+                                [175, 95.546],
+                                [176, 95.518],
+                                [177, 95.511],
+                                [178, 95.485],
+                                [179, 95.516],
+                                [180, 95.559],
+                                [181, 95.579],
+                                [182, 95.542],
+                                [183, 95.595],
+                                [184, 95.589],
+                                [185, 95.676],
+                                [186, 95.765],
+                                [187, 95.872],
+                                [188, 95.945],
+                                [189, 96.034],
+                                [190, 96.094],
+                                [191, 96.209],
+                                [192, 96.234],
+                                [193, 96.423],
+                                [194, 96.494],
+                                [195, 96.586],
+                                [196, 96.651],
+                                [197, 96.663],
+                                [198, 96.708],
+                                [199, 96.701],
+                                [200, 96.708],
+                                [201, 96.707],
+                                [202, 96.717],
+                                [203, 96.722],
+                                [204, 96.758],
+                                [205, 96.786],
+                                [206, 96.846],
+                                [207, 96.947],
+                                [208, 97.016],
+                                [209, 97.064],
+                                [210, 97.089],
+                                [211, 97.25],
+                                [212, 97.278],
+                                [213, 97.319],
+                                [214, 97.34],
+                                [215, 97.35],
+                                [216, 97.344],
+                                [217, 97.346],
+                                [218, 97.316],
+                                [219, 97.284],
+                                [220, 97.121],
+                                [221, 97.07],
+                                [222, 97.066],
+                                [223, 97.007],
+                                [224, 96.947],
+                                [225, 96.808],
+                                [226, 96.796],
+                                [227, 96.779],
+                                [228, 96.771],
+                                [229, 96.697],
+                                [230, 96.671],
+                                [231, 96.67],
+                                [232, 96.7],
+                                [233, 96.696],
+                                [234, 96.688],
+                                [235, 96.701],
+                                [236, 96.704],
+                                [237, 96.718],
+                                [238, 96.674],
+                                [239, 96.575],
+                                [240, 96.508],
+                                [241, 96.287],
+                                [242, 95.85],
+                                [243, 95.16],
+                                [244, 94.912],
+                                [245, 95.12],
+                                [246, 95.152],
+                                [247, 94.812],
+                                [248, 94.057],
+                                [249, 91.468],
+                                [250, 91.906],
+                                [251, 91.103],
+                                [252, 88.26],
+                                [253, 88.395],
+                                [254, 85.669],
+                                [255, 84.61],
+                                [256, 81.404],
+                                [257, 78.397],
+                                [258, 78.347],
+                                [259, 76.229],
+                                [260, 76.347],
+                                [261, 77.914],
+                                [262, 80.518],
+                                [263, 80.578],
+                                [264, 81.22],
+                                [265, 82.845]
+                            ],
+                            "left": "3/1/19",
+                            "right": "3/31/20",
+                            "suffix": " Percentage of Par",
+                            "title": "Average Bid",
+                            "ymax": "100"
+                        },
+                        {
+                            "areaData": [
+                                [0, 105.0],
+                                [1, 104.0],
+                                [2, 104.0],
+                                [3, 104.0],
+                                [4, 104.0],
+                                [5, 105.0],
+                                [6, 105.0],
+                                [7, 104.0],
+                                [8, 102.0],
+                                [9, 102.0],
+                                [10, 102.0],
+                                [11, 101.0],
+                                [12, 101.0],
+                                [13, 101.0],
+                                [14, 102.0],
+                                [15, 103.0],
+                                [16, 105.0],
+                                [17, 107.0],
+                                [18, 107.0],
+                                [19, 107.0],
+                                [20, 107.0],
+                                [21, 105.0],
+                                [22, 105.0],
+                                [23, 104.0],
+                                [24, 103.0],
+                                [25, 103.0],
+                                [26, 101.0],
+                                [27, 100.0],
+                                [28, 100.0],
+                                [29, 100.0],
+                                [30, 101.0],
+                                [31, 101.0],
+                                [32, 100.0],
+                                [33, 101.0],
+                                [34, 101.0],
+                                [35, 100.0],
+                                [36, 100.0],
+                                [37, 100.0],
+                                [38, 98.0],
+                                [39, 98.0],
+                                [40, 97.0],
+                                [41, 95.0],
+                                [42, 96.0],
+                                [43, 96.0],
+                                [44, 96.0],
+                                [45, 95.0],
+                                [46, 95.0],
+                                [47, 96.0],
+                                [48, 97.0],
+                                [49, 99.0],
+                                [50, 98.0],
+                                [51, 97.0],
+                                [52, 98.0],
+                                [53, 98.0],
+                                [54, 97.0],
+                                [55, 97.0],
+                                [56, 97.0],
+                                [57, 98.0],
+                                [58, 99.0],
+                                [59, 100.0],
+                                [60, 101.0],
+                                [61, 101.0],
+                                [62, 102.0],
+                                [63, 101.0],
+                                [64, 100.0],
+                                [65, 100.0],
+                                [66, 98.0],
+                                [67, 98.0],
+                                [68, 98.0],
+                                [69, 98.0],
+                                [70, 97.0],
+                                [71, 98.0],
+                                [72, 97.0],
+                                [73, 96.0],
+                                [74, 96.0],
+                                [75, 95.0],
+                                [76, 95.0],
+                                [77, 96.0],
+                                [78, 97.0],
+                                [79, 97.0],
+                                [80, 97.0],
+                                [81, 97.0],
+                                [82, 97.0],
+                                [83, 96.0],
+                                [84, 95.0],
+                                [85, 95.0],
+                                [86, 95.0],
+                                [87, 95.0],
+                                [88, 95.0],
+                                [89, 95.0],
+                                [90, 95.0],
+                                [91, 95.0],
+                                [92, 95.0],
+                                [93, 95.0],
+                                [94, 94.0],
+                                [95, 94.0],
+                                [96, 94.0],
+                                [97, 94.0],
+                                [98, 94.0],
+                                [99, 94.0],
+                                [100, 95.0],
+                                [101, 96.0],
+                                [102, 97.0],
+                                [103, 98.0],
+                                [104, 98.0],
+                                [105, 98.0],
+                                [106, 99.0],
+                                [107, 100.0],
+                                [108, 101.0],
+                                [109, 102.0],
+                                [110, 104.0],
+                                [111, 105.0],
+                                [112, 105.0],
+                                [113, 104.0],
+                                [114, 105.0],
+                                [115, 106.0],
+                                [116, 105.0],
+                                [117, 105.0],
+                                [118, 104.0],
+                                [119, 105.0],
+                                [120, 106.0],
+                                [121, 106.0],
+                                [122, 106.0],
+                                [123, 106.0],
+                                [124, 106.0],
+                                [125, 106.0],
+                                [126, 105.0],
+                                [127, 105.0],
+                                [128, 105.0],
+                                [129, 105.0],
+                                [130, 105.0],
+                                [131, 105.0],
+                                [132, 105.0],
+                                [133, 105.0],
+                                [134, 105.0],
+                                [135, 105.0],
+                                [136, 105.0],
+                                [137, 105.0],
+                                [138, 105.0],
+                                [139, 106.0],
+                                [140, 105.0],
+                                [141, 104.0],
+                                [142, 104.0],
+                                [143, 106.0],
+                                [144, 107.0],
+                                [145, 109.0],
+                                [146, 109.0],
+                                [147, 108.0],
+                                [148, 110.0],
+                                [149, 112.0],
+                                [150, 112.0],
+                                [151, 111.0],
+                                [152, 111.0],
+                                [153, 111.0],
+                                [154, 110.0],
+                                [155, 110.0],
+                                [156, 110.0],
+                                [157, 109.0],
+                                [158, 110.0],
+                                [159, 112.0],
+                                [160, 112.0],
+                                [161, 112.0],
+                                [162, 114.0],
+                                [163, 113.0],
+                                [164, 114.0],
+                                [165, 113.0],
+                                [166, 114.0],
+                                [167, 114.0],
+                                [168, 113.0],
+                                [169, 113.0],
+                                [170, 113.0],
+                                [171, 114.0],
+                                [172, 115.0],
+                                [173, 115.0],
+                                [174, 115.0],
+                                [175, 113.0],
+                                [176, 114.0],
+                                [177, 115.0],
+                                [178, 115.0],
+                                [179, 114.0],
+                                [180, 114.0],
+                                [181, 115.0],
+                                [182, 114.0],
+                                [183, 114.0],
+                                [184, 114.0],
+                                [185, 115.0],
+                                [186, 115.0],
+                                [187, 115.0],
+                                [188, 114.0],
+                                [189, 115.0],
+                                [190, 115.0],
+                                [191, 115.0],
+                                [192, 115.0],
+                                [193, 116.0],
+                                [194, 115.0],
+                                [195, 114.0],
+                                [196, 114.0],
+                                [197, 114.0],
+                                [198, 114.0],
+                                [199, 115.0],
+                                [200, 115.0],
+                                [201, 116.0],
+                                [202, 115.0],
+                                [203, 115.0],
+                                [204, 115.0],
+                                [205, 114.0],
+                                [206, 114.0],
+                                [207, 112.0],
+                                [208, 112.0],
+                                [209, 112.0],
+                                [210, 112.0],
+                                [211, 112.0],
+                                [212, 111.0],
+                                [213, 110.0],
+                                [214, 110.0],
+                                [215, 110.0],
+                                [216, 111.0],
+                                [217, 108.0],
+                                [218, 108.0],
+                                [219, 109.0],
+                                [220, 110.0],
+                                [221, 110.0],
+                                [222, 109.0],
+                                [223, 109.0],
+                                [224, 109.0],
+                                [225, 111.0],
+                                [226, 110.0],
+                                [227, 109.0],
+                                [228, 109.0],
+                                [229, 109.0],
+                                [230, 109.0],
+                                [231, 110.0],
+                                [232, 108.0],
+                                [233, 108.0],
+                                [234, 108.0],
+                                [235, 108.0],
+                                [236, 108.0],
+                                [237, 108.0],
+                                [238, 108.0],
+                                [239, 111.0],
+                                [240, 111.0],
+                                [241, 113.0],
+                                [242, 122.0],
+                                [243, 134.694],
+                                [244, 142.0],
+                                [245, 140.0],
+                                [246, 140.0],
+                                [247, 144.0],
+                                [248, 160.0],
+                                [249, 217.0],
+                                [250, 214.0],
+                                [251, 219.0],
+                                [252, 259.0],
+                                [253, 266.0],
+                                [254, 307.0],
+                                [255, 329.0],
+                                [256, 363.0],
+                                [257, 402.0],
+                                [258, 406.0],
+                                [259, 423.0],
+                                [260, 427.0],
+                                [261, 427.0],
+                                [262, 423.0],
+                                [263, 426.0],
+                                [264, 417.0],
+                                [265, 405.0]
+                            ],
+                            "left": "3/1/19",
+                            "right": "3/31/20",
+                            "suffix": " Basis Points",
+                            "title": "Average Bid-Ask Spread"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": [
+                                "When we looked at the last 266 days of Mark to Market price performance, the average bid came in at <cast:mark>95.71</cast:mark> basis points."
+                            ]
+                        },
+                        {
+                            "highlight": [0, 1],
+                            "highlightData": {
+                                "0": {
+                                    "xHighlighter": "42",
+                                    "xHighlighterLabel": "vert 1"
+                                },
+                                "1": {
+                                    "xHighlighter": "22",
+                                    "xHighlighterLabel": "vert 2"
+                                }
+                            },
+                            "narrations": ["The highest bid was on <cast:mark>5/2/19</cast:mark> at <cast:mark>97.531</cast:mark>"]
+                        },
+                        {
+                            "highlight": [0],
+                            "narrations": ["The three biggest increases "]
+                        },
+                        {
+                            "highlight": [0],
+                            "narrations": ["The three biggest spikes -"]
+                        },
+                        {
+                            "highlight": [0],
+                            "highlightData": {
+                                "0": {
+                                    "xHighlighter": "249",
+                                    "xHighlighterLabel": "3/9/20"
+                                }
+                            },
+                            "narrations": ["3/9/20 and-"]
+                        },
+                        {
+                            "highlight": [0],
+                            "highlightData": {
+                                "0": {
+                                    "xHighlighter": "20",
+                                    "xHighlighterLabel": "vertical X val highlighter",
+                                    "yHighlighter": "450",
+                                    "yHighlighterLabel": "horz Y val highlighter"
+                                }
+                            },
+                            "narrations": ["3/16/20."]
+                        },
+                        {
+                            "highlight": [0],
+                            "highlightData": {
+                                "0": {
+                                    "xHighlighter": "254",
+                                    "xHighlighterLabel": "3/16/20"
+                                }
+                            },
+                            "narrations": ["Overall, there was significant volatility in the month of March."]
+                        }
+                    ]
+                },
+                "title": "MTM Price Performance",
+                "type": "line"
+            },
+            "paths-7CJVRG3dqTqaFDRL8vzyJc": {
+                "paths": {
+                    "bgImg": "woman.jpg",
+                    "bgImgMode": "cover",
+                    "XXbgBlurImgForContain": "blurred_andy-sieg.jpg",
+                    "bgImgPosition": "bottom",
+                    "colorOverride": true,
+                    "imageTextColor": "light",
+                    "prefix": "%",
+                    "segments": [
+                        {
+                            "titleprefix": "Dec-19",
+                            "type": "start",
+                            "xtitle": "Dec-19"
+                        },
+                        {
+                            "title": "Rangesss",
+                            "value": "4",
+                            "xtitle": "Dec-19"
+                        },
+                        {
+                            "title": "<70",
+                            "value": "10",
+                            "xtitle": "Dec-19"
+                        },
+                        {
+                            "title": "70-90",
+                            "value": "51",
+                            "xtitle": "Dec-19"
+                        },
+                        {
+                            "title": "90-100",
+                            "value": "36",
+                            "xtitle": "Dec-19"
+                        },
+                        {
+                            "titleprefix": "Dec-19",
+                            "type": "end"
+                        },
+                        {
+                            "titleprefix": "Jan-20",
+                            "type": "start",
+                            "xtitle": "Jan-20"
+                        },
+                        {
+                            "title": "Rangesss",
+                            "value": "4",
+                            "xtitle": "Jan-20"
+                        },
+                        {
+                            "title": "<70",
+                            "value": "8",
+                            "xtitle": "Jan-20"
+                        },
+                        {
+                            "title": "70-90",
+                            "value": "53",
+                            "xtitle": "Jan-20"
+                        },
+                        {
+                            "title": "90-100",
+                            "value": "35",
+                            "xtitle": "Jan-20"
+                        },
+                        {
+                            "titleprefix": "Jan-20",
+                            "type": "end"
+                        },
+                        {
+                            "titleprefix": "Feb-20",
+                            "type": "start",
+                            "xtitle": "Feb-20"
+                        },
+                        {
+                            "title": "Range",
+                            "value": "5",
+                            "xtitle": "Feb-20"
+                        },
+                        {
+                            "title": "<70",
+                            "value": "10",
+                            "xtitle": "Feb-20"
+                        },
+                        {
+                            "title": "70-90",
+                            "value": "82",
+                            "xtitle": "Feb-20"
+                        },
+                        {
+                            "title": "90-100",
+                            "value": "4",
+                            "xtitle": "Feb-20"
+                        },
+                        {
+                            "titleprefix": "Feb-20",
+                            "type": "end"
+                        },
+                        {
+                            "titleprefix": "Mar-20",
+                            "type": "start",
+                            "xtitle": "Mar-20"
+                        },
+                        {
+                            "title": "Range",
+                            "value": "14",
+                            "xtitle": "Mar-20"
+                        },
+                        {
+                            "title": "<70",
+                            "value": "10",
+                            "xtitle": "Mar-20"
+                        },
+                        {
+                            "title": "70-90",
+                            "value": "26",
+                            "xtitle": "Mar-20"
+                        },
+                        {
+                            "title": "90-100",
+                            "value": "0",
+                            "xtitle": "Mar-20"
+                        },
+                        {
+                            "titleprefix": "Mar-20",
+                            "type": "end"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "highlights": [],
+                            "narrations": ["Let's look at usage as a stacked bar chart."]
+                        }
+                    ],
+                    "style": "stackedbar"
+                },
+                "title": "MTM Price Distribution",
+                "type": "paths"
+            },
+            "bars-m3qkiAVg5ukR9uPf968ZqK": {
+                "bars": {
+                    "segments": [
+                        {
+                            "prefix": "$",
+                            "decimals": 3,
+                            "title": "Shane Zide",
+                            "value": [59.11303, 58.94788],
+                            "valueLabel": ["Current", "Previous Week"]
+                        },
+                        {
+                            "prefix": "$",
+                            "title": "Jonathan Keane",
+                            "value": [40.27251, 40.38807],
+                            "valueLabel": []
+                        },
+                        {
+                            "prefix": "$",
+                            "title": "Jamie Nikosey",
+                            "value": [1714085, 16000850],
+                            "valueLabel": []
+                        },
+                        {
+                            "prefix": "$",
+                            "title": "Joe Raphael",
+                            "value": [1094328, 1094328.0],
+                            "valueLabel": []
+                        },
+                        {
+                            "prefix": "$",
+                            "title": "David Baker",
+                            "value": [988200, 929700.0],
+                            "valueLabel": []
+                        },
+                        {
+                            "prefix": "$",
+                            "title": "Ryan Vaillancourt",
+                            "value": [887843, 887843.0],
+                            "valueLabel": []
+                        },
+                        {
+                            "prefix": "$",
+                            "title": "Seth Stepakoff",
+                            "value": [887703, 830453.0],
+                            "valueLabel": []
+                        },
+                        {
+                            "prefix": "$",
+                            "title": "Aditya Mehta",
+                            "value": [716723, 633518.0],
+                            "valueLabel": []
+                        },
+                        {
+                            "prefix": "$",
+                            "title": "Laurelle Charne",
+                            "value": [365774, 364259.0],
+                            "valueLabel": []
+                        },
+                        {
+                            "prefix": "$",
+                            "title": "Natalie Robinson",
+                            "value": [196140, 196140.0],
+                            "valueLabel": []
+                        },
+                        {
+                            "prefix": "$",
+                            "title": "Rachel Bruchanski",
+                            "value": [177785, 177785.0],
+                            "valueLabel": []
+                        },
+                        {
+                            "prefix": "$",
+                            "title": "Harrison Greanias",
+                            "value": [165794, 64233.8],
+                            "valueLabel": []
+                        },
+                        {
+                            "prefix": "$",
+                            "title": "Jackson O'Donnell",
+                            "value": [107940, 104220.0],
+                            "valueLabel": []
+                        },
+                        {
+                            "prefix": "$",
+                            "title": "Anna Kelley",
+                            "value": [1680, 1680.0],
+                            "valueLabel": ["LABEL 1", "LABEL 2"]
+                        },
+                        {
+                            "prefix": "$",
+                            "title": "John Kwag",
+                            "value": [0, 0.0],
+                            "valueLabel": ["Current", "Previous Week"]
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["The all-time total pipeline is <cast:mark>$17.2M</cast:mark>, up --up-- <cast:mark>2.5%</cast:mark> from last week."]
+                        },
+                        {
+                            "highlight": [0],
+                            "narrations": ["Shane is responsible for the largest amount of the total RingDNA pipeline at <cast:mark>$5.9M</cast:mark>."]
+                        },
+                        {
+                            "highlight": [2],
+                            "narrations": ["Jamie Nikosey has the highest increase in all-time bookings from the previous week by <cast:mark>$114K</cast:mark>. --fire--"]
+                        },
+                        {
+                            "narrations": [
+                                "On average, each account executive is responsible for <cast:mark>$1.1M</cast:mark>, up --up-- <cast:mark>2.5%</cast:mark> from the previous week."
+                            ]
+                        }
+                    ]
+                },
+                "title": "All Time Pipeline",
+                "type": "bars"
+            },
+            "image-s0DDqA-sRFG65F3Dpzp9NQ": {
+                "type": "landing",
+                "title": "625 Guerrero Street",
+                "landing": {
+                    "XXbgImg": "blurred_andy-sieg.jpg",
+                    "mode": "editorial",
+                    "steps": [
+                        {
+                            "title": "625 Guerrero Street",
+                            "value": "https://cast.app/images/home.svg",
+                            "narrations": ["Thats all"]
+                        }
+                    ]
+                }
+            },
+            "landing-DpNNMeJGnLMVzbFo8u2e3W": {
+                "type": "landing",
+                "title": "Chart title",
+                "landing": {
+                    "imageTextColor": "orangered",
+                    "bgImg": "woman.jpg",
+                    "bgImgMode": "cover",
+                    "XXbgBlurImgForContain": "blurred_andy-sieg.jpg",
+                    "bgImgPosition": "bottom",
+                    "segments": [
+                        {
+                            "decimals": 0,
+                            "prefix": "",
+                            "suffix": " orders",
+                            "title": "title 0 --hello--",
+                            "style": "svg",
+                            "value": 623
+                        },
+                        {
+                            "decimals": 0,
+                            "prefix": "",
+                            "suffix": " orders",
+                            "title": "title 1 --wow--",
+                            "value": "2m4s"
+                        },
+                        {
+                            "decimals": 0,
+                            "prefix": "",
+                            "suffix": " orders",
+                            "title": "title 2",
+                            "value": 30
+                        },
+                        {
+                            "decimals": 0,
+                            "prefix": "",
+                            "suffix": " orders",
+                            "title": "title 3",
+                            "value": 38
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "highlight": [-100],
+                            "narrations": ["IMAGE MODE - IF SEGMENT ARRAY IS MISSING PANEL WILL NOT BE SHOWN"]
+                        },
+                        {
+                            "highlight": [3],
+                            "narrations": ["highlight 3 38"]
+                        },
+                        {
+                            "narrations": ["sdsdfs dfv dfb "]
+                        },
+                        {
+                            "narrations": ["collapsed"]
+                        }
+                    ]
+                }
+            },
+            "chart-26c38b3c-1182-4e97-9687-93fdbc3af7c7": {
+                "heatmap": {
+                    "columns": 7,
+                    "segments": [
+                        {
+                            "strval": "M",
+                            "title": "December"
+                        },
+                        {
+                            "strval": "T"
+                        },
+                        {
+                            "strval": "W"
+                        },
+                        {
+                            "strval": "T"
+                        },
+                        {
+                            "strval": "F"
+                        },
+                        {
+                            "strval": "S"
+                        },
+                        {
+                            "strval": "S"
+                        },
+                        {
+                            "title": "December 9",
+                            "value": 34
+                        },
+                        {
+                            "title": "December 10",
+                            "value": 34
+                        },
+                        {
+                            "title": "December 11",
+                            "value": 38
+                        },
+                        {
+                            "title": "December 12",
+                            "value": 40
+                        },
+                        {
+                            "title": "December 13",
+                            "value": 36
+                        },
+                        {
+                            "title": "December 14",
+                            "value": 35
+                        },
+                        {
+                            "title": "December 15",
+                            "value": 31
+                        },
+                        {
+                            "title": "December 16",
+                            "value": 36
+                        },
+                        {
+                            "title": "December 17",
+                            "value": 36
+                        },
+                        {
+                            "title": "December 18",
+                            "value": 32
+                        },
+                        {
+                            "title": "December 19",
+                            "value": 31
+                        },
+                        {
+                            "title": "December 20",
+                            "value": 34
+                        },
+                        {
+                            "title": "December 21",
+                            "value": 38
+                        },
+                        {
+                            "title": "December 22",
+                            "value": 36
+                        },
+                        {
+                            "title": "December 23",
+                            "value": 37
+                        },
+                        {
+                            "title": "December 24",
+                            "value": 35
+                        },
+                        {
+                            "title": "December 25",
+                            "value": 37
+                        },
+                        {
+                            "title": "December 26",
+                            "value": 38
+                        },
+                        {
+                            "title": "December 27",
+                            "value": 30
+                        },
+                        {
+                            "title": "December 28",
+                            "value": 37
+                        },
+                        {
+                            "title": "December 29",
+                            "value": 38
+                        },
+                        {
+                            "title": "December 30",
+                            "value": 33
+                        },
+                        {
+                            "title": "December 31",
+                            "value": 39
+                        },
+                        {
+                            "strval": "W",
+                            "title": "December"
+                        },
+                        {
+                            "strval": "T",
+                            "title": "December"
+                        },
+                        {
+                            "strval": "F",
+                            "title": "December"
+                        },
+                        {
+                            "strval": "S",
+                            "title": "December"
+                        },
+                        {
+                            "strval": "S",
+                            "title": "December"
+                        },
+                        {
+                            "strval": "M",
+                            "title": "January"
+                        },
+                        {
+                            "strval": "T",
+                            "title": "January"
+                        },
+                        {
+                            "title": "January 1",
+                            "value": 33
+                        },
+                        {
+                            "title": "January 2",
+                            "value": 34
+                        },
+                        {
+                            "title": "January 3",
+                            "value": 31
+                        },
+                        {
+                            "title": "January 4",
+                            "value": 32
+                        },
+                        {
+                            "title": "January 5",
+                            "value": 33
+                        },
+                        {
+                            "title": "January 6",
+                            "value": 36
+                        },
+                        {
+                            "title": "January 7",
+                            "value": 38
+                        },
+                        {
+                            "title": "January 8",
+                            "value": 35
+                        },
+                        {
+                            "title": "January 9",
+                            "value": 39
+                        },
+                        {
+                            "title": "January 10",
+                            "value": 35
+                        },
+                        {
+                            "title": "January 11",
+                            "value": 38
+                        },
+                        {
+                            "title": "January 12",
+                            "value": 36
+                        },
+                        {
+                            "title": "January 13",
+                            "value": 33
+                        },
+                        {
+                            "title": "January 14",
+                            "value": 30
+                        },
+                        {
+                            "title": "January 15",
+                            "value": 35
+                        },
+                        {
+                            "title": "January 16",
+                            "value": 35
+                        },
+                        {
+                            "title": "January 17",
+                            "value": 36
+                        },
+                        {
+                            "title": "January 18",
+                            "value": 31
+                        },
+                        {
+                            "title": "January 19",
+                            "value": 33
+                        },
+                        {
+                            "title": "January 20",
+                            "value": 38
+                        },
+                        {
+                            "title": "January 21",
+                            "value": 39
+                        },
+                        {
+                            "title": "January 22",
+                            "value": 35
+                        },
+                        {
+                            "title": "January 23",
+                            "value": 32
+                        },
+                        {
+                            "title": "January 24",
+                            "value": 38
+                        },
+                        {
+                            "title": "January 25",
+                            "value": 39
+                        },
+                        {
+                            "title": "January 26",
+                            "value": 32
+                        },
+                        {
+                            "title": "January 27",
+                            "value": 35
+                        },
+                        {
+                            "title": "January 28",
+                            "value": 37
+                        },
+                        {
+                            "title": "January 29",
+                            "value": 30
+                        },
+                        {
+                            "title": "January 30",
+                            "value": 38
+                        },
+                        {
+                            "title": "January 31",
+                            "value": 30
+                        },
+                        {
+                            "strval": "S",
+                            "title": "January"
+                        },
+                        {
+                            "strval": "S",
+                            "title": "January"
+                        },
+                        {
+                            "strval": "M",
+                            "title": "February"
+                        },
+                        {
+                            "strval": "T",
+                            "title": "February"
+                        },
+                        {
+                            "strval": "W",
+                            "title": "February"
+                        },
+                        {
+                            "strval": "T",
+                            "title": "February"
+                        },
+                        {
+                            "strval": "F",
+                            "title": "February"
+                        },
+                        {
+                            "title": "February 1",
+                            "value": 34
+                        },
+                        {
+                            "title": "February 2",
+                            "value": 33
+                        },
+                        {
+                            "title": "February 3",
+                            "value": 40
+                        },
+                        {
+                            "title": "February 4",
+                            "value": 37
+                        },
+                        {
+                            "title": "February 5",
+                            "value": 37
+                        },
+                        {
+                            "title": "February 6",
+                            "value": 34
+                        },
+                        {
+                            "title": "February 7",
+                            "value": 31
+                        },
+                        {
+                            "title": "February 8",
+                            "value": 35
+                        },
+                        {
+                            "title": "February 9",
+                            "value": 39
+                        },
+                        {
+                            "title": "February 10",
+                            "value": 39
+                        },
+                        {
+                            "title": "February 11",
+                            "value": 34
+                        },
+                        {
+                            "title": "February 12",
+                            "value": 34
+                        },
+                        {
+                            "title": "February 13",
+                            "value": 40
+                        },
+                        {
+                            "title": "February 14",
+                            "value": 39
+                        },
+                        {
+                            "title": "February 15",
+                            "value": 33
+                        },
+                        {
+                            "title": "February 16",
+                            "value": 37
+                        },
+                        {
+                            "title": "February 17",
+                            "value": 39
+                        },
+                        {
+                            "title": "February 18",
+                            "value": 36
+                        },
+                        {
+                            "title": "February 19",
+                            "value": 33
+                        },
+                        {
+                            "title": "February 20",
+                            "value": 35
+                        },
+                        {
+                            "title": "February 21",
+                            "value": 38
+                        },
+                        {
+                            "title": "February 22",
+                            "value": 35
+                        },
+                        {
+                            "title": "February 23",
+                            "value": 34
+                        },
+                        {
+                            "title": "February 24",
+                            "value": 85
+                        },
+                        {
+                            "title": "February 25",
+                            "value": 69
+                        },
+                        {
+                            "title": "February 26",
+                            "value": 83
+                        },
+                        {
+                            "title": "February 27",
+                            "value": 61
+                        },
+                        {
+                            "title": "February 28",
+                            "value": 80
+                        },
+                        {
+                            "title": "February 29",
+                            "value": 63
+                        },
+                        {
+                            "strval": "S",
+                            "title": "February"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["We analyzed abnormalities in the Average Cycle Time."]
+                        },
+                        {
+                            "highlight": [98, 99, 100, 101, 102, 103, 104, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104],
+                            "narrations": [
+                                "The week of Monday, February 24th, 2020, had five of the highest Average Cycle Times, all above the 56 hour threshold, with an average that is 143% above last week’s average of 32 hours."
+                            ]
+                        },
+                        {
+                            "highlight": [99],
+                            "narrations": ["Yesterday, February 25th, came in at the highest ever at 82 hours. "]
+                        },
+                        {
+                            "narrations": ["Let’s drill down into the in-line and end-of-line tests to diagnose the cause of the slowdown."]
+                        }
+                    ]
+                },
+                "title": "GeForce Average Operation Duration Time",
+                "type": "heatmap"
+            },
+            "chart-5494da85-339e-4468-be32-725c54f953e3": {
+                "line": {
+                    "segments": [
+                        {
+                            "areaData": [
+                                [0, 2.1],
+                                [1, 1.2],
+                                [2, 2.1],
+                                [3, 2.9],
+                                [4, 4.0],
+                                [5, 2.5],
+                                [6, 2.2],
+                                [7, 4.3],
+                                [8, 2.6],
+                                [9, 3.9],
+                                [10, 2.1],
+                                [11, 2.4],
+                                [12, 2.2],
+                                [13, 3.1],
+                                [14, 3.2],
+                                [15, 2.4],
+                                [16, 3.3],
+                                [17, 0.9],
+                                [18, 2.6],
+                                [19, 1.4]
+                            ],
+                            "left": "3PM",
+                            "lineData": [
+                                [0, 2.5],
+                                [1, 2.5],
+                                [2, 2.5],
+                                [3, 2.5],
+                                [4, 2.5],
+                                [5, 2.5],
+                                [6, 2.5],
+                                [7, 2.5],
+                                [8, 2.5],
+                                [9, 2.5],
+                                [10, 2.5],
+                                [11, 2.5],
+                                [12, 2.5],
+                                [13, 2.5],
+                                [14, 2.5],
+                                [15, 2.5],
+                                [16, 2.5],
+                                [17, 2.5],
+                                [18, 2.5],
+                                [19, 2.5],
+                                [20, 2.5],
+                                [21, 2.5],
+                                [22, 2.5],
+                                [23, 2.5]
+                            ],
+                            "right": "3PM",
+                            "suffix": " hours",
+                            "title": "7 Week average Operations Duration for Picking"
+                        },
+                        {
+                            "areaData": [
+                                [0, 3.3],
+                                [1, 3.6],
+                                [2, 3.1],
+                                [3, 3.6],
+                                [4, 3.6],
+                                [5, 3.1],
+                                [6, 3.5],
+                                [7, 3.3],
+                                [8, 3.5],
+                                [9, 3.5],
+                                [10, 3.3],
+                                [11, 3.3],
+                                [12, 3.5],
+                                [13, 3.4],
+                                [14, 3.2],
+                                [15, 3.2],
+                                [16, 3.0],
+                                [17, 3.2],
+                                [18, 3.4],
+                                [19, 3.2]
+                            ],
+                            "left": "3PM",
+                            "lineData": [
+                                [0, 3.32],
+                                [1, 3.32],
+                                [2, 3.32],
+                                [3, 3.32],
+                                [4, 3.32],
+                                [5, 3.32],
+                                [6, 3.32],
+                                [7, 3.32],
+                                [8, 3.32],
+                                [9, 3.32],
+                                [10, 3.32],
+                                [11, 3.32],
+                                [12, 3.32],
+                                [13, 3.32],
+                                [14, 3.32],
+                                [15, 3.32],
+                                [16, 3.32],
+                                [17, 3.32],
+                                [18, 3.32],
+                                [19, 3.32],
+                                [20, 3.32],
+                                [21, 3.32],
+                                [22, 3.32],
+                                [23, 3.32]
+                            ],
+                            "right": "3PM",
+                            "suffix": " hours",
+                            "title": "24 hour Average Failed Journey Duration for Picking"
+                        },
+                        {
+                            "areaData": [
+                                [0, 0.0],
+                                [1, 0.0],
+                                [2, 0.0],
+                                [3, 0.0],
+                                [4, 0.0],
+                                [5, 0.0],
+                                [6, 0.0],
+                                [7, 0.0],
+                                [8, 0.0],
+                                [9, 0.0],
+                                [10, 0.0],
+                                [11, 0.0],
+                                [12, 0.0],
+                                [13, 0.0],
+                                [14, 0.0],
+                                [15, 0.0],
+                                [16, 0.0],
+                                [17, 0.0],
+                                [18, 0.0],
+                                [19, 0.0],
+                                [20, 0.0],
+                                [21, 0.0],
+                                [21, 36.0],
+                                [22, 34.0],
+                                [23, 23.0],
+                                [24, 15.0],
+                                [25, 10.0]
+                            ],
+                            "left": "3PM",
+                            "lineData": [
+                                [0, 38.3],
+                                [1, 35.0],
+                                [2, 34.7],
+                                [3, 36.0],
+                                [4, 31.1],
+                                [5, 31.4],
+                                [6, 33.7],
+                                [7, 32.4],
+                                [8, 39.1],
+                                [9, 36.0],
+                                [10, 37.7],
+                                [11, 34.5],
+                                [12, 32.5],
+                                [13, 36.8],
+                                [14, 34.2],
+                                [15, 37.3],
+                                [16, 30.6],
+                                [17, 34.2],
+                                [18, 33.0],
+                                [19, 34.8],
+                                [20, 36.0],
+                                [21, 36.0],
+                                [22, 34.0],
+                                [23, 23.0],
+                                [24, 15.0],
+                                [25, 10.0]
+                            ],
+                            "right": "3PM",
+                            "suffix": " hours",
+                            "title": "24 hour Average Failed Journey Duration for Picking"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "highlight": [0],
+                            "narrations": ["The average picking duration over the last 7 days is 2.5 hours."]
+                        },
+                        {
+                            "highlight": [1],
+                            "narrations": ["33% of orders today are taking longer than 2.5 hours to pick and the longest journey duration is 3 hours and 44 minutes."]
+                        },
+                        {
+                            "highlight": [2],
+                            "narrations": ["33% of orders today are taking longer than 2.5 hours to pick and the longest journey duration is 3 hours and 44 minutes."]
+                        },
+                        {
+                            "highlight": [3],
+                            "narrations": ["Further, the average failed picking duration is 3 hour and 32 minutes."]
+                        },
+                        {
+                            "narrations": [
+                                "These metrics indicate the likelihood of missing the last 3 PM shipment is HIGH. This is alarming and seems to be surfacing a problem in the picking process. Corrective actions are highly recommended. Let\u2019s drill down into the order picking funnel to discover correlative causes."
+                            ]
+                        },
+                        {
+                            "state": "collapsed"
+                        }
+                    ]
+                },
+                "title": "Picking Process Duration",
+                "type": "line"
+            },
+            "poll-0SeCFKmhQgibpS_McNyQaw": {
+                "title": "Please approve a leasee",
+                "type": "poll",
+                "poll": {
+                    "segments": [
+                        {
+                            "title": "John Doe",
+                            "subtitle": "82 years old, who lives with his wife, Jane",
+                            "link_title": "John",
+                            "profile_img_url": "https://pbs.twimg.com/profile_images/1075885184992464897/FaKfkYAO_400x400.jpg",
+                            "link_url": "tel:6503888423",
+                            "link_type": "phone",
+                            "customColor": "#2ED86E",
+                            "acceptText": "Thanks for picking John!",
+                            "xxconfirmText": "Confirm: John",
+                            "successText": "Thank you!"
+                        },
+                        {
+                            "title": "Samantha Williams",
+                            "subtitle": "55 year old woman.",
+                            "link_title": "Samantha",
+                            "profile_img_url": "https://pbs.twimg.com/profile_images/3240241936/032bb42c2c47e1af5084df00d1ee80d2_400x400.jpeg",
+                            "link_url": "https://www.facebook.com",
+                            "customColor": "#2ED86E",
+                            "acceptText": "You picked Samantha!",
+                            "confirmText": "Confirm: Samantha",
+                            "successText": "Thank you!"
+                        },
+                        {
+                            "title": "John Doe #2",
+                            "subtitle": "82 years old, who lives with his wife, Jane",
+                            "link_title": "John",
+                            "profile_img_url": "https://pbs.twimg.com/profile_images/1075885184992464897/FaKfkYAO_400x400.jpg",
+                            "link_url": "chart-5494da85-339e-4468-be32-725c54f953e3",
+                            "link_type": "drillDown",
+                            "customColor": "#2ED86E",
+                            "acceptText": "Thanks for picking John!",
+                            "xxconfirmText": "Confirm: John",
+                            "successText": "Thank you!"
+                        },
+                        {
+                            "title": "Samantha Williams #2",
+                            "subtitle": "55 year old woman.",
+                            "link_title": "Samantha",
+                            "profile_img_url": "https://pbs.twimg.com/profile_images/3240241936/032bb42c2c47e1af5084df00d1ee80d2_400x400.jpeg",
+                            "link_url": "https://www.facebook.com",
+                            "customColor": "#2ED86E",
+                            "acceptText": "You picked Samantha!",
+                            "confirmText": "Confirm: Samantha",
+                            "successText": "Thank you!"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["So if you would like, you can decide now on which application to take."]
+                        },
+                        {
+                            "highlight": [0],
+                            "narrations": ["John Doe is our first candidate. He is a 82 year old senior man who lives with his wife Jane."]
+                        },
+                        {
+                            "highlight": [1],
+                            "narrations": ["The other candidate is Samantha, who is a 55 year old woman.", "She has been living in her current residence for the last 28 years."]
+                        },
+                        {
+                            "narrations": ["Which one would you like to go with? Please select either John or Samantha"]
+                        }
+                    ]
+                }
+            },
+            "area-line-chart": {
+                "type": "line",
+                "title": "Stocks",
+                "line": {
+                    "xbgImgMobile": "woman.jpg",
+                    "xbgImgDesktop": "372/2dfd6e1aedd24d9789519ad94d50ac2b___Options-01.svg",
+                    "xbgImgModeXXXXX": "cover",
+                    "xbgBlurImgForContainXXXXX": "blurred_andy-sieg.jpg",
+                    "xbgImgPositionXXXX": "bottom",
+                    "imageTextColor": "dark",
+                    "segments": [
+                        {
+                            "title": "Name of this Chart",
+                            "footer": "up ▲ 14%",
+                            "left": "left",
+                            "right": "right",
+                            "prefix": "$",
+                            "decimals": 5,
+                            "-------->OR------>decimals": "2",
+                            "suffix": "K",
+                            "maxXPoint": 10,
+                            "maxYPoint": 1000,
+                            "lineColor": "yellow",
+                            "area2Data": [
+                                [2, 463.1125, 1, 1],
+                                [3, 443.1875],
+                                [4, 452.4625],
+                                [5, 474.887]
+                            ],
+                            "areaData": [
+                                [7, 503.0],
+                                [8, 509.599],
+                                [9, 531.2625],
+                                [10, 587.95, 1],
+                                [11, 629.487, 1, 1],
+                                [12, 671.0375]
+                            ],
+                            "lineData": [
+                                [2, 563.1125],
+                                [3, 343.1875],
+                                [4, 452.4625],
+                                [5, 574.88749999999993],
+                                [6, 688.8625],
+                                [7, 203.0],
+                                [8, 209.59999999999997],
+                                [9, 331.2625],
+                                [10, 287.95, 1],
+                                [11, 129.4875000000001],
+                                [12, 771.0375],
+                                [13, 410.6500000000001]
+                            ]
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["Here are the top 5 gainers in your portfolio. ", "Hi Shein"]
+                        },
+                        {
+                            "highlight": [0, 2, 3],
+                            "highlightData": {
+                                "0": {
+                                    "xHighlighter": "2",
+                                    "comment_xHighlighter": "index expected",
+                                    "xHighlighterLabel": "x2 AM",
+                                    "yHighlighter": "0",
+                                    "comment_yHighlighter": "value expected",
+                                    "yHighlighterLabel": "y3 34"
+                                }
+                            },
+                            "narrations": ["This narration is for 2 AM,-"]
+                        },
+                        {
+                            "highlight": [0, 2, 3],
+                            "highlightData": {
+                                "0": {
+                                    "xHighlighter": "11",
+                                    "xHighlighterLabel": "11 PM",
+                                    "yHighlighter": "848.2",
+                                    "yHighlighterLabel": "y3 134"
+                                }
+                            },
+                            "narrations": ["This narration is for 11 PM, -   "]
+                        },
+                        {
+                            "highlight": [0, 2, 3],
+                            "highlightData": {
+                                "0": {
+                                    "xHighlighter": "15",
+                                    "xHighlighterLabel": "15th data point"
+                                }
+                            },
+                            "narrations": ["This narration is for 15th data point. Notice the switch?"]
+                        },
+                        {
+                            "highlight": [1],
+                            "narrations": ["This is the biggest increase for Microsoft this year. Quite the day."]
+                        },
+                        {
+                            "narrations": ["Overall, the technology sector is moving rather quickly and is driving the rest of the market."]
+                        },
+                        {
+                            "narrations": []
+                        }
+                    ]
+                }
+            },
+            "bars-vwblJzWFSNCC1bPHMfM-PSA": {
+                "type": "bars",
+                "title": "The New Bars Chart",
+                "bars": {
+                    "barColorMode": "firstColorIndex",
+                    "segments": [
+                        {
+                            "title": "Total Horizontal Sales",
+                            "subtitleprefix": "subtitle prefix: ",
+                            "documentation_subtitleprefix": "subtitle prefix: ",
+                            "prefix": "$",
+                            "suffix": "B",
+                            "valueLabel": ["Label0", "Label1", "Label2"],
+                            "value": [400, 90],
+                            "colorIndex": [5, 8]
+                        },
+                        {
+                            "title": "Used a Kiosk to order",
+                            "value": 607.5,
+                            "colorIndex": 3,
+                            "footer": "'up' 15.1%"
+                        },
+                        {
+                            "title": "Viewed promotion",
+                            "valueLabel": ["J:", "dot", "EXTRA-IGNORED"],
+                            "value": [70.2, 80, 100, 90, 80],
+                            "footer": "'up' 2.4%"
+                        },
+                        {
+                            "title": "Added promotion",
+                            "value": ["180.5", -10, 90.6],
+                            "footer": "Average & Median"
+                        },
+                        {
+                            "title": "Paid with Apple Pay",
+                            "value": [70.2, 80, 100, 90, 180],
+                            "footer": "'up' 4%",
+                            "prefix": "$",
+                            "suffix": "M",
+                            "valueLabel": ["recommend", "add", "to", "last", "only"]
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["Here is the categorization for the Apple Pay Promotion on Kiosks."]
+                        },
+                        {
+                            "highlight": [0, 2, 3],
+                            "narrations": ["34% of the orders, added the Apple Pay promotion to the cart, of which, 20% orders paid with the Apple Pay card."]
+                        },
+                        {
+                            "highlight": [1],
+                            "narrations": ["Also note, 60% orders were on Kiosks. This is significantly up from last month's daily average, approximately by 15%."]
+                        },
+                        {
+                            "narrations": ["Overall, Kiosks and Apple Pay, both helped get more orders."]
+                        },
+                        {
+                            "state": "collapsed"
+                        }
+                    ]
+                }
+            },
+            "chart-chute-metrics-card": {
+                "metrics": {
+                    "segments": [
+                        {
+                            "footer": "Last 7 days",
+                            "prefix": "$",
+                            "suffix": "",
+                            "title": "Total charges",
+                            "value": "43m16s",
+                            "decimals": 4,
+                            "style": "notpanel"
+                        },
+                        {
+                            "footer": "'up' up",
+                            "prefix": "$",
+                            "suffix": "",
+                            "title": "Total charges",
+                            "value": "9823",
+                            "numberGrouping": true
+                        },
+                        {
+                            "footer": "Last 7 days",
+                            "title": "Fraudulent charges",
+                            "value": "0"
+                        },
+                        {
+                            "footer": "Last 3 Months",
+                            "title": "Fraudulent charges",
+                            "value": "0"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "highlight": [0],
+                            "narrations": ["Total charges in the last 7 days were 990.", "Hello, This is your Chute Laundry Executive update.  Let's dive in."]
+                        },
+                        {
+                            "highlight": [1],
+                            "narrations": ["They are up 903% and were 98 in the previous 7 day period."]
+                        },
+                        {
+                            "highlight": [2],
+                            "narrations": ["Zero fraudulent charges were reported in the last 7 days."]
+                        },
+                        {
+                            "highlight": [3],
+                            "narrations": ["In fact, zero fraudulent charges were reported in the last 3 months.", "Congratulations!"]
+                        }
+                    ]
+                },
+                "title": "Total charges",
+                "type": "metrics"
+            },
+            "metrics-vwblJzWFSNCC1bPHMfM-PSA": {
+                "type": "metrics",
+                "title": "New Metrics",
+                "metrics": {
+                    "asegments": [
+                        {
+                            "title": "Monthly Active Users",
+                            "value": "30.2",
+                            "suffix": "K",
+                            "prefix": "prefix",
+                            "decimals": 4,
+                            "footer": "'up' 15.1%"
+                        }
+                    ],
+                    "segments": [
+                        {
+                            "type": "percent",
+                            "title": "Total Horizontal Sales",
+                            "value": "80",
+                            "suffix": "%",
+                            "footer": "'down' 5%"
+                        },
+                        {
+                            "title": "Quarterly Revenue",
+                            "xprefix": "$",
+                            "value": "Zero",
+                            "xsuffix": "million",
+                            "footer": "'up' 15.1%"
+                        },
+                        {
+                            "type": "percent",
+                            "title": "Viewed promotion",
+                            "value": "50",
+                            "suffix": "%",
+                            "footer": "'registered' 2.4%"
+                        },
+                        {
+                            "title": "Monthly Active Users",
+                            "decimals": 4,
+                            "value": "30.2",
+                            "suffix": "K"
+                        },
+                        {
+                            "title": "Paid with Apple Pay",
+                            "type": "percent",
+                            "value": "20",
+                            "suffix": "%",
+                            "footer": "'up' 4%"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["Here is the --hello-- <cast:mark>categorization</cast:mark> --a-- for the 'congratulations' Apple Pay Promotion on Kiosks."]
+                        },
+                        {
+                            "highlight": [0, 3],
+                            "narrations": ["34% of the orders, added the Apple Pay promotion to the cart, of which, 20% orders paid with the Apple Pay card."]
+                        },
+                        {
+                            "highlight": [1],
+                            "narrations": ["Also note, 60% orders were on Kiosks. This is significantly up from last month's daily average, approximately by 15%."]
+                        },
+                        {
+                            "highlight": [4],
+                            "narrations": ["Overall, Kiosks and Apple Pay, both helped get more orders."]
+                        },
+                        {
+                            "highlight": [0],
+                            "narrations": ["Highlighting 0 again"]
+                        },
+                        {
+                            "state": "collapsed"
+                        }
+                    ]
+                }
+            },
+            "gauge-vwblJzWFSNCC1bPHMfM-PSA": {
+                "type": "gauges",
+                "title": "Customer Cases",
+                "gauges": {
+                    "segments": [
+                        {
+                            "title": "0 Average case resolution time",
+                            "value": "4",
+                            "valuePrefix": "$",
+                            "valueSuffix": "K",
+                            "decimals": 0,
+                            "footer": "'home' 4BR/3BA 2900SF",
+                            "breaks": [
+                                {
+                                    "min": 0,
+                                    "max": 1,
+                                    "bg": "green"
+                                },
+                                {
+                                    "min": 1,
+                                    "max": 3,
+                                    "bg": "yellow"
+                                },
+                                {
+                                    "min": 3,
+                                    "max": 5,
+                                    "bg": "orangered"
+                                },
+                                {
+                                    "min": 5,
+                                    "max": 9,
+                                    "bg": "red"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Average case resolution time",
+                            "value": "31.9",
+                            "valuePrefix": "",
+                            "valueSuffix": "D",
+                            "decimals": 3,
+                            "footer": "'home' 4BR/3BA 2900SF",
+                            "breaks": [
+                                {
+                                    "min": 0,
+                                    "max": 1,
+                                    "bg": "green"
+                                },
+                                {
+                                    "min": 1,
+                                    "max": 3,
+                                    "bg": "yellow"
+                                },
+                                {
+                                    "min": 3,
+                                    "max": 5,
+                                    "bg": "orangered"
+                                },
+                                {
+                                    "min": 5,
+                                    "max": 7,
+                                    "bg": "red"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Cases closed this week",
+                            "value": "720",
+                            "valueSuffix": "autoseconds",
+                            "breaks": [
+                                {
+                                    "min": 0,
+                                    "max": 100,
+                                    "bg": "green"
+                                },
+                                {
+                                    "min": 100,
+                                    "max": 300,
+                                    "bg": "yellow"
+                                },
+                                {
+                                    "min": 300,
+                                    "max": 500,
+                                    "bg": "orangered"
+                                },
+                                {
+                                    "min": 500,
+                                    "max": 800,
+                                    "bg": "purple"
+                                }
+                            ]
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["a", "b", "c", "d"]
+                        }
+                    ]
+                }
+            },
+            "heatmap-demo-json": {
+                "type": "heatmap",
+                "title": "Asset allocation",
+                "heatmap": {
+                    "style": "punchcardFixed",
+                    "__style": "heatmap",
+                    "columns": "7",
+                    "showNodeLabel": false,
+                    "grid": false,
+                    "prefix": "",
+                    "suffix": "%",
+                    "__notes": "prefix and suffix are common to all nodes and will not be shown if showNodeLabel is false",
+                    "gradientTheme": "reds",
+                    "__notes_gradientTheme": "one of: anthony, red2green, greens, reds, green2red",
+                    "segments": [
+                        {
+                            "title": "Asset Code",
+                            "strval": "$"
+                        },
+                        {
+                            "strval": "€"
+                        },
+                        {
+                            "strval": "£"
+                        },
+                        {
+                            "strval": "¥"
+                        },
+                        {
+                            "strval": "฿"
+                        },
+                        {
+                            "strval": "₹"
+                        },
+                        {
+                            "strval": "₯"
+                        },
+                        {
+                            "value": "30"
+                        },
+                        {},
+                        {
+                            "value": "40"
+                        },
+                        {
+                            "value": "54"
+                        },
+                        {},
+                        {},
+                        {},
+                        {
+                            "value": 31
+                        },
+                        {
+                            "value": 32
+                        },
+                        {
+                            "value": 35
+                        },
+                        {
+                            "value": 35
+                        },
+                        {
+                            "value": 30
+                        },
+                        {
+                            "value": 35
+                        },
+                        {},
+                        {
+                            "ntitle": "Februray 24"
+                        },
+                        {},
+                        {
+                            "value": 79
+                        },
+                        {
+                            "value": 35
+                        },
+                        {
+                            "value": 53
+                        },
+                        {
+                            "value": 33
+                        },
+                        {
+                            "value": 35
+                        },
+                        {
+                            "notitle": "March 2"
+                        },
+                        {
+                            "value": 44
+                        },
+                        {
+                            "value": 45
+                        },
+                        {},
+                        {
+                            "value": 62
+                        },
+                        {
+                            "value": 66
+                        },
+                        {
+                            "value": 66
+                        },
+                        {},
+                        {},
+                        {
+                            "value": "78"
+                        },
+                        {
+                            "value": 33
+                        },
+                        {
+                            "value": 80
+                        },
+                        {
+                            "value": 52
+                        },
+                        {
+                            "value": 33
+                        },
+                        {},
+                        {},
+                        {
+                            "strval": "title Y",
+                            "value": 66
+                        },
+                        {
+                            "value": 32
+                        },
+                        {
+                            "value": 44
+                        },
+                        {
+                            "value": 40
+                        },
+                        {
+                            "value": 66
+                        },
+                        {
+                            "value": 41
+                        },
+                        {},
+                        {},
+                        {},
+                        {
+                            "value": 52
+                        },
+                        {
+                            "value": 53
+                        },
+                        {
+                            "value": 63
+                        },
+                        {
+                            "value": 63
+                        },
+                        {
+                            "value": 63
+                        },
+                        {},
+                        {
+                            "value": 44
+                        },
+                        {
+                            "value": 46
+                        },
+                        {},
+                        {
+                            "value": 45
+                        },
+                        {
+                            "value": 46
+                        },
+                        {
+                            "value": 42
+                        },
+                        {},
+                        {},
+                        {
+                            "value": 37
+                        },
+                        {
+                            "value": 44
+                        },
+                        {
+                            "value": 34
+                        },
+                        {
+                            "value": 58
+                        },
+                        {
+                            "value": 41
+                        },
+                        {},
+                        {},
+                        {
+                            "value": 31
+                        },
+                        {
+                            "value": 52
+                        },
+                        {
+                            "value": 45
+                        },
+                        {
+                            "value": 44
+                        },
+                        {
+                            "value": 40
+                        },
+                        {
+                            "value": 31
+                        },
+                        {},
+                        {
+                            "notitle": "title 900",
+                            "value": 60
+                        },
+                        {},
+                        {
+                            "value": 42
+                        },
+                        {
+                            "value": 43
+                        },
+                        {
+                            "value": 53
+                        },
+                        {
+                            "value": 53
+                        },
+                        {
+                            "value": 53
+                        },
+                        {},
+                        {},
+                        {
+                            "value": 54
+                        },
+                        {
+                            "value": 44
+                        },
+                        {},
+                        {
+                            "value": 52
+                        },
+                        {
+                            "value": 59
+                        },
+                        {
+                            "value": 48
+                        },
+                        {},
+                        {
+                            "value": 59
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["COLLAPSED"]
+                        },
+                        {
+                            "narrations": ["Here is the categorization for the Apple Pay Promotion on Kiosks."]
+                        },
+                        {
+                            "highlight": [7, 9, 10],
+                            "narrations": ["34% of the orders, added the Apple Pay promotion to the cart, of which, 20% orders paid with the Apple Pay card."]
+                        },
+                        {
+                            "highlight": [8, 23, 10, 15],
+                            "narrations": ["Also note, 60% orders were on Kiosks. This is significantly up from last month's daily average, approximately by 15%."]
+                        },
+                        {
+                            "narrations": ["Overall, Kiosks and Apple Pay, both helped get more orders."]
+                        },
+                        {
+                            "narrations": []
+                        }
+                    ]
+                }
+            },
+            "paths": {
+                "type": "paths",
+                "title": "Process and journey paths",
+                "paths": {
+                    "style": "process",
+                    "prefix": "",
+                    "suffix": "h",
+                    "swapTicks": false,
+                    "autoHideUnnamedNodesAtOffsetZero": true,
+                    "_doc_": "prefix and suffix are at level above segment because tocks are calculated.",
+                    "segments": [
+                        {
+                            "type": "start"
+                        },
+                        {
+                            "title": "D1",
+                            "value": 0
+                        },
+                        {
+                            "title": "D2",
+                            "value": 123
+                        },
+                        {
+                            "type": "end"
+                        },
+                        {
+                            "type": "start"
+                        },
+                        {
+                            "type": "end"
+                        },
+                        {
+                            "type": "start"
+                        },
+                        {
+                            "titleXXXX": "C",
+                            "value": 433
+                        },
+                        {
+                            "title": "D",
+                            "value": 123
+                        },
+                        {
+                            "type": "end"
+                        },
+                        {
+                            "type": "start"
+                        },
+                        {
+                            "title": "Apple",
+                            "value": 333
+                        },
+                        {
+                            "value": 200
+                        },
+                        {
+                            "title": "F",
+                            "value": 0
+                        },
+                        {
+                            "title": "C",
+                            "value": 544
+                        },
+                        {
+                            "type": "end"
+                        },
+                        {
+                            "type": "start"
+                        },
+                        {
+                            "titleXXXX": "DDDDDDDDel",
+                            "value": 200
+                        },
+                        {
+                            "title": "F",
+                            "value": 723
+                        },
+                        {
+                            "type": "end"
+                        },
+                        {
+                            "type": "start",
+                            "titlev": "Path name from json",
+                            "titleprefix": "TP"
+                        },
+                        {
+                            "title": "Apple",
+                            "value": 275
+                        },
+                        {
+                            "title": "Banana",
+                            "value": 375
+                        },
+                        {
+                            "title": "C",
+                            "value": 266
+                        },
+                        {
+                            "type": "end"
+                        },
+                        {
+                            "type": "start"
+                        },
+                        {
+                            "title": "Banana",
+                            "value": 300
+                        },
+                        {
+                            "title": "O",
+                            "value": 400
+                        },
+                        {
+                            "title": "Apple",
+                            "value": 500
+                        },
+                        {
+                            "title": "T",
+                            "value": 700
+                        },
+                        {
+                            "type": "end"
+                        },
+                        {
+                            "type": "start",
+                            "titlev": "lastpath"
+                        },
+                        {
+                            "title": "Apple",
+                            "value": 331.0
+                        },
+                        {
+                            "title": "Banana",
+                            "value": 332.0
+                        },
+                        {
+                            "title": "C",
+                            "value": 213.0
+                        },
+                        {
+                            "title": "D",
+                            "value": 365.044
+                        },
+                        {
+                            "type": "end"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "polly bug for non-eng lang e.g. hindi": "<sub alias =\"Mind Blown!\">🤯</sub><sub alias =\"Wow!\">😮</sub><sub alias =\"Perfect!\">💯</sub>",
+                            "polly bug for non-eng lang e.g. hindi & Chinese": "<sub alias =\" \">👋</sub>Hello Andy! Welcome",
+                            "narrationszz": [
+                                "Congrats 'congratulations'",
+                                "This should say Good Job👏",
+                                "🤯 The Mind is Blown",
+                                "'mindblown' The Mind is Blown",
+                                "👋Hello Andy! Welcome",
+                                "'hello' Andy! Welcome ",
+                                "'mindblown' Mind-blown 'wow' Wowie 'perfect' Perfect Score! ",
+                                "Use an exclamation mark to change how these sound.",
+                                "Cheers!'cheers'",
+                                "Cast.app is Perfect'perfect'!. "
+                            ]
+                        },
+                        {
+                            "narrations": [
+                                "Susie works in a shoeshine shop. Where she shines she sits, and where she sits she shines! She shits!",
+                                "Here is the categorization for the Apple Pay Promotion on Kiosks."
+                            ]
+                        },
+                        {
+                            "highlight": [0, 7, 9, 10],
+                            "narrations": ["34% of the orders, added the Apple Pay promotion to the cart, of which, 20% orders paid with the Apple Pay card."]
+                        },
+                        {
+                            "highlight": [0, 8, 23, 10, 15],
+                            "narrations": ["Also note, 60% orders were on Kiosks. This is significantly up from last month's daily average, approximately by 15%."]
+                        },
+                        {
+                            "narrations": ["Overall, Kiosks and Apple Pay, both helped get more orders."]
+                        },
+                        {
+                            "narrations": []
+                        }
+                    ]
+                }
+            },
+            "compareBar-11": {
+                "type": "compareBar",
+                "title": "Mission District's sales",
+                "compareBar": {
+                    "leftStartingValue": "31",
+                    "backgroundColor": "#f6f6f9",
+                    "bgImgXXXX": "372/2dfd6e1aedd24d9789519ad94d50ac2b___Options-01.svg",
+                    "xbgImgDesktop": "woman.jpg",
+                    "xbgImgMobile": "WellsCard.png",
+                    "xbgImgMode": "contain",
+                    "XXbgBlurImgForContain": "372/2dfd6e1aedd24d9789519ad94d50ac2b___Options-01.svg",
+                    "xinlineImg": "WellsCard.png",
+                    "inlineImgHeight": 120,
+                    "bgImgPosition": "bottom",
+                    "imageTextColor": "purple",
+                    "showDifference": false,
+                    "segments": [
+                        {
+                            "title": "Total Horizontal Sales",
+                            "value": "90",
+                            "compareValue": "90",
+                            "valueLabel": "2019",
+                            "prefix": "$",
+                            "suffix": "B",
+                            "compareValueLabel": "2018"
+                        },
+                        {
+                            "prefix": "$",
+                            "suffix": "B",
+                            "title": "Used a Kiosk to order",
+                            "compareValue": "100",
+                            "value": "160",
+                            "valueLabel": "2019",
+                            "decimals": 3,
+                            "compareValueLabel": "2018"
+                        },
+                        {
+                            "title": "Viewed promotion",
+                            "value": "50",
+                            "compareValue": "40",
+                            "valueLabel": "2019",
+                            "compareValueLabel": "2018"
+                        },
+                        {
+                            "title": "Added promotion",
+                            "compareValue": "40",
+                            "value": "30"
+                        },
+                        {
+                            "title": "Paid with Apple Pay",
+                            "compareValue": "140",
+                            "value": "120",
+                            "valueLabel": "2019",
+                            "compareValueLabel": "2018"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": [
+                                "one thousand.<break time=\"300ms\"/>",
+                                "one thousand and one.<break time=\"300ms\"/>",
+                                "one thousand<break time=\"300ms\"/>",
+                                "Do you speak a foreign language? One language is never enough.<break time=\"300ms\"/>",
+                                {
+                                    "value": "The actionpanel!",
+                                    "slidePause": false,
+                                    "actionpanel": {
+                                        "_________not implemented": true,
+                                        "title": "Continue watching?",
+                                        "actions": [
+                                            {
+                                                "type": "gotoscene",
+                                                "scene": "chartId",
+                                                "webhook": "https://cast.app",
+                                                "payload": "payload"
+                                            },
+                                            {
+                                                "type": "webpage",
+                                                "weburl": "chartId",
+                                                "webhook": "https://cast.app",
+                                                "payload": "payload"
+                                            },
+                                            {
+                                                "type": "home",
+                                                "webhook": "https://cast.app",
+                                                "payload": "payload"
+                                            },
+                                            {
+                                                "type": "phone",
+                                                "scene": "chartId",
+                                                "webhook": "https://cast.app",
+                                                "payload": "payload"
+                                            },
+                                            {
+                                                "type": "continue",
+                                                "webhook": "https://cast.app",
+                                                "payload": "payload"
+                                            },
+                                            {
+                                                "type": "cancel",
+                                                "webhook": "https://cast.app",
+                                                "payload": "payload"
+                                            }
+                                        ],
+                                        "webhook": "https://cast.app",
+                                        "payload": "payload"
+                                    }
+                                },
+                                "<cast:mark>11%</cast:mark> in alternatives<cast:nospeech><span class=notranslate>*</span></cast:nospeech>,<cast:nospeechfootnote>Latest valuations not yet available</cast:nospeechfootnote>-<break time=\"300ms\"/>",
+                                {
+                                    "value": "Here is a narration with a dynamic action.  We will add a Replay button to the list of actions right about now!",
+                                    "dynamicAction": {
+                                        "actionType": "replay"
+                                    }
+                                },
+                                {
+                                    "value": "SECOND time",
+                                    "dynamicAction": {
+                                        "actionType": "replay"
+                                    }
+                                },
+                                {
+                                    "value": "Action Feedback Menu Popup here has been deprecated in favor of dynamic action toast.",
+                                    "slidePause was deprecated": true
+                                },
+                                {
+                                    "value": "Prompt Popup here has been deprecated.",
+                                    "slidePause was deprecated": true
+                                },
+
+                                "Here is the categorization for the Apple Pay Promotion on Kiosks."
+                            ]
+                        },
+                        {
+                            "highlight": [0, 2, 3],
+                            "narrations": [
+                                {
+                                    "value": "dynamic",
+                                    "dynamicAction": {
+                                        "actionType": "web",
+                                        "title": "2nd Looker Community 1",
+                                        "weburl": "https://community.looker.com"
+                                    }
+                                },
+                                {
+                                    "value": "dynamic",
+                                    "dynamicAction": {
+                                        "actionType": "web",
+                                        "title": "2nd Looker Community 2",
+                                        "weburl": "https://community.looker.com"
+                                    }
+                                },
+                                {
+                                    "value": "dynamic",
+                                    "dynamicAction": {
+                                        "actionType": "web",
+                                        "title": "2nd Looker Community 3",
+                                        "weburl": "https://community.looker.com"
+                                    }
+                                },
+                                {
+                                    "value": "dynamic",
+                                    "dynamicAction": {
+                                        "actionType": "web",
+                                        "title": "2nd Looker Community 4",
+                                        "weburl": "https://community.looker.com"
+                                    }
+                                },
+                                {
+                                    "value": "dynamic",
+                                    "dynamicAction": {
+                                        "actionType": "web",
+                                        "title": "2nd Looker Community 5",
+                                        "weburl": "https://community.looker.com"
+                                    }
+                                },
+                                {
+                                    "value": "dynamic",
+                                    "dynamicAction": {
+                                        "actionType": "web",
+                                        "title": "2nd Looker Community 6",
+                                        "weburl": "https://community.looker.com"
+                                    }
+                                },
+                                {
+                                    "value": "dynamic",
+                                    "dynamicAction": {
+                                        "actionType": "web",
+                                        "title": "2nd Looker Community 7",
+                                        "weburl": "https://community.looker.com"
+                                    }
+                                },
+                                {
+                                    "value": "dynamic",
+                                    "dynamicAction": {
+                                        "actionType": "web",
+                                        "title": "2nd Looker Community 8",
+                                        "weburl": "https://community.looker.com"
+                                    }
+                                },
+                                {
+                                    "value": "last dynamic",
+                                    "dynamicAction": {
+                                        "actionType": "web",
+                                        "title": "2nd Looker Community 9",
+                                        "weburl": "https://community.looker.com"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "highlight": [1],
+                            "narrations": ["Also note, 60% orders were on Kiosks. This is significantly up from last month's daily average, approximately by 15%."]
+                        },
+                        {
+                            "narrations": ["Overall, Kiosks and Apple Pay, both helped get more orders."]
+                        },
+                        {
+                            "narrations": []
+                        }
+                    ]
+                }
+            },
+            "waterfall": {
+                "type": "waterfall",
+                "title": "waterfall title",
+                "waterfall": {
+                    "prefix": "$",
+                    "suffix": "K",
+                    "segments": [
+                        {
+                            "title": "July 1, 2020",
+                            "value": "4000.23",
+                            "subtitle": "Starting",
+                            "decimals": 2
+                        },
+                        {
+                            "title": "Income 1",
+                            "value": "2000"
+                        },
+                        {
+                            "title": "Income 2",
+                            "value": "2000"
+                        },
+                        {
+                            "title": "Expense 1",
+                            "value": "-1500"
+                        },
+                        {
+                            "title": "Expense 2",
+                            "value": "-2000"
+                        },
+                        {
+                            "title": "July 31, 2020",
+                            "value": "auto",
+                            "subtitle": "Ending"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": [
+                                "Here is the waterfall. Increased from $4000 to $4500--right----up----down----dot----copyright----registered----trademark----section----awesome----cheers----congratulations----cool----hello----mindblown----nice----perfect----superb----thanks----wow----fire----mask----grim----virus----pointDown----new----flash----cal----asterisk--for ----left----right----up----down----dot----copyright----registered----trademark----section----awesome----cheers----congratulations----cool----hello----mindblown----nice----perfect----superb----thanks----wow----fire----mask----grim----virus----pointDown----new----flash----cal----asterisk--◀︎▶︎▲▼●©®™§👏🥂🥳😎👋🤯😊💯👌🙏😲🔥😷😬🦠👇✨⚡️🗓*"
+                            ],
+                            "markerRange": [4000, 4500]
+                        },
+                        {
+                            "highlight": [0, 5],
+                            "narrations": ["JULY 1, 2020 to JULY 31, 2020."],
+                            "markerRange": [4000]
+                        },
+                        {
+                            "highlight": [1, 2, 3, 4],
+                            "narrations": ["Say something useful about income and expenses."],
+                            "markerRange": [2000]
+                        },
+                        {
+                            "highlight": [3, 4],
+                            "narrations": ["Expenses"]
+                        },
+                        {
+                            "highlight": [1, 2],
+                            "narrations": ["Income"],
+                            "markerRange": 7200
+                        },
+                        {
+                            "narrations": []
+                        }
+                    ]
+                }
+            },
+            "checklist": {
+                "type": "checklist",
+                "title": "Checklist",
+                "checklist": {
+                    "bgImg": "woman.jpg",
+                    "bgImgMode": "cover",
+                    "XXbgBlurImgForContain": "blurred_andy-sieg.jpg",
+                    "bgImgPosition": "bottom",
+                    "imageTextColor": "light",
+                    "checkMarkMode___": "alpha",
+                    "checkMarkMode": "number",
+                    "hidePercentages": true,
+                    "segments": [
+                        {
+                            "title": "Total Horizontal Sales",
+                            "comment": "",
+                            "svgSuffix": "!!",
+                            "checkMarkOverride": "😀😀a😀"
+                        },
+                        {
+                            "title": "Used a Kiosk to order Used a Kiosk to order Used a Kiosk to order",
+                            "footer": "",
+                            "checkMarkOverride": "x"
+                        },
+                        {
+                            "title": "Viewed promotion",
+                            "value": "50",
+                            "footer": "'up' 2.4%"
+                        },
+                        {
+                            "title": "Added promotion",
+                            "value": "30"
+                        },
+                        {
+                            "title": "Paid with Apple Pay",
+                            "value": "20",
+                            "footer": "'up' 4%"
+                        },
+                        {
+                            "title": "Total Horizontal Sales",
+                            "comment": "",
+                            "svgSuffix": "!!",
+                            "checkMarkOverride": "x"
+                        },
+                        {
+                            "title": "Used a Kiosk to order Used a Kiosk to order Used a Kiosk to order",
+                            "footer": "",
+                            "checkMarkOverride": "x"
+                        },
+                        {
+                            "title": "Viewed promotion",
+                            "value": "50",
+                            "footer": "'up' 2.4%"
+                        },
+                        {
+                            "title": "Added promotion",
+                            "value": "30"
+                        },
+                        {
+                            "title": "Paid with Apple Pay",
+                            "value": "20",
+                            "footer": "'up' 4%"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["Here is the categorization for the Apple Pay Promotion on Kiosks."],
+                            "highlight": [0]
+                        },
+                        {
+                            "highlight": [0, 1, 2],
+                            "narrations": ["Also note, 60% orders were on Kiosks. This is significantly up from last month's daily average, approximately by 15%."]
+                        },
+                        {
+                            "highlight": [0, 1, 2, 3],
+                            "narrations": ["Overall, Kiosks and Apple Pay, both helped get more orders."]
+                        },
+                        {
+                            "narrations": ["Overall, All are highlighted now."]
+                        }
+                    ]
+                }
+            },
+            "piebar-vwblJzWFSNCC0bPHMfM-lw": {
+                "type": "pieBar",
+                "title": "Mission District's sales",
+                "pieBar": {
+                    "hidePercentages": true,
+                    "segments": [
+                        {
+                            "title": "Total Horizontal Sales Total Horizontal Sales Total Horizontal Sales Total Horizontal Sales",
+                            "value": 1.111,
+                            "footer": "K",
+                            "decimals": 2
+                        },
+                        {
+                            "title": "Used a Kiosk to order",
+                            "value": "60",
+                            "footer": "'up' 15.1%"
+                        },
+                        {
+                            "title": "Viewed promotion",
+                            "value": "50",
+                            "footer": "'up' 2.4%"
+                        },
+                        {
+                            "title": "Added promotion",
+                            "value": "30"
+                        },
+                        {
+                            "title": "Paid with Apple Pay",
+                            "value": "20",
+                            "footer": "'up' 4%"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["Here is the categorization for the Apple Pay Promotion on Kiosks."]
+                        },
+                        {
+                            "highlight": [0, 2, 3],
+                            "narrations": ["34% of the orders, added the Apple Pay promotion to the cart, of which, 20% orders paid with the Apple Pay card."]
+                        },
+                        {
+                            "highlight": [1],
+                            "narrations": ["Also note, 60% orders were on Kiosks. This is significantly up from last month's daily average, approximately by 15%."]
+                        },
+                        {
+                            "narrations": ["Overall, Kiosks and Apple Pay, both helped get more orders."]
+                        },
+                        {
+                            "narrations": []
+                        }
+                    ]
+                }
+            },
+            "landland": {
+                "landing": {
+                    "XXbgBlurImgForContain": "blurred_andy-sieg.jpg",
+                    "bgImg": "WellsCard.png",
+                    "bgImgMode": "contain",
+                    "mode": "editorial",
+                    "bgImgPosition": "center",
+                    "inlineImgHeight": 120,
+                    "segments": [
+                        {
+                            "title": "Total Horizontal Sales",
+                            "value": 1,
+                            "footer": "date range"
+                        },
+                        {
+                            "title": "Used a Kiosk to order",
+                            "value": "60",
+                            "footer": "'up' 15.1%"
+                        },
+                        {
+                            "title": "Viewed promotion",
+                            "value": "50",
+                            "footer": "'up' 2.4%"
+                        },
+                        {
+                            "title": "Added promotion",
+                            "value": "30"
+                        },
+                        {
+                            "title": "Paid with Apple Pay",
+                            "value": "20",
+                            "footer": "'up' 4%"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": [
+                                {
+                                    "value": "A mp3",
+                                    "slidePause": false
+                                },
+                                "<cast:mark>11%</cast:mark> in alternatives<cast:nospeech><span class=notranslate>*</span></cast:nospeech>,<cast:nospeechfootnote>Latest valuations not yet available</cast:nospeechfootnote>-",
+                                "continuation of narration",
+                                "This is a sentence that has a period at the end followed by a break.<break time='500ms'></break>",
+                                "This is a sentence that has a dash-",
+                                "to continue with next sentence.",
+                                "This is a sentence that again has a period."
+                            ],
+                            "skip-narrations": [
+                                "collapsed. --wow-- <prosody volume='x-loud'>testing 1 2 3</prosody>.<break time='100ms'></break>",
+                                "This is a sentence that has a period at the end followed by a break.<break time='180ms'></break>",
+                                "This is a sentence that does not have a period at the end",
+                                "This is a sentence that again has a period.",
+                                "collapsed. --wow-- <prosody volume='soft'>testing 1 2 3</prosody>.",
+                                "collapsed. --wow-- <prosody volume='medium'>testing 1 2 3</prosody>.<break time='100ms'></break>",
+                                "collapsed. --wow-- <prosody volume='loud'>testing 1 2 3</prosody>.<break time='100ms'></break>",
+                                "collapsed. --wow-- <prosody volume='default'>testing 1 2 3</prosody>.<break time='100ms'></break>"
+                            ]
+                        },
+                        {
+                            "narrations": ["Look Ma!  No state"]
+                        },
+                        {
+                            "highlight": [0],
+                            "narrations": ["--hello-- Hello <span class=notranslate>Victor</span>!", "Welcome to your monthly personalized Mark to Market LSTA Cast."]
+                        }
+                    ]
+                },
+                "title": "LSTA Secondary Loan Mark to Market Review",
+                "type": "landing"
+            },
+            "panel-editorial": {
+                "landing": {
+                    "XXbgBlurImgForContain": "blurred_andy-sieg.jpg",
+                    "bgImg": "WellsCard.png",
+                    "bgImgMode": "contain",
+                    "mode": "panel-editorial",
+                    "imageTextColor": "light",
+                    "bgImgPosition": "center",
+                    "segments": [
+                        {
+                            "title": "Total Horizontal Sales",
+                            "value": 1,
+                            "footer": "date range"
+                        },
+                        {
+                            "title": "Used a Kiosk to order",
+                            "value": "60",
+                            "footer": "'up' 15.1%"
+                        },
+                        {
+                            "title": "Viewed promotion",
+                            "value": "50",
+                            "footer": "'up' 2.4%"
+                        },
+                        {
+                            "title": "Added promotion",
+                            "value": "30"
+                        },
+                        {
+                            "title": "Paid with Apple Pay",
+                            "value": "20",
+                            "footer": "'up' 4%"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": [
+                                "This is a sentence that has a period at the end followed by a break.<break time='500ms'></break>",
+                                "This is a sentence that has a dash-",
+                                "to continue with next sentence.",
+                                "This is a sentence that again has a period."
+                            ],
+                            "skip-narrations": [
+                                "collapsed. --wow-- <prosody volume='x-loud'>testing 1 2 3</prosody>.<break time='100ms'></break>",
+                                "This is a sentence that has a period at the end followed by a break.<break time='180ms'></break>",
+                                "This is a sentence that does not have a period at the end",
+                                "This is a sentence that again has a period.",
+                                "collapsed. --wow-- <prosody volume='soft'>testing 1 2 3</prosody>.",
+                                "collapsed. --wow-- <prosody volume='medium'>testing 1 2 3</prosody>.<break time='100ms'></break>",
+                                "collapsed. --wow-- <prosody volume='loud'>testing 1 2 3</prosody>.<break time='100ms'></break>",
+                                "collapsed. --wow-- <prosody volume='default'>testing 1 2 3</prosody>.<break time='100ms'></break>"
+                            ]
+                        },
+                        {
+                            "narrations": ["Look Ma!  No state"]
+                        },
+                        {
+                            "highlight": [0],
+                            "narrations": ["--hello-- Hello <span class=notranslate>Victor</span>!", "Welcome to your monthly personalized Mark to Market LSTA Cast."]
+                        }
+                    ]
+                },
+                "title": "LSTA Secondary Loan Mark to Market Review",
+                "type": "landing"
+            },
+            "options-google": {
+                "XXbgImg": "372/2dfd6e1aedd24d9789519ad94d50ac2b___Options-01.svg",
+                "bgImgMode": "cover",
+                "bgImgPosition": "top",
+                "imageTextColor": "#393531",
+                "mode": "options",
+                "noCoverImageOverlay": true,
+                "options": {
+                    "XXbgImg": "372/2dfd6e1aedd24d9789519ad94d50ac2b___Options-01.svg",
+                    "bgImgMode": "cover",
+                    "bgImgPosition": "top",
+                    "imageTextColor": "#393531",
+                    "mode": "options",
+                    "noCoverImageOverlay": true,
+                    "xbuttonColor": "#fbbc05",
+                    "buttonColor": "#00a2ff",
+                    "panelOpacity": 0.4,
+                    "segments": [
+                        {
+                            "primary": true,
+                            "_col": "",
+                            "_type": "",
+                            "_unit": "",
+                            "acceptText": "Thank you",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "breaks": "",
+                            "checkMarkOverride": "",
+                            "colorOverride": "",
+                            "compareValue": "",
+                            "compareValueLabel": "",
+                            "decimals": "",
+                            "eventType": "\ud83d\ude80 Product Adoption - 30s",
+                            "footer": "",
+                            "left": "",
+                            "lineColor": "",
+                            "lineData": [],
+                            "lineHighColor": "",
+                            "lineHighData": [],
+                            "lineLowColor": "",
+                            "lineLowData": [],
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "maxXPoint": "",
+                            "maxYPoint": "",
+                            "prefix": "",
+                            "right": "",
+                            "sceneSequenceFlowIds": ["tqFCBUjQ4DCyt5DDYRh9g9"],
+                            "sequence": ["options-Wwwrifky4unDf3xm332YnH", "line-XHCLDwEcGiZpwHeTzULAdK", "options-Wwwrifky4unDf3xm332YnH"],
+                            "smoothing": "",
+                            "strval": "",
+                            "subtitle": "",
+                            "suffix": "",
+                            "svgSuffix": "",
+                            "title": "\ud83d\ude80 Product Adoption - 30s",
+                            "titleprefix": "",
+                            "type": "",
+                            "value": "",
+                            "valueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "ymax": ""
+                        },
+                        {
+                            "_col": "",
+                            "_type": "",
+                            "_unit": "",
+                            "acceptText": "Thank you",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "breaks": "",
+                            "checkMarkOverride": "",
+                            "colorOverride": "",
+                            "compareValue": "",
+                            "compareValueLabel": "",
+                            "decimals": "",
+                            "eventType": "\ud83d\ude4b\u200d\u2642\ufe0f User Adoption - 30s",
+                            "footer": "",
+                            "left": "",
+                            "lineColor": "",
+                            "lineData": [],
+                            "lineHighColor": "",
+                            "lineHighData": [],
+                            "lineLowColor": "",
+                            "lineLowData": [],
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "maxXPoint": "",
+                            "maxYPoint": "",
+                            "prefix": "",
+                            "right": "",
+                            "sceneSequenceFlowIds": ["xAjqHbzK2K5haiuFqSvGs5"],
+                            "sequence": ["options-Wwwrifky4unDf3xm332YnH", "line-VWjcRtpn7RaTbCqop4gfww", "options-Wwwrifky4unDf3xm332YnH"],
+                            "smoothing": "",
+                            "strval": "",
+                            "subtitle": "",
+                            "suffix": "",
+                            "svgSuffix": "",
+                            "title": "\ud83d\ude4b\u200d\u2642\ufe0f User Adoption - 30s",
+                            "titleprefix": "",
+                            "type": "",
+                            "value": "",
+                            "valueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "ymax": ""
+                        },
+                        {
+                            "_col": "",
+                            "_type": "",
+                            "_unit": "",
+                            "acceptText": "Thank you",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "breaks": "",
+                            "checkMarkOverride": "",
+                            "colorOverride": "",
+                            "compareValue": "",
+                            "compareValueLabel": "",
+                            "decimals": "",
+                            "eventType": "\u2764\ufe0f Support - 60s",
+                            "footer": "",
+                            "left": "",
+                            "lineColor": "",
+                            "lineData": [],
+                            "lineHighColor": "",
+                            "lineHighData": [],
+                            "lineLowColor": "",
+                            "lineLowData": [],
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "maxXPoint": "",
+                            "maxYPoint": "",
+                            "prefix": "",
+                            "right": "",
+                            "sceneSequenceFlowIds": ["nRSx2DHiFn3BEeyzWMJuFu", "nCG5bZd6UvycVksYRc39pV"],
+                            "sequence": ["options-Wwwrifky4unDf3xm332YnH", "landing-GGQpbZx7QskMrij7qoEumb", "landing-WAEad6ng29xpUzrU9Y6pWf", "options-Wwwrifky4unDf3xm332YnH"],
+                            "smoothing": "",
+                            "strval": "",
+                            "subtitle": "",
+                            "suffix": "",
+                            "svgSuffix": "",
+                            "title": "\u2764\ufe0f Support - 60s",
+                            "titleprefix": "",
+                            "type": "",
+                            "value": "",
+                            "valueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "ymax": ""
+                        },
+                        {
+                            "_col": "",
+                            "_type": "",
+                            "_unit": "",
+                            "acceptText": "Thank you",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "breaks": "",
+                            "checkMarkOverride": "",
+                            "colorOverride": "",
+                            "compareValue": "",
+                            "compareValueLabel": "",
+                            "decimals": "",
+                            "eventType": "\ud83d\udcaa Looker Power Users - 60s",
+                            "footer": "",
+                            "left": "",
+                            "lineColor": "",
+                            "lineData": [],
+                            "lineHighColor": "",
+                            "lineHighData": [],
+                            "lineLowColor": "",
+                            "lineLowData": [],
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "maxXPoint": "",
+                            "maxYPoint": "",
+                            "prefix": "",
+                            "right": "",
+                            "sceneSequenceFlowIds": ["9LdcTFLtovcvAQkND2LSst"],
+                            "sequence": ["options-Wwwrifky4unDf3xm332YnH", "checklist-QYgVpmAumqoPdYHKy3HVLQ", "options-Wwwrifky4unDf3xm332YnH"],
+                            "smoothing": "",
+                            "strval": "",
+                            "subtitle": "",
+                            "suffix": "",
+                            "svgSuffix": "",
+                            "title": "\ud83d\udcaa Looker Power Users - 60s",
+                            "titleprefix": "",
+                            "type": "",
+                            "value": "",
+                            "valueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "ymax": ""
+                        },
+                        {
+                            "_col": "",
+                            "_type": "",
+                            "_unit": "",
+                            "acceptText": "Thank you",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "breaks": "",
+                            "checkMarkOverride": "",
+                            "colorOverride": "",
+                            "compareValue": "",
+                            "compareValueLabel": "",
+                            "decimals": "",
+                            "eventType": "\ud83d\uddd3  Next Steps - 30s ",
+                            "footer": "",
+                            "left": "",
+                            "lineColor": "",
+                            "lineData": [],
+                            "lineHighColor": "",
+                            "lineHighData": [],
+                            "lineLowColor": "",
+                            "lineLowData": [],
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "maxXPoint": "",
+                            "maxYPoint": "",
+                            "prefix": "",
+                            "right": "",
+                            "sceneSequenceFlowIds": ["vj9iw4n3mR2SLbFvFctvKK"],
+                            "sequence": ["options-Wwwrifky4unDf3xm332YnH", "poll-Ysz4ZaCdpKG7uQDEo5N7KQ"],
+                            "smoothing": "",
+                            "strval": "",
+                            "subtitle": "",
+                            "suffix": "",
+                            "svgSuffix": "",
+                            "title": "\ud83d\uddd3  Next Steps - 30s ",
+                            "titleprefix": "",
+                            "type": "",
+                            "value": "",
+                            "valueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "ymax": ""
+                        },
+                        {
+                            "_col": "",
+                            "_type": "",
+                            "_unit": "",
+                            "acceptText": "Thank you",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "breaks": "",
+                            "checkMarkOverride": "",
+                            "colorOverride": "",
+                            "compareValue": "",
+                            "compareValueLabel": "",
+                            "decimals": "",
+                            "eventType": "\u2728 Show me everything - 2m",
+                            "footer": "",
+                            "left": "",
+                            "lineColor": "",
+                            "lineData": [],
+                            "lineHighColor": "",
+                            "lineHighData": [],
+                            "lineLowColor": "",
+                            "lineLowData": [],
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "maxXPoint": "",
+                            "maxYPoint": "",
+                            "prefix": "",
+                            "right": "",
+                            "sceneSequenceFlowIds": [
+                                "d4WtJkg4M51w7h2ax8UCrd",
+                                "wLGUEgehk1exAJBCW6xZK4",
+                                "ay4v64PBZkWoWkZrZuFUpe",
+                                "q2bqpES3HkDmhNdfU7UtY9",
+                                "9iwEnkdfNG1aq5p9HUEUTi",
+                                "xpudPyLAt3Qqtm8mmb94bN",
+                                "fcxcfCbf3rogzgaV1J8psz"
+                            ],
+                            "sequence": [
+                                "options-Wwwrifky4unDf3xm332YnH",
+                                "line-eEXro8QvaFkGCNuPfYvXw4",
+                                "checklist-GFK2FpGUChseCizWpT2Nxw",
+                                "landing-PkR2zovLLLKEpjTw8PgsLo",
+                                "landing-cHjRkGmwU4eQUqrHYPKyc7",
+                                "line-VVULpvu8EHbQW2WJVsyfzq",
+                                "landing-ingMPD5TPaVqiZbwDgP3z7",
+                                "poll-QxmS4jLmbmz3qzKaW3beaD"
+                            ],
+                            "smoothing": "",
+                            "strval": "",
+                            "subtitle": "",
+                            "suffix": "",
+                            "svgSuffix": "",
+                            "title": "\u2728 Show me everything - 2m",
+                            "titleprefix": "",
+                            "type": "",
+                            "value": "",
+                            "valueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "ymax": ""
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "action_highlight": [],
+                            "highlight": [],
+                            "highlightX": ["Start Now"],
+                            "highlightY": [],
+                            "line_xHighlighter": [],
+                            "line_xHighlighterChartNo": 0,
+                            "line_xHighlighterLabel": "",
+                            "line_yHighlighter": [],
+                            "line_yHighlighterLabel": "",
+                            "narrations": [
+                                {
+                                    "value": "We have some great information on your usage of Looker!"
+                                }
+                            ],
+                            "state": "expanded"
+                        },
+                        {
+                            "action_highlight": [],
+                            "highlight": [],
+                            "highlightX": [
+                                "\ud83d\uddd3  Next Steps - 30s ",
+                                "\ud83d\udcaa Looker Power Users - 60s",
+                                "\ud83d\ude80 Product Adoption - 30s",
+                                "\u2764\ufe0f Support - 60s",
+                                "\u2728 Show me everything - 2m",
+                                "\ud83d\ude4b\u200d\u2642\ufe0f User Adoption - 30s"
+                            ],
+                            "highlightY": [],
+                            "line_xHighlighter": [],
+                            "line_xHighlighterChartNo": 0,
+                            "line_xHighlighterLabel": "",
+                            "line_yHighlighter": [],
+                            "line_yHighlighterLabel": "",
+                            "narrations": [
+                                {
+                                    "value": "We understand that you may be busy, so we've selected a few top picks. "
+                                }
+                            ],
+                            "state": "expanded"
+                        },
+                        {
+                            "action_highlight": [],
+                            "highlight": [],
+                            "highlightX": ["Start Now"],
+                            "highlightY": [],
+                            "line_xHighlighter": [],
+                            "line_xHighlighterChartNo": 0,
+                            "line_xHighlighterLabel": "",
+                            "line_yHighlighter": [],
+                            "line_yHighlighterLabel": "",
+                            "narrations": [
+                                {
+                                    "value": "We will go over everything in a few seconds unless you pick a segment that interests you!"
+                                }
+                            ],
+                            "state": "expanded"
+                        }
+                    ],
+                    "waitForClick": 5000
+                },
+                "panelOpacity": 0.4,
+                "scene_id": 5868,
+                "title": "Let's dive in!",
+                "type": "options",
+                "waitForClick": 5000
+            },
+            "funnel-kQLj8EaSTl6d6_LXAWJBxA": {
+                "type": "funnel",
+                "title": "funnel chart",
+                "funnel": {
+                    "bgImg": "woman.jpg",
+                    "bgImgMode": "cover",
+                    "XXbgBlurImgForContain": "blurred_andy-sieg.jpg",
+                    "bgImgPosition": "bottom",
+                    "segments": [
+                        {
+                            "title": "Total orders",
+                            "value": "10000000",
+                            "footer": "'down' 5%"
+                        },
+                        {
+                            "title": "Used a Kiosk to order",
+                            "value": "9000000",
+                            "footer": "'up' 15.1%"
+                        },
+                        {
+                            "title": "Viewed promotion",
+                            "value": "5000000",
+                            "footer": "'up' 2.4%"
+                        },
+                        {
+                            "title": "Added promotion",
+                            "value": "4000000"
+                        },
+                        {
+                            "title": "Paid with Apple Pay",
+                            "value": "1000000",
+                            "footer": "'up' 4%"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "narrations": ["Here is the funnel for the Apple Pay Promotion on Kiosks."]
+                        },
+                        {
+                            "highlight": [3, 4],
+                            "narrations": ["34% of the orders, added the Apple Pay promotion to the cart, of which, 20% orders paid with the Apple Pay card."]
+                        },
+                        {
+                            "highlight": [1],
+                            "narrations": ["Also note, 60% orders were on Kiosks. This is significantly up from last month's daily average, approximately by 15%."]
+                        },
+                        {
+                            "narrations": ["Overall, Kiosks and Apple Pay, both helped get more orders."]
+                        },
+                        {
+                            "narrations": []
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1415 @@
+{
+    "story": {
+        "metadata": {
+            "Username": "henija7725@chinamkm.com",
+            "Cast ID": 13184,
+            "job_id": "6b469eba212a436ba4b73a54289eb331",
+            "fullReportName": "PR-6361",
+            "viseme": "on",
+            "avatar": "character",
+            "fontHint": "Default",
+            "fontHintChartTitle": "Default",
+            "gender": "male",
+            "logoURL": "saas-magic-01 (1).svg",
+            "companyColorsidSun": ["#00A2FF", "#F59E0B", "#10B981", "#EF4444"],
+            "companyColorsidMoon": ["#00A2FF", "#F59E0B", "#10B981", "#EF4444"],
+            "contact": {
+                "contactid": 1443652,
+                "accountid": 17236645,
+                "first_name": "John",
+                "email": "John@example.com",
+                "phone": "504-845-1427",
+                "renewal_authority": true,
+                "expansion_authority": false,
+                "start_date": "2021-07-10T00:00:00",
+                "contact_id": 1443652,
+                "contact_name": "John",
+                "contact_email": "John@example.com",
+                "contact_phone": "504-845-1427",
+                "contact_account": 17236645,
+                "from_name": "",
+                "from_email": ""
+            },
+            "recipient": {
+                "name": "John",
+                "data_id": 1443652,
+                "id": 1443652,
+                "company": "Cast",
+                "customer": "cast",
+                "user_id": "1443652",
+                "channel": "PR-6361-hpgewddc",
+                "cohort_id": "Designer",
+                "first_name": "John",
+                "recipient_list_id": 13769,
+                "contact": {
+                    "contactid": 1443652,
+                    "accountid": 17236645,
+                    "first_name": "John",
+                    "email": "John@example.com",
+                    "phone": "504-845-1427",
+                    "renewal_authority": true,
+                    "expansion_authority": false,
+                    "start_date": "2021-07-10T00:00:00",
+                    "contact_id": 1443652,
+                    "contact_name": "John",
+                    "contact_email": "John@example.com",
+                    "contact_phone": "504-845-1427",
+                    "contact_account": 17236645,
+                    "from_name": "",
+                    "from_email": ""
+                }
+            },
+            "nodes": [
+                {
+                    "data": {
+                        "sceneId": "45825"
+                    },
+                    "id": "2ZjsMK7zdACPjz2DZBoB2D",
+                    "type": "castNode"
+                },
+                {
+                    "data": {
+                        "sceneId": "45826"
+                    },
+                    "id": "5QA6pHvJu7uuupZcZSD99p",
+                    "type": "castNode"
+                },
+                {
+                    "data": {
+                        "sceneId": "45824"
+                    },
+                    "id": "9N8G9zFGgAB19xbcUPhEiz",
+                    "type": "castNode"
+                },
+                {
+                    "data": {
+                        "sceneId": "45822"
+                    },
+                    "id": "oDcSGpGcs5PPk5r2j4L53P",
+                    "type": "castNode"
+                },
+                {
+                    "data": {
+                        "sceneId": "45823"
+                    },
+                    "id": "q1JVDVhwgVm3J7fT2pzZA4",
+                    "type": "castNode"
+                }
+            ],
+            "edges": [
+                {
+                    "id": "1VeGkZohM1jRqziEbvYqvj",
+                    "source": "2ZjsMK7zdACPjz2DZBoB2D",
+                    "target": "5QA6pHvJu7uuupZcZSD99p",
+                    "type": "edge"
+                },
+                {
+                    "id": "9G5QPQgd7oof6iNRMRQYsY",
+                    "source": "5QA6pHvJu7uuupZcZSD99p",
+                    "target": "9N8G9zFGgAB19xbcUPhEiz",
+                    "type": "edge"
+                },
+                {
+                    "id": "kY5TCgfdK42xkinRSiU9KZ",
+                    "source": "q1JVDVhwgVm3J7fT2pzZA4",
+                    "target": "oDcSGpGcs5PPk5r2j4L53P",
+                    "type": "edge"
+                },
+                {
+                    "id": "vwKzYJuRWqRW1WfE5aAjFx",
+                    "source": "9N8G9zFGgAB19xbcUPhEiz",
+                    "target": "q1JVDVhwgVm3J7fT2pzZA4",
+                    "type": "edge"
+                }
+            ],
+            "webhookOptions": {
+                "webhookUrl": "",
+                "whitelistedFields": {},
+                "whitelistedEventTypes": {
+                    "play": false,
+                    "click": false,
+                    "login": false,
+                    "watch": false
+                }
+            },
+            "liquid_context": {
+                "contactid": 1443652,
+                "accountid": 17236645,
+                "first_name": "John",
+                "email": "John@example.com",
+                "phone": "504-845-1427",
+                "renewal_authority": true,
+                "expansion_authority": false,
+                "start_date": "2021-07-10T00:00:00",
+                "contact_id": 1443652,
+                "contact_name": "John",
+                "contact_email": "John@example.com",
+                "contact_phone": "504-845-1427",
+                "contact_account": 17236645,
+                "from_name": "",
+                "from_email": "",
+                "Minutes": 397,
+                "_cast_dictionary": {
+                    "CSM": "Priyank",
+                    "% endcomment %}": "Priyank",
+                    "Hello": "Kem cho",
+                    "iuuiui": "hjdjmnxmn",
+                    "over": "Priyank",
+                    "Report": "test",
+                    "spent": "test",
+                    "test": "Priyank",
+                    "testsd": "https://calendly.com/casttest/30min",
+                    "TestTest": "Priyank",
+                    "This is a block comment": "Priyank",
+                    "Welcome": "Priyank"
+                },
+                "minutes_snippet": "You spent 397 minutes."
+            },
+            "images": [],
+            "contactInformation": {
+                "contact_id": 1443652,
+                "contact": {
+                    "contactid": 1443652,
+                    "accountid": 17236645,
+                    "first_name": "John",
+                    "email": "John@example.com",
+                    "phone": "504-845-1427",
+                    "renewal_authority": true,
+                    "expansion_authority": false,
+                    "start_date": "2021-07-10T00:00:00",
+                    "contact_id": 1443652,
+                    "contact_name": "John",
+                    "contact_email": "John@example.com",
+                    "contact_phone": "504-845-1427",
+                    "contact_account": 17236645,
+                    "from_name": "",
+                    "from_email": ""
+                }
+            },
+            "generate_group": null,
+            "castInformation": {
+                "account": null,
+                "cast_id": 13184,
+                "api-version": "05-18-2021"
+            },
+            "actionList": [],
+            "webhookDetails": [
+                {
+                    "authenticationScheme": "oauth2",
+                    "url": ""
+                }
+            ],
+            "sceneSequence": ["scene-sequence"]
+        },
+        "scenes": {
+            "scene-sequence": {
+                "chartSequence": ["dashboard-2ZjsMK7zdACPjz2DZBoB2E", "dashboard-2ZjsMK7zdACPjz2DZBoB22", "dashboard-2ZjsMK7zdACPjz2DZBoB2D"]
+            }
+        },
+        "charts": {
+            "dashboard-2ZjsMK7zdACPjz2DZBoB2D": {
+                "type": "dashboard",
+                "title": "Accounting Summary",
+                "scene_id": 45825,
+                "dashboard": {
+                    "inlineImg": "WellsCard.png",
+                    "inlineImgHeight": 500,
+                    "segments": [
+                        {
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "lineLowData": [],
+                            "lineHighData": [],
+                            "value": "",
+                            "title": "Sales Funnel",
+                            "strval": "",
+                            "_type": "",
+                            "_col": "",
+                            "titleprefix": "",
+                            "type": "funnel-hanoi",
+                            "right": "",
+                            "left": "",
+                            "footer": "",
+                            "acceptText": "",
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "compareValue": "",
+                            "valueLabel": "",
+                            "compareValueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "breaks": "",
+                            "subtitle": "",
+                            "lineHighColor": "",
+                            "lineLowColor": "",
+                            "lineColor": "",
+                            "smoothing": "",
+                            "lineData": [],
+                            "colorOverride": "",
+                            "maxYPoint": "",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "sequence": [],
+                            "_unit": "",
+                            "checkMarkOverride": "",
+                            "svgSuffix": "",
+                            "sceneSequenceFlowIds": [],
+                            "weburl": "",
+                            "maxXPoint": "",
+                            "ymax": "",
+                            "eventType": "",
+                            "destinationAtEndOfPath": false,
+                            "id": "hEeQfjmHcS7NiMEZciEGGc",
+                            "data": [
+                                {
+                                    "name": "Awareness",
+                                    "value": 3000
+                                },
+                                {
+                                    "name": "Discovery ",
+                                    "value": 1500
+                                },
+                                {
+                                    "name": "Evaluation",
+                                    "value": 900
+                                },
+                                {
+                                    "name": "Engagement",
+                                    "value": 400
+                                },
+                                {
+                                    "name": "Sales",
+                                    "value": 100
+                                },
+                                {
+                                    "name": "Loyalty ",
+                                    "value": 70
+                                }
+                            ],
+                            "groupByValue": "Payment Method",
+                            "widgetType": "funnel-hanoi",
+                            "format": "%B %d"
+                        },
+                        {
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "lineLowData": [],
+                            "lineHighData": [],
+                            "prefix": "$",
+                            "value": "",
+                            "title": "Expenses",
+                            "strval": "",
+                            "_type": "",
+                            "_col": "",
+                            "titleprefix": "",
+                            "type": "number",
+                            "right": "",
+                            "left": "",
+                            "footer": "",
+                            "acceptText": "",
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "compareValue": "",
+                            "valueLabel": "",
+                            "compareValueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "breaks": "",
+                            "subtitle": "",
+                            "lineHighColor": "",
+                            "lineLowColor": "",
+                            "lineColor": "",
+                            "smoothing": "",
+                            "lineData": [],
+                            "colorOverride": "",
+                            "maxYPoint": "",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "sequence": [],
+                            "_unit": "",
+                            "checkMarkOverride": "",
+                            "svgSuffix": "",
+                            "sceneSequenceFlowIds": [],
+                            "weburl": "",
+                            "maxXPoint": "",
+                            "ymax": "",
+                            "eventType": "",
+                            "destinationAtEndOfPath": false,
+                            "id": "JG8uPQsvAWdCWxgq7e2otn",
+                            "data": [
+                                {
+                                    "name": "Expenses",
+                                    "value": 4516
+                                }
+                            ],
+                            "groupByValue": "Expenses",
+                            "widgetType": "number",
+                            "format": "%B %d"
+                        },
+                        {
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "lineLowData": [],
+                            "lineHighData": [],
+                            "prefix": "$",
+                            "value": "",
+                            "title": "Income",
+                            "strval": "",
+                            "_type": "",
+                            "_col": "",
+                            "titleprefix": "",
+                            "type": "number",
+                            "right": "",
+                            "left": "",
+                            "footer": "",
+                            "acceptText": "",
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "compareValue": "",
+                            "valueLabel": "",
+                            "compareValueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "breaks": "",
+                            "subtitle": "",
+                            "lineHighColor": "",
+                            "lineLowColor": "",
+                            "lineColor": "",
+                            "smoothing": "",
+                            "lineData": [],
+                            "colorOverride": "",
+                            "maxYPoint": "",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "sequence": [],
+                            "_unit": "",
+                            "checkMarkOverride": "",
+                            "svgSuffix": "",
+                            "sceneSequenceFlowIds": [],
+                            "weburl": "",
+                            "maxXPoint": "",
+                            "ymax": "",
+                            "eventType": "",
+                            "destinationAtEndOfPath": false,
+                            "id": "693mu3TJwTJkoYedKjbKCS",
+                            "data": [
+                                {
+                                    "name": "Income",
+                                    "value": 2068
+                                },
+                                {
+                                    "name": "Income",
+                                    "value": 1500
+                                }
+                            ],
+                            "groupByValue": "Income",
+                            "widgetType": "number",
+                            "format": "%B %d"
+                        },
+                        {
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "lineLowData": [],
+                            "lineHighData": [],
+                            "prefix": "$",
+                            "value": "",
+                            "title": "Accounts Payable",
+                            "strval": "",
+                            "_type": "",
+                            "_col": "",
+                            "titleprefix": "",
+                            "type": "number",
+                            "right": "",
+                            "left": "",
+                            "footer": "",
+                            "acceptText": "",
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "compareValue": "",
+                            "valueLabel": "",
+                            "compareValueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "breaks": "",
+                            "subtitle": "",
+                            "lineHighColor": "",
+                            "lineLowColor": "",
+                            "lineColor": "",
+                            "smoothing": "",
+                            "lineData": [],
+                            "colorOverride": "",
+                            "maxYPoint": "",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "sequence": [],
+                            "_unit": "",
+                            "checkMarkOverride": "",
+                            "svgSuffix": "",
+                            "sceneSequenceFlowIds": [],
+                            "weburl": "",
+                            "maxXPoint": "",
+                            "ymax": "",
+                            "eventType": "",
+                            "destinationAtEndOfPath": false,
+                            "id": "CtA9Pu4KnTkPPs4nNa7a6b",
+                            "data": [
+                                {
+                                    "name": "Accounts Payable",
+                                    "value": 8387
+                                },
+                                {
+                                    "name": "Accounts Payable",
+                                    "value": 7000
+                                }
+                            ],
+                            "groupByValue": "Accounts Payable",
+                            "widgetType": "number",
+                            "format": "%B %d"
+                        },
+
+                        {
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "lineLowData": [],
+                            "lineHighData": [],
+                            "value": "",
+                            "title": "Invoices by Status",
+                            "strval": "",
+                            "_type": "",
+                            "_col": "",
+                            "titleprefix": "",
+                            "type": "sparkbar",
+                            "right": "",
+                            "left": "",
+                            "footer": "",
+                            "acceptText": "",
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "compareValue": "",
+                            "valueLabel": "",
+                            "compareValueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "breaks": "",
+                            "subtitle": "",
+                            "lineHighColor": "",
+                            "lineLowColor": "",
+                            "lineColor": "",
+                            "smoothing": "",
+                            "lineData": [],
+                            "colorOverride": "",
+                            "maxYPoint": "",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "sequence": [],
+                            "_unit": "",
+                            "checkMarkOverride": "",
+                            "svgSuffix": "",
+                            "sceneSequenceFlowIds": [],
+                            "weburl": "",
+                            "maxXPoint": "",
+                            "ymax": "",
+                            "eventType": "",
+                            "destinationAtEndOfPath": false,
+                            "id": "gAuVULptyB4EPoFLZ33b7c",
+                            "data": [
+                                {
+                                    "name": "PAID",
+                                    "value": 34
+                                },
+                                {
+                                    "name": "AUTHORISED",
+                                    "value": 21
+                                },
+                                {
+                                    "name": "VOIDED",
+                                    "value": 7
+                                },
+                                {
+                                    "name": "DELETED",
+                                    "value": 4
+                                },
+                                {
+                                    "name": "DRAFT",
+                                    "value": 2
+                                }
+                            ],
+                            "groupByValue": "Invoices by Status",
+                            "widgetType": "sparkbar",
+                            "format": "%B %d"
+                        },
+                        {
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "lineLowData": [],
+                            "lineHighData": [],
+                            "value": "",
+                            "title": "Expenses Breakdown",
+                            "strval": "",
+                            "_type": "",
+                            "_col": "",
+                            "titleprefix": "",
+                            "type": "sparkarea",
+                            "right": "",
+                            "left": "",
+                            "footer": "",
+                            "acceptText": "",
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "compareValue": "",
+                            "valueLabel": "",
+                            "compareValueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "breaks": "",
+                            "subtitle": "",
+                            "lineHighColor": "",
+                            "lineLowColor": "",
+                            "lineColor": "",
+                            "smoothing": "",
+                            "lineData": [],
+                            "colorOverride": "",
+                            "maxYPoint": "",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "sequence": [],
+                            "_unit": "",
+                            "checkMarkOverride": "",
+                            "svgSuffix": "",
+                            "sceneSequenceFlowIds": [],
+                            "weburl": "",
+                            "maxXPoint": "",
+                            "ymax": "",
+                            "eventType": "",
+                            "destinationAtEndOfPath": false,
+                            "id": "RrdBdwTu6ZprYKyLyY3NxT",
+                            "data": [
+                                {
+                                    "name": "Rent",
+                                    "value": 2000
+                                },
+                                {
+                                    "name": "Motor Vechicle Expenses",
+                                    "value": 1100
+                                },
+                                {
+                                    "name": "General Expenses",
+                                    "value": 600
+                                },
+                                {
+                                    "name": "Office Expenses",
+                                    "value": 340
+                                },
+                                {
+                                    "name": "Telephone &amp; Internet",
+                                    "value": 175
+                                }
+                            ],
+                            "groupByValue": "Expenses Breakdown",
+                            "widgetType": "sparkarea",
+                            "format": "%B %d"
+                        },
+                        {
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "lineLowData": [],
+                            "lineHighData": [],
+                            "value": "",
+                            "title": "Payment Method",
+                            "strval": "",
+                            "_type": "",
+                            "_col": "",
+                            "titleprefix": "",
+                            "type": "bar",
+                            "right": "",
+                            "left": "",
+                            "footer": "",
+                            "acceptText": "",
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "compareValue": "",
+                            "valueLabel": "",
+                            "compareValueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "breaks": "",
+                            "subtitle": "",
+                            "lineHighColor": "",
+                            "lineLowColor": "",
+                            "lineColor": "",
+                            "smoothing": "",
+                            "lineData": [],
+                            "colorOverride": "",
+                            "maxYPoint": "",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "sequence": [],
+                            "_unit": "",
+                            "checkMarkOverride": "",
+                            "svgSuffix": "",
+                            "sceneSequenceFlowIds": [],
+                            "weburl": "",
+                            "maxXPoint": "",
+                            "ymax": "",
+                            "eventType": "",
+                            "destinationAtEndOfPath": false,
+                            "id": "WgtMcDBQ8Ss6J3FYinuG2P",
+                            "data": [
+                                {
+                                    "name": "Awareness",
+                                    "value": 3000
+                                },
+                                {
+                                    "name": "Discovery ",
+                                    "value": 1500
+                                },
+                                {
+                                    "name": "Evaluation",
+                                    "value": 900
+                                },
+                                {
+                                    "name": "Engagement",
+                                    "value": 400
+                                },
+                                {
+                                    "name": "Sales",
+                                    "value": 100
+                                },
+                                {
+                                    "name": "Loyalty ",
+                                    "value": 70
+                                }
+                            ],
+                            "groupByValue": "Payment Method",
+                            "widgetType": "bar",
+                            "format": "%B %d"
+                        },
+                        {
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "lineLowData": [],
+                            "lineHighData": [],
+                            "value": "",
+                            "title": "Expenses Breakdown",
+                            "strval": "",
+                            "_type": "",
+                            "_col": "",
+                            "titleprefix": "",
+                            "type": "piebar",
+                            "right": "",
+                            "left": "",
+                            "footer": "",
+                            "acceptText": "",
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "compareValue": "",
+                            "valueLabel": "",
+                            "compareValueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "breaks": "",
+                            "subtitle": "",
+                            "lineHighColor": "",
+                            "lineLowColor": "",
+                            "lineColor": "",
+                            "smoothing": "",
+                            "lineData": [],
+                            "colorOverride": "",
+                            "maxYPoint": "",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "sequence": [],
+                            "_unit": "",
+                            "checkMarkOverride": "",
+                            "svgSuffix": "",
+                            "sceneSequenceFlowIds": [],
+                            "weburl": "",
+                            "maxXPoint": "",
+                            "ymax": "",
+                            "eventType": "",
+                            "destinationAtEndOfPath": false,
+                            "id": "jwALhy4vRoo4gKuqPTsPUZ",
+                            "data": [
+                                {
+                                    "name": "Rent",
+                                    "value": 2000
+                                },
+                                {
+                                    "name": "Motor Vechicle Expenses",
+                                    "value": 1100
+                                },
+                                {
+                                    "name": "General Expenses",
+                                    "value": 600
+                                },
+                                {
+                                    "name": "Office Expenses",
+                                    "value": 340
+                                },
+                                {
+                                    "name": "Telephone &amp; Internet",
+                                    "value": 175
+                                }
+                            ],
+                            "groupByValue": "Expenses Breakdown",
+                            "widgetType": "piebar",
+                            "format": "%B %d"
+                        },
+                        {
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "lineLowData": [],
+                            "lineHighData": [],
+                            "value": "",
+                            "title": "Payment Method",
+                            "strval": "",
+                            "_type": "",
+                            "_col": "",
+                            "titleprefix": "",
+                            "type": "pie",
+                            "right": "",
+                            "left": "",
+                            "footer": "",
+                            "acceptText": "",
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "compareValue": "",
+                            "valueLabel": "",
+                            "compareValueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "breaks": "",
+                            "subtitle": "",
+                            "lineHighColor": "",
+                            "lineLowColor": "",
+                            "lineColor": "",
+                            "smoothing": "",
+                            "lineData": [],
+                            "colorOverride": "",
+                            "maxYPoint": "",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "sequence": [],
+                            "_unit": "",
+                            "checkMarkOverride": "",
+                            "svgSuffix": "",
+                            "sceneSequenceFlowIds": [],
+                            "weburl": "",
+                            "maxXPoint": "",
+                            "ymax": "",
+                            "eventType": "",
+                            "destinationAtEndOfPath": false,
+                            "id": "PXsbRRGQtPceghJXk4Cnyk",
+                            "data": [
+                                {
+                                    "name": "Awareness",
+                                    "value": 3000
+                                },
+                                {
+                                    "name": "Discovery ",
+                                    "value": 1500
+                                },
+                                {
+                                    "name": "Evaluation",
+                                    "value": 900
+                                },
+                                {
+                                    "name": "Engagement",
+                                    "value": 400
+                                },
+                                {
+                                    "name": "Sales",
+                                    "value": 100
+                                },
+                                {
+                                    "name": "Loyalty ",
+                                    "value": 70
+                                }
+                            ],
+                            "groupByValue": "Payment Method",
+                            "widgetType": "pie",
+                            "format": "%B %d"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "highlight": [0, 1, 2, 3],
+                            "narrations": [
+                                {
+                                    "value": "In this Cast we will discuss your account usage and performance."
+                                }
+                            ],
+                            "highlightX": ["Income", "Accounts Payable", "Sales Funnel"],
+                            "highlightY": [],
+                            "line_yHighlighterLabel": "",
+                            "line_xHighlighterLabel": "",
+                            "line_xHighlighterChartNo": 0,
+                            "action_highlight": [],
+                            "state": "expanded",
+                            "segment_id": "",
+                            "highlightList": []
+                        },
+                        {
+                            "highlight": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+                            "narrations": [
+                                {
+                                    "value": "We will share best practices, along with new product recommendations."
+                                }
+                            ],
+                            "highlightX": [],
+                            "highlightY": [],
+                            "line_yHighlighterLabel": "",
+                            "line_xHighlighterLabel": "",
+                            "line_xHighlighterChartNo": 0,
+                            "action_highlight": [],
+                            "state": "expanded",
+                            "segment_id": "",
+                            "highlightList": []
+                        },
+                        {
+                            "highlight": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+                            "narrations": [
+                                {
+                                    "value": "And finally, we will also share how to reach the team."
+                                }
+                            ],
+                            "highlightX": [],
+                            "highlightY": [],
+                            "line_yHighlighterLabel": "",
+                            "line_xHighlighterLabel": "",
+                            "line_xHighlighterChartNo": 0,
+                            "action_highlight": [],
+                            "state": "expanded",
+                            "segment_id": "",
+                            "highlightList": []
+                        },
+                        {
+                            "highlight": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+                            "narrations": [
+                                {
+                                    "value": "Your expenses will rise by <cast:mark>11%</cast:mark> in this quadrant."
+                                }
+                            ],
+                            "highlightX": [],
+                            "highlightY": [],
+                            "line_yHighlighterLabel": "",
+                            "line_xHighlighterLabel": "",
+                            "line_xHighlighterChartNo": 0,
+                            "action_highlight": [],
+                            "state": "expanded",
+                            "segment_id": "",
+                            "highlightList": []
+                        },
+                        {
+                            "highlight": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+                            "narrations": [
+                                {
+                                    "value": "and the majority of your expenses are for renting a home and a vehicle."
+                                }
+                            ],
+                            "highlightX": [],
+                            "highlightY": [],
+                            "line_yHighlighterLabel": "",
+                            "line_xHighlighterLabel": "",
+                            "line_xHighlighterChartNo": 0,
+                            "action_highlight": [],
+                            "state": "expanded",
+                            "segment_id": "",
+                            "highlightList": []
+                        }
+                    ],
+                    "bgImg": "",
+                    "backgroundColor": "#292521",
+                    "widgetBackgroundColor": "#595551",
+                    "widgetTextColor": "#FFFFFF",
+                    "imageTextColor": "#FFFFFF",
+                    "bgImgMode": "cover",
+                    "bgImgPosition": "top",
+                    "panelOpacity": 0.4,
+                    "mode": "widgets_v1"
+                },
+                "node": {
+                    "data": {
+                        "sceneId": "45825"
+                    },
+                    "id": "2ZjsMK7zdACPjz2DZBoB2D",
+                    "type": "castNode"
+                },
+                "bgImg": "",
+                "backgroundColor": "#292521",
+                "widgetBackgroundColor": "#595551",
+                "widgetTextColor": "#FFFFFF",
+                "imageTextColor": "#FFFFFF",
+                "bgImgMode": "cover",
+                "bgImgPosition": "top",
+                "panelOpacity": 0.4,
+                "mode": "widgets_v1"
+            },
+            "dashboard-2ZjsMK7zdACPjz2DZBoB2E": {
+                "type": "dashboard",
+                "title": "Accounting Summary",
+                "scene_id": 45825,
+                "dashboard": {
+                    "inlineImg": "WellsCard.png",
+                    "inlineImgHeight": 500,
+                    "segments": [
+                        {
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "lineLowData": [],
+                            "lineHighData": [],
+                            "value": "",
+                            "title": "Sales Funnel",
+                            "strval": "",
+                            "_type": "",
+                            "_col": "",
+                            "titleprefix": "",
+                            "type": "funnel-hanoi",
+                            "XXtype": "sparkbar",
+                            "right": "",
+                            "left": "",
+                            "footer": "",
+                            "acceptText": "",
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "compareValue": "",
+                            "valueLabel": "",
+                            "compareValueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "breaks": "",
+                            "subtitle": "",
+                            "lineHighColor": "",
+                            "lineLowColor": "",
+                            "lineColor": "",
+                            "smoothing": "",
+                            "lineData": [],
+                            "colorOverride": "",
+                            "maxYPoint": "",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "sequence": [],
+                            "_unit": "",
+                            "checkMarkOverride": "",
+                            "svgSuffix": "",
+                            "sceneSequenceFlowIds": [],
+                            "weburl": "",
+                            "maxXPoint": "",
+                            "ymax": "",
+                            "eventType": "",
+                            "destinationAtEndOfPath": false,
+                            "id": "hEeQfjmHcS7NiMEZciEGGc",
+                            "data": [
+                                {
+                                    "name": "Awareness",
+                                    "value": 3000
+                                },
+                                {
+                                    "name": "Discovery ",
+                                    "value": 1500
+                                },
+                                {
+                                    "name": "Evaluation",
+                                    "value": 900
+                                },
+                                {
+                                    "name": "Engagement",
+                                    "value": 400
+                                },
+                                {
+                                    "name": "Sales",
+                                    "value": 100
+                                },
+                                {
+                                    "name": "Loyalty ",
+                                    "value": 70
+                                }
+                            ],
+                            "groupByValue": "Payment Method",
+                            "widgetType": "funnel-hanoi",
+                            "format": "%B %d"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "highlight": [0, 1, 2, 3],
+                            "narrations": [
+                                {
+                                    "value": "In this Cast we will discuss your account usage and performance."
+                                }
+                            ],
+                            "highlightX": ["Income", "Accounts Payable", "Sales Funnel"],
+                            "highlightY": [],
+                            "line_yHighlighterLabel": "",
+                            "line_xHighlighterLabel": "",
+                            "line_xHighlighterChartNo": 0,
+                            "action_highlight": [],
+                            "state": "expanded",
+                            "segment_id": "",
+                            "highlightList": []
+                        },
+                        {
+                            "highlight": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+                            "narrations": [
+                                {
+                                    "value": "We will share best practices, along with new product recommendations."
+                                }
+                            ],
+                            "highlightX": [],
+                            "highlightY": [],
+                            "line_yHighlighterLabel": "",
+                            "line_xHighlighterLabel": "",
+                            "line_xHighlighterChartNo": 0,
+                            "action_highlight": [],
+                            "state": "expanded",
+                            "segment_id": "",
+                            "highlightList": []
+                        },
+                        {
+                            "highlight": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+                            "narrations": [
+                                {
+                                    "value": "And finally, we will also share how to reach the team."
+                                }
+                            ],
+                            "highlightX": [],
+                            "highlightY": [],
+                            "line_yHighlighterLabel": "",
+                            "line_xHighlighterLabel": "",
+                            "line_xHighlighterChartNo": 0,
+                            "action_highlight": [],
+                            "state": "expanded",
+                            "segment_id": "",
+                            "highlightList": []
+                        },
+                        {
+                            "highlight": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+                            "narrations": [
+                                {
+                                    "value": "Your expenses will rise by <cast:mark>11%</cast:mark> in this quadrant."
+                                }
+                            ],
+                            "highlightX": [],
+                            "highlightY": [],
+                            "line_yHighlighterLabel": "",
+                            "line_xHighlighterLabel": "",
+                            "line_xHighlighterChartNo": 0,
+                            "action_highlight": [],
+                            "state": "expanded",
+                            "segment_id": "",
+                            "highlightList": []
+                        },
+                        {
+                            "highlight": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+                            "narrations": [
+                                {
+                                    "value": "and the majority of your expenses are for renting a home and a vehicle."
+                                }
+                            ],
+                            "highlightX": [],
+                            "highlightY": [],
+                            "line_yHighlighterLabel": "",
+                            "line_xHighlighterLabel": "",
+                            "line_xHighlighterChartNo": 0,
+                            "action_highlight": [],
+                            "state": "expanded",
+                            "segment_id": "",
+                            "highlightList": []
+                        }
+                    ],
+                    "bgImg": "",
+                    "backgroundColor": "#292521",
+                    "widgetBackgroundColor": "#595551",
+                    "widgetTextColor": "#FFFFFF",
+                    "imageTextColor": "#FFFFFF",
+                    "bgImgMode": "cover",
+                    "bgImgPosition": "top",
+                    "panelOpacity": 0.4,
+                    "mode": "widgets_v1"
+                },
+                "node": {
+                    "data": {
+                        "sceneId": "45825"
+                    },
+                    "id": "2ZjsMK7zdACPjz2DZBoB2D",
+                    "type": "castNode"
+                },
+                "bgImg": "",
+                "backgroundColor": "#292521",
+                "widgetBackgroundColor": "#595551",
+                "widgetTextColor": "#FFFFFF",
+                "imageTextColor": "#FFFFFF",
+                "bgImgMode": "cover",
+                "bgImgPosition": "top",
+                "panelOpacity": 0.4,
+                "mode": "widgets_v1"
+            },
+            "dashboard-2ZjsMK7zdACPjz2DZBoB22": {
+                "type": "dashboard",
+                "title": "Accounting Summary",
+                "scene_id": 45825,
+                "dashboard": {
+                    "inlineImg": "WellsCard.png",
+                    "inlineImgHeight": 500,
+                    "segments": [
+                        {
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "lineLowData": [],
+                            "lineHighData": [],
+                            "value": "",
+                            "title": "Sales Funnel",
+                            "strval": "",
+                            "_type": "",
+                            "_col": "",
+                            "titleprefix": "",
+                            "type": "funnel-hanoi",
+                            "right": "",
+                            "left": "",
+                            "footer": "",
+                            "acceptText": "",
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "compareValue": "",
+                            "valueLabel": "",
+                            "compareValueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "breaks": "",
+                            "subtitle": "",
+                            "lineHighColor": "",
+                            "lineLowColor": "",
+                            "lineColor": "",
+                            "smoothing": "",
+                            "lineData": [],
+                            "colorOverride": "",
+                            "maxYPoint": "",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "sequence": [],
+                            "_unit": "",
+                            "checkMarkOverride": "",
+                            "svgSuffix": "",
+                            "sceneSequenceFlowIds": [],
+                            "weburl": "",
+                            "maxXPoint": "",
+                            "ymax": "",
+                            "eventType": "",
+                            "destinationAtEndOfPath": false,
+                            "id": "hEeQfjmHcS7NiMEZciEGGc",
+                            "data": [
+                                {
+                                    "name": "Awareness",
+                                    "value": 3000
+                                },
+                                {
+                                    "name": "Discovery ",
+                                    "value": 1500
+                                },
+                                {
+                                    "name": "Evaluation",
+                                    "value": 900
+                                },
+                                {
+                                    "name": "Engagement",
+                                    "value": 400
+                                },
+                                {
+                                    "name": "Sales",
+                                    "value": 100
+                                },
+                                {
+                                    "name": "Loyalty ",
+                                    "value": 70
+                                }
+                            ],
+                            "groupByValue": "Payment Method",
+                            "widgetType": "funnel-hanoi",
+                            "format": "%B %d"
+                        },
+                        {
+                            "areaData": [],
+                            "areaDataColor": "",
+                            "lineLowData": [],
+                            "lineHighData": [],
+                            "prefix": "$",
+                            "value": "",
+                            "title": "Expenses",
+                            "strval": "",
+                            "_type": "",
+                            "_col": "",
+                            "titleprefix": "",
+                            "type": "number",
+                            "right": "",
+                            "left": "",
+                            "footer": "",
+                            "acceptText": "",
+                            "link_title": "",
+                            "link_type": "",
+                            "link_url": "",
+                            "compareValue": "",
+                            "valueLabel": "",
+                            "compareValueLabel": "",
+                            "valuePrefix": "",
+                            "valueSuffix": "",
+                            "breaks": "",
+                            "subtitle": "",
+                            "lineHighColor": "",
+                            "lineLowColor": "",
+                            "lineColor": "",
+                            "smoothing": "",
+                            "lineData": [],
+                            "colorOverride": "",
+                            "maxYPoint": "",
+                            "area2Data": [],
+                            "area2DataColor": "",
+                            "sequence": [],
+                            "_unit": "",
+                            "checkMarkOverride": "",
+                            "svgSuffix": "",
+                            "sceneSequenceFlowIds": [],
+                            "weburl": "",
+                            "maxXPoint": "",
+                            "ymax": "",
+                            "eventType": "",
+                            "destinationAtEndOfPath": false,
+                            "id": "JG8uPQsvAWdCWxgq7e2otn",
+                            "data": [
+                                {
+                                    "name": "Expenses",
+                                    "value": 4516
+                                }
+                            ],
+                            "groupByValue": "Expenses",
+                            "widgetType": "number",
+                            "format": "%B %d"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "highlight": [0, 1, 2, 3],
+                            "narrations": [
+                                {
+                                    "value": "In this Cast we will discuss your account usage and performance."
+                                }
+                            ],
+                            "highlightX": ["Income", "Accounts Payable", "Sales Funnel"],
+                            "highlightY": [],
+                            "line_yHighlighterLabel": "",
+                            "line_xHighlighterLabel": "",
+                            "line_xHighlighterChartNo": 0,
+                            "action_highlight": [],
+                            "state": "expanded",
+                            "segment_id": "",
+                            "highlightList": []
+                        },
+                        {
+                            "highlight": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+                            "narrations": [
+                                {
+                                    "value": "We will share best practices, along with new product recommendations."
+                                }
+                            ],
+                            "highlightX": [],
+                            "highlightY": [],
+                            "line_yHighlighterLabel": "",
+                            "line_xHighlighterLabel": "",
+                            "line_xHighlighterChartNo": 0,
+                            "action_highlight": [],
+                            "state": "expanded",
+                            "segment_id": "",
+                            "highlightList": []
+                        },
+                        {
+                            "highlight": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+                            "narrations": [
+                                {
+                                    "value": "And finally, we will also share how to reach the team."
+                                }
+                            ],
+                            "highlightX": [],
+                            "highlightY": [],
+                            "line_yHighlighterLabel": "",
+                            "line_xHighlighterLabel": "",
+                            "line_xHighlighterChartNo": 0,
+                            "action_highlight": [],
+                            "state": "expanded",
+                            "segment_id": "",
+                            "highlightList": []
+                        },
+                        {
+                            "highlight": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+                            "narrations": [
+                                {
+                                    "value": "Your expenses will rise by <cast:mark>11%</cast:mark> in this quadrant."
+                                }
+                            ],
+                            "highlightX": [],
+                            "highlightY": [],
+                            "line_yHighlighterLabel": "",
+                            "line_xHighlighterLabel": "",
+                            "line_xHighlighterChartNo": 0,
+                            "action_highlight": [],
+                            "state": "expanded",
+                            "segment_id": "",
+                            "highlightList": []
+                        },
+                        {
+                            "highlight": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+                            "narrations": [
+                                {
+                                    "value": "and the majority of your expenses are for renting a home and a vehicle."
+                                }
+                            ],
+                            "highlightX": [],
+                            "highlightY": [],
+                            "line_yHighlighterLabel": "",
+                            "line_xHighlighterLabel": "",
+                            "line_xHighlighterChartNo": 0,
+                            "action_highlight": [],
+                            "state": "expanded",
+                            "segment_id": "",
+                            "highlightList": []
+                        }
+                    ],
+                    "bgImg": "",
+                    "backgroundColor": "#292521",
+                    "widgetBackgroundColor": "#595551",
+                    "widgetTextColor": "#FFFFFF",
+                    "imageTextColor": "#FFFFFF",
+                    "bgImgMode": "cover",
+                    "bgImgPosition": "top",
+                    "panelOpacity": 0.4,
+                    "mode": "widgets_v1"
+                },
+                "node": {
+                    "data": {
+                        "sceneId": "45825"
+                    },
+                    "id": "2ZjsMK7zdACPjz2DZBoB2D",
+                    "type": "castNode"
+                },
+                "bgImg": "",
+                "backgroundColor": "#292521",
+                "widgetBackgroundColor": "#595551",
+                "widgetTextColor": "#FFFFFF",
+                "imageTextColor": "#FFFFFF",
+                "bgImgMode": "cover",
+                "bgImgPosition": "top",
+                "panelOpacity": 0.4,
+                "mode": "widgets_v1"
+            }
+        }
+    }
+}

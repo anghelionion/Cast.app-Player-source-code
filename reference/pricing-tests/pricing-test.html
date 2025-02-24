@@ -1,0 +1,292 @@
+
+  <style>
+   *,*:before,*:after {
+     box-sizing: border-box;
+   }
+   input[type="range"] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: #c9c5c1;
+    border-radius: 3px;
+    height: 6px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    outline: none;
+   }
+   input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #00a2ff;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 36px;
+    width: 36px;
+   }
+   input[type="range"]::-moz-range-thumb {
+    background-color: #00a2ff;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 36px;
+    width: 36px;
+   }
+   input[type="range"]::-ms-thumb {
+    background-color: #00a2ff;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 36px;
+    width: 36px;
+   }
+   input[type="range"]::-moz-focus-outer {
+    border: 0;
+   }
+
+   .ps {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+   }
+
+   .form-slider span {
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    margin-bottom: 16px;
+    text-align: left;
+   }
+
+   .ps input {
+    width: 100%;
+   }
+   .ps .ps-value {
+    position: absolute;
+    font-size: 18px;
+    line-height: 22px;
+    color: #595551;
+    margin-top: 8px;
+    --thumb-size: 36px;
+   }
+   .pis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -12px;
+    margin-left: -12px;
+    margin-top: -12px;
+   }
+   .pi {
+    box-sizing: content-box;
+    padding: 12px;
+   }
+   .pii {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+    padding: 24px;
+   }
+
+   .pi-price {
+    display: inline-flex;
+    align-items: baseline;
+    font-size: 20px;
+   }
+   .pipamt {
+    font-size: 40px;
+    line-height: 48px;
+    color: #696561;
+    margin-left: 4px;
+    font-weight: 400;
+   }
+   .pifl {
+    list-style: none;
+    padding: 0;
+   }
+   .pifl li {
+    margin-bottom: 0;
+    padding: 12px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    text-align: left;
+   }
+   .pifl li::after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    background-repeat: no-repeat;
+    -webkit-box-ordinal-group: 0;
+    order: -1;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill-rule%3D%22nonzero%22%20fill%3D%22none%22%3E%3Ccircle%20fill%3D%22%2300a2ff%22%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212%22%2F%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M10.5%2012.267l-2.5-1.6-1%201.066L10.5%2016%2017%209.067%2016%208z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+   }
+   .pipcur {
+    bottom:12px;
+    position: relative;
+    color: #696561;
+    font-size:24px;
+   }
+  </style>
+
+    <div class="pi">
+     <div class="pii">
+        <div class="ps">
+          <input type="range" value="1" />
+         <div class="ps-value"></div>
+        </div>
+
+        <div class="pi-price">
+         <span class="pipcur"></span>
+         <span class="pipamt"></span>
+         <span class="pip-after"></span>
+        </div>
+        <div>
+         <ul class="pifl">
+            <li><span id=unitP></span></li>
+            <li><span id=users></span></li>
+            <li><span id=nPrj></span></li>
+            <li><span id=datasources></span></li>
+            <li><span id=datasets></span></li>
+            <li><span id=support></span></li>
+            <li>Distribution: Host in your dashboard</li>
+            <li>Distribution: Deliver via email, Chatbot, SMS, & Slack</li>
+            <li>API access&nbsp;<span id=apiAccess></span></li>
+            <li>Up to 5 touchpoints per customer account</span></li>
+         </ul>
+        </div>
+      </div>
+     </div>
+    </div>
+  <script>
+   (function() {
+    const pSs = document.querySelectorAll(".ps");
+
+    if (pSs.length > 0) {
+      const psldr = pSs[0];
+
+      const prIp = {el: psldr.querySelector("input")};
+      prIp.data = {
+            "0": "10",
+            "1": "20",
+            "2": "40",
+            "3": "60",
+            "4": "100",
+            "5": "250",
+            "6": "500",
+            "7": "1,000",
+            "8": "2,000",
+            "9": "5,000",
+            "10": "7,500",
+            "11": "10,000",
+            "12": "20,000+"                        
+            };
+      prIp.cvel = psldr.querySelector(".ps-value");
+      prIp.tsz = parseInt(window.getComputedStyle(prIp.cvel).getPropertyValue("--thumb-size"),10);
+      const poEl = psldr.parentNode.querySelectorAll(".pi-price")[0];
+
+      const poo = {};
+      poo.currency = poEl.querySelector(".pipcur");
+      poo.amount = poEl.querySelector(".pipamt");
+      poo.after = poEl.querySelector(".pip-after");
+      poo.data = {
+            "0": ["","Free","","1","3","ctbl","20","Chatbot "," acx"],
+            "1": ["$","39","/mo","2","10","ctbl + 55ds","50","Chat ","acx"],
+            "2": ["$","75","/mo","2","10","ctbl + 55ds","50","Chat ","acx"],
+            "3": ["$","109","/mo","3","20","ctbl + 55ds","100","Chat ","acx"],
+            "4": ["$","175","/mo","3","20","ctbl + 55ds","100","Chat ","acx"],
+            "5": ["$","350","/mo","3","20","ctbl + 55ds","100","Chat ","acx"],
+            "6": ["$","600","/mo","3","20","ctbl + 55ds","100","Chat ","acx"],
+            "7": ["$","950","/mo","4","Unlimited","ctbl + 55ds + API","1000","Chat ","inc"],
+            "8": ["$","1,700","/mo","4","Unlimited","ctbl + 55ds + API","1000","Chat ","inc"],
+            "9": ["$","3,500","/mo","5","Unlimited","ctbl + 55ds + API","1000","Chat  + CEO/CTO phone","inc"],
+            "10": ["$","5,000","/mo","5","Unlimited","ctbl + 55ds + API","1000","Chat  + CEO/CTO phone", "inc"],
+            "11": ["$","6,500","/mo","5","Unlimited","ctbl + 55ds + API","1000","Chat  + CEO/CTO phone", "inc"],
+            "12": ["","Contact us","","Unlimited","Unlimited","ctbl + 55ds + API","Unlimited","Chat + CEO/CTO phone ","inc"]
+          };
+      prIp.el.setAttribute("min",0);
+      prIp.el.setAttribute("max",Object.keys(prIp.data).length - 1);
+      !prIp.el.getAttribute("value") && prIp.el.setAttribute("value",0);
+
+      slide(prIp,poo);
+      window.addEventListener("input",function() {slide(prIp,poo);});
+    }
+
+    function slide(input,oo) {
+      if (input.cvel) input.cvel.innerHTML = input.data[input.el.value];
+      let s = {};
+      s.accounts = input.data[input.el.value];
+      let oodv = oo.data[input.el.value];
+
+      if (oo.currency) oo.currency.innerHTML = oodv[0];
+      if (oo.amount) oo.amount.innerHTML = oodv[1];
+      if (oo.after) oo.after.innerHTML = oodv[2];
+      if (oo.currency && oo.amount) s.mrr = oodv[0] + oodv[1];
+    
+      let nPrj = (oodv[3]);
+      document.getElementById("nPrj").innerHTML =  "" + nPrj  + " Cast Project" + ((parseInt(nPrj) === 1)?"":"s");
+      s.numProj = nPrj;
+
+      let users = (oodv[4]);
+      document.getElementById("users").innerHTML =  "" + users  + " CSMs or Digital CSMs";
+      s.users = users;
+
+      let dss = (oodv[5]);
+      dss = dss.replace("55ds","55 Data Sources")
+      dss = dss.replace("ctbl","Cast Tables")
+      document.getElementById("datasources").innerHTML =  "" + dss;
+      s.datasources = dss;
+
+      let datasets = (oodv[6]);
+      document.getElementById("datasets").innerHTML =  "" + datasets  + " Dataset" + ((parseInt(datasets) === 1)?"":"s");
+      s.datasets = datasets;
+
+      let support = (oodv[7]);
+      document.getElementById("support").innerHTML =  "Support: Email + " + support;
+      s.support = support;
+
+      let api = (oodv[8]);
+      document.getElementById("apiAccess").innerHTML =  api.replace('acx','at additional cost').replace("inc","included");
+      s.api = api;
+
+      let n=parseInt(oodv[1].replace(",",""))
+      let d=parseInt(s.accounts.replace(",",""))
+      let unitP = isNaN(n)?"NaN":(n/d).toFixed(2);
+      document.getElementById("unitP").innerHTML = isNaN(unitP)?"Plans that scale as you grow":(oodv[0] + unitP + " per customer account");
+      s.unit = unitP;
+      sldrpos(input);
+      s.query = window.location.search;
+      s.timestamp = performance.timing.navigationStart + performance.now();
+      s.platform = navigator.platform;
+      s.ua = navigator.userAgent;
+
+      localStorage.removeItem('sigupData')
+      localStorage.setItem('sigupData',JSON.stringify(s));
+    }
+
+    function sldrpos(input) {
+     const m = input.el.value / input.el.max;
+     const tof = input.tsz * m;
+     const pio = (input.tsz - input.cvel.clientWidth) / 2;
+     input.cvel.style.left = input.el.clientWidth * m - tof + pio + "px";
+    }
+   })();
+  </script>

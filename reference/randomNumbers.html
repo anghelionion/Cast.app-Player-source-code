@@ -1,0 +1,11 @@
+<script>
+  const randomWholeNumbers = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+  const randomFloats = (min, max) => min + Math.random() * (max - min);
+
+  for (var i = 0; i < 100; i++) {
+    console.log(randomFloats(.5, 2.6));
+  }
+  for (var i = 0; i < 100; i++) {
+    console.log(randomWholeNumbers(5, 221));
+  }
+</script>

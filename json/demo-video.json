@@ -1,0 +1,1098 @@
+{
+  "story": {
+    "metadata": {
+      "Username": "jo@cast.app",
+      "Cast ID": 8579,
+      "job_id": null,
+      "liquid_variables": [
+        {
+          "name": "contactid",
+          "result": 1443652,
+          "type": "integer",
+          "variable_type": "contact"
+        },
+        {
+          "name": "accountid",
+          "result": 17236645,
+          "type": "integer",
+          "variable_type": "contact"
+        },
+        {
+          "name": "account",
+          "result": "Customer",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "name": "first_name",
+          "result": "John",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "name": "email",
+          "result": "john@customer.com",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "name": "relationship_score",
+          "result": 8.0,
+          "type": "float",
+          "variable_type": "contact"
+        },
+        {
+          "name": "reference",
+          "result": true,
+          "type": "boolean",
+          "variable_type": "contact"
+        },
+        {
+          "name": "phone",
+          "result": "415-555-1212",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "name": "journey_stage",
+          "result": "Activated",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "name": "renewal_authority",
+          "result": true,
+          "type": "boolean",
+          "variable_type": "contact"
+        },
+        {
+          "name": "expansion_authority",
+          "result": false,
+          "type": "boolean",
+          "variable_type": "contact"
+        },
+        {
+          "name": "generate",
+          "result": false,
+          "type": "boolean",
+          "variable_type": "contact"
+        },
+        {
+          "name": "csm",
+          "result": "Cathy S McLaren",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "name": "csm_email",
+          "result": "cathy@employee.com",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "name": "csm_phone",
+          "result": "1800  CSM LOVE",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "name": "account_rep",
+          "result": "Scott Freely",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "name": "ar_email",
+          "result": "scott@employee.com",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "name": "start_date",
+          "result": "2021-07-10T00:00:00",
+          "type": "datetime",
+          "variable_type": "contact"
+        },
+        {
+          "name": "contact_id",
+          "result": 1443652,
+          "type": "integer",
+          "variable_type": "contact"
+        },
+        {
+          "name": "contact_name",
+          "result": "John",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "name": "contact_email",
+          "result": "john@customer.com",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "name": "contact_phone",
+          "result": "415-555-1212",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "name": "contact_account",
+          "result": 17236645,
+          "type": "integer",
+          "variable_type": "contact"
+        },
+        {
+          "name": "contact_perma_token",
+          "result": "6My4goWxE8no2oePxCcnYQ",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "name": "contact_perma_url",
+          "result": "https://pydcast.com/play/latest/6My4goWxE8no2oePxCcnYQ",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "name": "contact_perma_page_url",
+          "result": "https://pydcast.com/page/latest/6My4goWxE8no2oePxCcnYQ",
+          "type": "string",
+          "variable_type": "contact"
+        },
+        {
+          "id": 30101,
+          "name": "Minutes",
+          "variable_type": "dataset based",
+          "result": 249,
+          "result_raw": 249,
+          "type": "float",
+          "error": null,
+          "source": "Dataset Field"
+        },
+        {
+          "id": 30102,
+          "name": "minutes_snippet",
+          "variable_type": "advance",
+          "is_using_snippets": false,
+          "result": "You spent 249 minutes.",
+          "result_raw": "You spent 249 minutes.",
+          "type": "string",
+          "error": null,
+          "source": "Snippet"
+        }
+      ],
+      "liquid_context": {
+        "contactid": 1443652,
+        "accountid": 17236645,
+        "account": "Customer",
+        "first_name": "John",
+        "email": "john@customer.com",
+        "relationship_score": 8.0,
+        "reference": true,
+        "phone": "415-555-1212",
+        "journey_stage": "Activated",
+        "renewal_authority": true,
+        "expansion_authority": false,
+        "generate": false,
+        "csm": "Cathy S McLaren",
+        "csm_email": "cathy@employee.com",
+        "csm_phone": "1800  CSM LOVE",
+        "account_rep": "Scott Freely",
+        "ar_email": "scott@employee.com",
+        "start_date": "2021-07-10T00:00:00",
+        "contact_id": 1443652,
+        "contact_name": "John",
+        "contact_email": "john@customer.com",
+        "contact_phone": "415-555-1212",
+        "contact_account": 17236645,
+        "contact_perma_token": "6My4goWxE8no2oePxCcnYQ",
+        "contact_perma_url": "https://pydcast.com/play/latest/6My4goWxE8no2oePxCcnYQ",
+        "contact_perma_page_url": "https://pydcast.com/page/latest/6My4goWxE8no2oePxCcnYQ",
+        "Minutes": 249,
+        "minutes_snippet": "You spent 249 minutes.",
+        "_cast_dictionary": {},
+        "robot": "oliver professor docto--r c--hristmas"
+      },
+      "fullReportName": "Getting Started - Copy",
+      "viseme": "on",
+      "avatar": "robot",
+      "fontHint": "Default",
+      "fontHintChartTitle": "Default",
+      "gender": "male",
+      "logoURL": "saas-magic-01 (1).svg",
+      "companyColorsidSun": ["#00A2FF", "#F59E0B", "#10B981", "#EF4444"],
+      "companyColorsidMoon": ["#00A2FF", "#F59E0B", "#10B981", "#EF4444"],
+      "contact": {
+        "contactid": 1443652,
+        "accountid": 17236645,
+        "account": "Customer",
+        "first_name": "John",
+        "email": "john@customer.com",
+        "relationship_score": 8.0,
+        "reference": true,
+        "phone": "415-555-1212",
+        "journey_stage": "Activated",
+        "renewal_authority": true,
+        "expansion_authority": false,
+        "generate": false,
+        "csm": "Cathy S McLaren",
+        "csm_email": "cathy@employee.com",
+        "csm_phone": "1800  CSM LOVE",
+        "account_rep": "Scott Freely",
+        "ar_email": "scott@employee.com",
+        "start_date": "2021-07-10T00:00:00",
+        "contact_id": 1443652,
+        "contact_name": "John",
+        "contact_email": "john@customer.com",
+        "contact_phone": "415-555-1212",
+        "contact_account": 17236645,
+        "contact_perma_token": "6My4goWxE8no2oePxCcnYQ",
+        "contact_perma_url": "https://pydcast.com/play/latest/6My4goWxE8no2oePxCcnYQ",
+        "contact_perma_page_url": "https://pydcast.com/page/latest/6My4goWxE8no2oePxCcnYQ"
+      },
+      "recipient": {
+        "id": 1443652,
+        "name": "John",
+        "first_name": "John",
+        "data_id": 1443652,
+        "user_id": 1443652,
+        "company": "Cast",
+        "customer": "cast",
+        "cohort_id": "Designer",
+        "channel": "Getting Started - Copy-uwmajbos",
+        "recipient_list_id": null,
+        "contact": {
+          "contactid": 1443652,
+          "accountid": 17236645,
+          "account": "Customer",
+          "first_name": "John",
+          "email": "john@customer.com",
+          "relationship_score": 8.0,
+          "reference": true,
+          "phone": "415-555-1212",
+          "journey_stage": "Activated",
+          "renewal_authority": true,
+          "expansion_authority": false,
+          "generate": false,
+          "csm": "Cathy S McLaren",
+          "csm_email": "cathy@employee.com",
+          "csm_phone": "1800  CSM LOVE",
+          "account_rep": "Scott Freely",
+          "ar_email": "scott@employee.com",
+          "start_date": "2021-07-10T00:00:00",
+          "contact_id": 1443652,
+          "contact_name": "John",
+          "contact_email": "john@customer.com",
+          "contact_phone": "415-555-1212",
+          "contact_account": 17236645,
+          "contact_perma_token": "6My4goWxE8no2oePxCcnYQ",
+          "contact_perma_url": "https://pydcast.com/play/latest/6My4goWxE8no2oePxCcnYQ",
+          "contact_perma_page_url": "https://pydcast.com/page/latest/6My4goWxE8no2oePxCcnYQ"
+        }
+      },
+      "nodes": [
+        {
+          "id": "9N8G9zFGgAB19xbcUPhEiz",
+          "data": {
+            "sceneId": "35829"
+          },
+          "type": "castNode"
+        },
+        {
+          "id": "oDcSGpGcs5PPk5r2j4L53P",
+          "data": {
+            "sceneId": "35828"
+          },
+          "type": "castNode"
+        },
+        {
+          "id": "q1JVDVhwgVm3J7fT2pzZA4",
+          "data": {
+            "sceneId": "35827"
+          },
+          "type": "castNode"
+        }
+      ],
+      "edges": [
+        {
+          "id": "6yNHaXi4zodMpUL6nY97HL",
+          "type": "edge",
+          "source": "9N8G9zFGgAB19xbcUPhEiz",
+          "target": "q1JVDVhwgVm3J7fT2pzZA4"
+        },
+        {
+          "id": "jGeTWSx851EnvsQVkrgYmX",
+          "type": "edge",
+          "source": "q1JVDVhwgVm3J7fT2pzZA4",
+          "target": "oDcSGpGcs5PPk5r2j4L53P"
+        }
+      ],
+      "webhookOptions": {
+        "webhookUrl": "",
+        "whitelistedFields": {},
+        "whitelistedEventTypes": {
+          "play": false,
+          "click": false,
+          "login": false,
+          "watch": false
+        }
+      },
+      "images": [null],
+      "contactInformation": {
+        "contact_id": 1443652,
+        "contact": {
+          "contactid": 1443652,
+          "accountid": 17236645,
+          "account": "Customer",
+          "first_name": "John",
+          "email": "john@customer.com",
+          "relationship_score": 8.0,
+          "reference": true,
+          "phone": "415-555-1212",
+          "journey_stage": "Activated",
+          "renewal_authority": true,
+          "expansion_authority": false,
+          "generate": false,
+          "csm": "Cathy S McLaren",
+          "csm_email": "cathy@employee.com",
+          "csm_phone": "1800  CSM LOVE",
+          "account_rep": "Scott Freely",
+          "ar_email": "scott@employee.com",
+          "start_date": "2021-07-10T00:00:00",
+          "contact_id": 1443652,
+          "contact_name": "John",
+          "contact_email": "john@customer.com",
+          "contact_phone": "415-555-1212",
+          "contact_account": 17236645,
+          "contact_perma_token": "6My4goWxE8no2oePxCcnYQ",
+          "contact_perma_url": "https://pydcast.com/play/latest/6My4goWxE8no2oePxCcnYQ",
+          "contact_perma_page_url": "https://pydcast.com/page/latest/6My4goWxE8no2oePxCcnYQ"
+        }
+      },
+      "generate_group": null,
+      "castInformation": {
+        "account": null,
+        "cast_id": 8579,
+        "api-version": "05-18-2021"
+      },
+      "actionList": [],
+      "webhookDetails": [
+        {
+          "authenticationScheme": "oauth2",
+          "url": ""
+        }
+      ],
+      "sceneSequence": ["scene-sequence"]
+    },
+    "scenes": {
+      "scene-sequence": {
+        "chartSequence": ["video-9N8G9zFGgAB19xbcUPhEiz", "dashboard-q1JVDVhwgVm3J7fT2pzZA4", "compareBar-oDcSGpGcs5PPk5r2j4L53P", "landing-9N8G9zFGgAB19xbcUPhEiz"]
+      }
+    },
+    "charts": {
+      "video-9N8G9zFGgAB19xbcUPhEiz": {
+        "type": "video",
+        "title": "Video Slide",
+        "scene_id": 35829,
+        "video": {
+          "segments": [],
+          "steps": [
+            {
+              "highlight": [],
+              "narrations": [
+                {
+                  "value": "Hey <cast:mark>John</cast:mark>"
+                }
+              ],
+              "highlightX": [],
+              "highlightY": [],
+              "line_yHighlighterLabel": "",
+              "line_xHighlighterLabel": "",
+              "line_xHighlighterChartNo": 0,
+              "action_highlight": [],
+              "state": "expanded",
+              "segment_id": "",
+              "highlightList": []
+            },
+            {
+              "highlight": [],
+              "narrations": [
+                {
+                  "value": "Welcome to your July Usage Report on the past 30 days of Doordash\u2019s use of SaaS Magic prepared on behalf of Amy Layton. --thanks--"
+                }
+              ],
+              "highlightX": [],
+              "highlightY": [],
+              "line_yHighlighterLabel": "",
+              "line_xHighlighterLabel": "",
+              "line_xHighlighterChartNo": 0,
+              "action_highlight": [],
+              "state": "expanded",
+              "segment_id": "",
+              "highlightList": []
+            },
+            {
+              "highlight": [],
+              "narrations": [
+                {
+                  "value": "Let's dive right in!"
+                }
+              ],
+              "highlightX": [],
+              "highlightY": [],
+              "line_yHighlighterLabel": "",
+              "line_xHighlighterLabel": "",
+              "line_xHighlighterChartNo": 0,
+              "action_highlight": [],
+              "state": "expanded",
+              "segment_id": "",
+              "highlightList": []
+            }
+          ],
+          "bgImg": null,
+          "backgroundColor": "#FFFFFF",
+          "bgImgMobile": "641/f368e7b7e2312fe070898f943fb0f91a___WelcomeM.svg",
+          "bgImgDesktop": "641/e4f618989f724f51322ba52c7faa2dfc___WelcomeBG.svg",
+          "imageTextColor": "#393531",
+          "bgImgMode": "cover",
+          "bgImgPosition": "top",
+          "panelOpacity": 0.4,
+          "videoSource": "https://storage.googleapis.com/cast-corp-player-storage/assets/landing/hubspot/HubSpot1.mp4",
+          "mode": "editorial"
+        },
+        "node": {
+          "id": "9N8G9zFGgAB19xbcUPhEiz",
+          "data": {
+            "sceneId": "35829"
+          },
+          "type": "castNode"
+        },
+        "bgImg": null,
+        "backgroundColor": "#FFFFFF",
+        "bgImgMobile": "641/f368e7b7e2312fe070898f943fb0f91a___WelcomeM.svg",
+        "bgImgDesktop": "641/e4f618989f724f51322ba52c7faa2dfc___WelcomeBG.svg",
+        "imageTextColor": "#393531",
+        "bgImgMode": "cover",
+        "bgImgPosition": "top",
+        "panelOpacity": 0.4,
+        "mode": "editorial"
+      },
+      "landing-9N8G9zFGgAB19xbcUPhEiz": {
+        "type": "landing",
+        "title": "Welcome",
+        "scene_id": 35829,
+        "landing": {
+          "segments": [],
+          "steps": [
+            {
+              "highlight": [],
+              "narrations": [
+                {
+                  "value": "Hey <cast:mark>John</cast:mark>"
+                }
+              ],
+              "highlightX": [],
+              "highlightY": [],
+              "line_yHighlighterLabel": "",
+              "line_xHighlighterLabel": "",
+              "line_xHighlighterChartNo": 0,
+              "action_highlight": [],
+              "state": "expanded",
+              "segment_id": "",
+              "highlightList": []
+            },
+            {
+              "highlight": [],
+              "narrations": [
+                {
+                  "value": "Welcome to your July Usage Report on the past 30 days of Doordash\u2019s use of SaaS Magic prepared on behalf of Amy Layton. --thanks--"
+                }
+              ],
+              "highlightX": [],
+              "highlightY": [],
+              "line_yHighlighterLabel": "",
+              "line_xHighlighterLabel": "",
+              "line_xHighlighterChartNo": 0,
+              "action_highlight": [],
+              "state": "expanded",
+              "segment_id": "",
+              "highlightList": []
+            },
+            {
+              "highlight": [],
+              "narrations": [
+                {
+                  "value": "Let's dive right in!"
+                }
+              ],
+              "highlightX": [],
+              "highlightY": [],
+              "line_yHighlighterLabel": "",
+              "line_xHighlighterLabel": "",
+              "line_xHighlighterChartNo": 0,
+              "action_highlight": [],
+              "state": "expanded",
+              "segment_id": "",
+              "highlightList": []
+            }
+          ],
+          "bgImg": null,
+          "backgroundColor": "#FFFFFF",
+          "bgImgMobile": "641/f368e7b7e2312fe070898f943fb0f91a___WelcomeM.svg",
+          "bgImgDesktop": "641/e4f618989f724f51322ba52c7faa2dfc___WelcomeBG.svg",
+          "imageTextColor": "#393531",
+          "bgImgMode": "cover",
+          "bgImgPosition": "top",
+          "panelOpacity": 0.4,
+          "mode": "editorial"
+        },
+        "node": {
+          "id": "9N8G9zFGgAB19xbcUPhEiz",
+          "data": {
+            "sceneId": "35829"
+          },
+          "type": "castNode"
+        },
+        "bgImg": null,
+        "backgroundColor": "#FFFFFF",
+        "bgImgMobile": "641/f368e7b7e2312fe070898f943fb0f91a___WelcomeM.svg",
+        "bgImgDesktop": "641/e4f618989f724f51322ba52c7faa2dfc___WelcomeBG.svg",
+        "bgAppearance" : "contain top top",
+        "imageTextColor": "#393531",
+        "bgImgMode": "cover",
+        "bgImgPosition": "top",
+        "panelOpacity": 0.4,
+        "mode": "editorial"
+      },
+      "compareBar-oDcSGpGcs5PPk5r2j4L53P": {
+        "type": "compareBar",
+        "title": "SaaS Magic Team Usage",
+        "scene_id": 35828,
+        "compareBar": {
+          "segments": [
+            {
+              "areaData": [],
+              "areaDataColor": "",
+              "lineLowData": [],
+              "lineHighData": [],
+              "suffix": "%",
+              "value": 72,
+              "title": "Ian Layton",
+              "strval": "",
+              "_type": "Ian Layton",
+              "_col": "",
+              "titleprefix": "",
+              "type": "",
+              "right": "",
+              "left": "",
+              "footer": "",
+              "acceptText": "",
+              "link_title": "",
+              "link_type": "",
+              "link_url": "",
+              "compareValue": 23,
+              "valueLabel": "Current",
+              "compareValueLabel": "Previous",
+              "valuePrefix": "",
+              "valueSuffix": "",
+              "decimals": 0,
+              "breaks": "",
+              "subtitle": "",
+              "lineHighColor": "",
+              "lineLowColor": "",
+              "lineColor": "",
+              "smoothing": "",
+              "lineData": [],
+              "colorOverride": "",
+              "maxYPoint": "",
+              "area2Data": [],
+              "area2DataColor": "",
+              "sequence": [],
+              "_unit": "",
+              "checkMarkOverride": "",
+              "svgSuffix": "",
+              "sceneSequenceFlowIds": [],
+              "weburl": "",
+              "maxXPoint": "",
+              "ymax": "",
+              "eventType": "",
+              "destinationAtEndOfPath": false,
+              "id": ""
+            },
+            {
+              "areaData": [],
+              "areaDataColor": "",
+              "lineLowData": [],
+              "lineHighData": [],
+              "suffix": "%",
+              "value": 28,
+              "title": "Sam Pollock",
+              "strval": "",
+              "_type": "Sam Pollock",
+              "_col": "",
+              "titleprefix": "",
+              "type": "",
+              "right": "",
+              "left": "",
+              "footer": "",
+              "acceptText": "",
+              "link_title": "",
+              "link_type": "",
+              "link_url": "",
+              "compareValue": 23,
+              "valueLabel": "Current",
+              "compareValueLabel": "Previous",
+              "valuePrefix": "",
+              "valueSuffix": "",
+              "decimals": 0,
+              "breaks": "",
+              "subtitle": "",
+              "lineHighColor": "",
+              "lineLowColor": "",
+              "lineColor": "",
+              "smoothing": "",
+              "lineData": [],
+              "colorOverride": "",
+              "maxYPoint": "",
+              "area2Data": [],
+              "area2DataColor": "",
+              "sequence": [],
+              "_unit": "",
+              "checkMarkOverride": "",
+              "svgSuffix": "",
+              "sceneSequenceFlowIds": [],
+              "weburl": "",
+              "maxXPoint": "",
+              "ymax": "",
+              "eventType": "",
+              "destinationAtEndOfPath": false,
+              "id": ""
+            },
+            {
+              "areaData": [],
+              "areaDataColor": "",
+              "lineLowData": [],
+              "lineHighData": [],
+              "suffix": "%",
+              "value": 14,
+              "title": "James Johnson",
+              "strval": "",
+              "_type": "James Johnson",
+              "_col": "",
+              "titleprefix": "",
+              "type": "",
+              "right": "",
+              "left": "",
+              "footer": "",
+              "acceptText": "",
+              "link_title": "",
+              "link_type": "",
+              "link_url": "",
+              "compareValue": 24,
+              "valueLabel": "Current",
+              "compareValueLabel": "Previous",
+              "valuePrefix": "",
+              "valueSuffix": "",
+              "decimals": 0,
+              "breaks": "",
+              "subtitle": "",
+              "lineHighColor": "",
+              "lineLowColor": "",
+              "lineColor": "",
+              "smoothing": "",
+              "lineData": [],
+              "colorOverride": "",
+              "maxYPoint": "",
+              "area2Data": [],
+              "area2DataColor": "",
+              "sequence": [],
+              "_unit": "",
+              "checkMarkOverride": "",
+              "svgSuffix": "",
+              "sceneSequenceFlowIds": [],
+              "weburl": "",
+              "maxXPoint": "",
+              "ymax": "",
+              "eventType": "",
+              "destinationAtEndOfPath": false,
+              "id": ""
+            },
+            {
+              "areaData": [],
+              "areaDataColor": "",
+              "lineLowData": [],
+              "lineHighData": [],
+              "suffix": "%",
+              "value": 43,
+              "title": "Mike Kilbane",
+              "strval": "",
+              "_type": "Mike Kilbane",
+              "_col": "",
+              "titleprefix": "",
+              "type": "",
+              "right": "",
+              "left": "",
+              "footer": "",
+              "acceptText": "",
+              "link_title": "",
+              "link_type": "",
+              "link_url": "",
+              "compareValue": 23,
+              "valueLabel": "Current",
+              "compareValueLabel": "Previous",
+              "valuePrefix": "",
+              "valueSuffix": "",
+              "decimals": 0,
+              "breaks": "",
+              "subtitle": "",
+              "lineHighColor": "",
+              "lineLowColor": "",
+              "lineColor": "",
+              "smoothing": "",
+              "lineData": [],
+              "colorOverride": "",
+              "maxYPoint": "",
+              "area2Data": [],
+              "area2DataColor": "",
+              "sequence": [],
+              "_unit": "",
+              "checkMarkOverride": "",
+              "svgSuffix": "",
+              "sceneSequenceFlowIds": [],
+              "weburl": "",
+              "maxXPoint": "",
+              "ymax": "",
+              "eventType": "",
+              "destinationAtEndOfPath": false,
+              "id": ""
+            },
+            {
+              "areaData": [],
+              "areaDataColor": "",
+              "lineLowData": [],
+              "lineHighData": [],
+              "suffix": "%",
+              "value": 12,
+              "title": "Sandy Andrews",
+              "strval": "",
+              "_type": "Sandy Andrews",
+              "_col": "",
+              "titleprefix": "",
+              "type": "",
+              "right": "",
+              "left": "",
+              "footer": "",
+              "acceptText": "",
+              "link_title": "",
+              "link_type": "",
+              "link_url": "",
+              "compareValue": 24,
+              "valueLabel": "Current",
+              "compareValueLabel": "Previous",
+              "valuePrefix": "",
+              "valueSuffix": "",
+              "decimals": 0,
+              "breaks": "",
+              "subtitle": "",
+              "lineHighColor": "",
+              "lineLowColor": "",
+              "lineColor": "",
+              "smoothing": "",
+              "lineData": [],
+              "colorOverride": "",
+              "maxYPoint": "",
+              "area2Data": [],
+              "area2DataColor": "",
+              "sequence": [],
+              "_unit": "",
+              "checkMarkOverride": "",
+              "svgSuffix": "",
+              "sceneSequenceFlowIds": [],
+              "weburl": "",
+              "maxXPoint": "",
+              "ymax": "",
+              "eventType": "",
+              "destinationAtEndOfPath": false,
+              "id": ""
+            }
+          ],
+          "steps": [
+            {
+              "highlight": [1],
+              "narrations": [
+                {
+                  "value": "Sam Pollock\u2019s usage grew the most, at 23% month over month."
+                }
+              ],
+              "highlightX": ["Sam Pollock"],
+              "highlightY": [],
+              "line_yHighlighterLabel": "",
+              "line_xHighlighterLabel": "",
+              "line_xHighlighterChartNo": 0,
+              "action_highlight": [],
+              "state": "expanded",
+              "segment_id": "",
+              "highlightList": []
+            },
+            {
+              "highlight": [],
+              "narrations": [
+                {
+                  "value": "The average time spent per user on your team is up --up-- 13% since the previous month."
+                }
+              ],
+              "highlightX": [],
+              "highlightY": [],
+              "line_yHighlighterLabel": "",
+              "line_xHighlighterLabel": "",
+              "line_xHighlighterChartNo": 0,
+              "action_highlight": [],
+              "state": "expanded",
+              "segment_id": "",
+              "highlightList": []
+            },
+            {
+              "highlight": [0],
+              "narrations": [
+                {
+                  "value": "We notice that Ian Layton is using SaaS Magic the most on your team, spending 72 minutes last month. --wow--"
+                }
+              ],
+              "highlightX": ["Engagement", "Ian Layton"],
+              "highlightY": [],
+              "line_yHighlighterLabel": "",
+              "line_xHighlighterLabel": "",
+              "line_xHighlighterChartNo": 0,
+              "action_highlight": [],
+              "state": "expanded",
+              "segment_id": "",
+              "highlightList": []
+            }
+          ],
+          "bgImg": "",
+          "backgroundColor": "#FFFFFF",
+          "imageTextColor": "#393531",
+          "bgImgMode": "cover",
+          "bgImgPosition": "top",
+          "bgVideo": "https://storage.googleapis.com/cast-corp-player-storage/assets/landing/hubspot/HubSpot1.mp4",
+          "bgVideoAppearance": "contain left bottom",
+          "panelOpacity": 0.4,
+          "mode": "compareBars_v3",
+          "scaleMultiplierBetween1and2": 1.5
+        },
+        "node": {
+          "id": "oDcSGpGcs5PPk5r2j4L53P",
+          "data": {
+            "sceneId": "35828"
+          },
+          "type": "castNode"
+        },
+        "bgImg": "",
+        "backgroundColor": "#FFFFFF",
+        "imageTextColor": "#393531",
+        "bgImgMode": "cover",
+        "bgImgPosition": "top",
+        "panelOpacity": 0.4,
+        "mode": "compareBars_v3",
+        "scaleMultiplierBetween1and2": 1.5
+      },
+      "dashboard-q1JVDVhwgVm3J7fT2pzZA4": {
+        "type": "dashboard",
+        "title": "SaaS Magic Key Metrics",
+        "scene_id": 35827,
+        "dashboard": {
+          "segments": [
+            {
+              "areaData": [],
+              "areaDataColor": "",
+              "lineLowData": [],
+              "lineHighData": [],
+              "suffix": "min",
+              "value": "",
+              "title": "Minutes",
+              "strval": "",
+              "_type": "",
+              "_col": "",
+              "titleprefix": "",
+              "type": "number",
+              "right": "",
+              "left": "",
+              "footer": "",
+              "acceptText": "",
+              "link_title": "",
+              "link_type": "",
+              "link_url": "",
+              "compareValue": "",
+              "valueLabel": "",
+              "compareValueLabel": "",
+              "valuePrefix": "",
+              "valueSuffix": "",
+              "breaks": "",
+              "subtitle": "",
+              "lineHighColor": "",
+              "lineLowColor": "",
+              "lineColor": "",
+              "smoothing": "",
+              "lineData": [],
+              "colorOverride": "",
+              "maxYPoint": "",
+              "area2Data": [],
+              "area2DataColor": "",
+              "sequence": [],
+              "_unit": "",
+              "checkMarkOverride": "",
+              "svgSuffix": "",
+              "sceneSequenceFlowIds": [],
+              "weburl": "",
+              "maxXPoint": "",
+              "ymax": "",
+              "eventType": "",
+              "destinationAtEndOfPath": false,
+              "id": "mYkLWm2oAyKa9LkbTuo5dh",
+              "data": [
+                {
+                  "name": "Ronny",
+                  "value": 200
+                },
+                {
+                  "name": "Ronny",
+                  "value": 249
+                }
+              ],
+              "groupByValue": "Drive",
+              "widgetType": "number",
+              "format": "%B %d"
+            },
+            {
+              "areaData": [],
+              "areaDataColor": "",
+              "lineLowData": [],
+              "lineHighData": [],
+              "value": "",
+              "title": "Top Users",
+              "strval": "",
+              "_type": "",
+              "_col": "",
+              "titleprefix": "",
+              "type": "doughnut",
+              "right": "",
+              "left": "",
+              "footer": "",
+              "acceptText": "",
+              "link_title": "",
+              "link_type": "",
+              "link_url": "",
+              "compareValue": "",
+              "valueLabel": "",
+              "compareValueLabel": "",
+              "valuePrefix": "",
+              "valueSuffix": "",
+              "breaks": "",
+              "subtitle": "",
+              "lineHighColor": "",
+              "lineLowColor": "",
+              "lineColor": "",
+              "smoothing": "",
+              "lineData": [],
+              "colorOverride": "",
+              "maxYPoint": "",
+              "area2Data": [],
+              "area2DataColor": "",
+              "sequence": [],
+              "_unit": "",
+              "checkMarkOverride": "",
+              "svgSuffix": "",
+              "sceneSequenceFlowIds": [],
+              "weburl": "",
+              "maxXPoint": "",
+              "ymax": "",
+              "eventType": "",
+              "destinationAtEndOfPath": false,
+              "id": "B6XXBqct7KyWjs2eTPURdW",
+              "data": [
+                {
+                  "name": "John",
+                  "value": 200
+                },
+                {
+                  "name": "David",
+                  "value": 249
+                },
+                {
+                  "name": "Jack",
+                  "value": 223
+                },
+                {
+                  "name": "Alex",
+                  "value": 120
+                }
+              ],
+              "colorCoding": [
+                {
+                  "value": 33
+                },
+                {
+                  "value": 66
+                }
+              ],
+              "groupByValue": "Inferno",
+              "widgetType": "doughnut",
+              "format": "%B %d"
+            }
+          ],
+          "steps": [
+            {
+              "highlight": [0],
+              "narrations": [
+                {
+                  "value": "In the last 30 days, your team spent 249 minutes in SaaS Magic, --up-- up 25% from the previous month."
+                }
+              ],
+              "highlightX": ["mYkLWm2oAyKa9LkbTuo5dh"],
+              "highlightY": [],
+              "line_yHighlighterLabel": "",
+              "line_xHighlighterLabel": "",
+              "line_xHighlighterChartNo": 0,
+              "action_highlight": [],
+              "state": "expanded",
+              "segment_id": "",
+              "highlightList": []
+            }
+          ],
+          "bgImg": "",
+          "backgroundColor": "#FFFFFF",
+          "inlineImg": "641/297d6fd1a4f2d8dc7c558ed5b0c4fcc5___saas-magic-01 (1).svg",
+          "inlineImgHeight": 170,
+          "widgetBackgroundColor": "#ffffff",
+          "widgetTextColor": "#393531",
+          "imageTextColor": "#393531",
+          "bgImgMode": "cover",
+          "bgVideo": "https://storage.googleapis.com/cast-corp-player-storage/assets/landing/hubspot/HubSpot1.mp4",
+          "bgImgPosition": "top",
+          "panelOpacity": 0.4,
+          "mode": "widgets_v1"
+        },
+        "node": {
+          "id": "q1JVDVhwgVm3J7fT2pzZA4",
+          "data": {
+            "sceneId": "35827"
+          },
+          "type": "castNode"
+        },
+        "bgImg": "",
+        "backgroundColor": "#FFFFFF",
+        "inlineImg": "641/297d6fd1a4f2d8dc7c558ed5b0c4fcc5___saas-magic-01 (1).svg",
+        "inlineImgHeight": 170,
+        "widgetBackgroundColor": "#ffffff",
+        "widgetTextColor": "#393531",
+        "imageTextColor": "#393531",
+        "bgImgMode": "cover",
+        "bgImgPosition": "top",
+        "panelOpacity": 0.4,
+        "mode": "widgets_v1"
+      }
+    }
+  }
+}

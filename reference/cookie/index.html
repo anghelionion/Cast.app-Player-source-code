@@ -1,0 +1,22 @@
+<script>
+  function soggy() {
+    const d = "dev=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      while (ca[i].charAt(0) == ' ') ca[i] = ca[i].substring(1);
+      if (ca[i].indexOf(d) == 0) return ca[i].substring(d.length, ca[i].length);
+    }
+    return "";
+  }
+
+
+  window.addEventListener('load', (event) => {
+    let qpdev = (new URLSearchParams(window.location.search)).get("dev");
+    if (qpdev === "on") document.cookie = "dev=on; expires=Thu, 16 Nov 2028 07:39:15 GMT; path=/";
+    if (qpdev === "off") document.cookie = "dev=; expires=Thu, 16 Nov 2028 07:39:15 GMT; path=/";
+  });
+</script>
+
+
+<body>
+</body>

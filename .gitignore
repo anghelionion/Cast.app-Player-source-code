@@ -1,0 +1,44 @@
+**/*.log
+**/__pycache__/
+*.DS_Store
+.idea
+cloud_sql_proxy
+node_modules/
+player-env/
+pyvenv.cfg
+service_account.json
+pydcast-service_account.json
+venv
+*Brewfile.lock.json
+
+**/lib
+.webassets-cache
+/env/
+/build
+css/*.min.css
+css/themes/*.min.css
+js-dist/
+js/obfuscated
+js/public
+configs/*_secrets.env
+configs/*_combined.env
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+cypress/screenshots
+cypress/videos
+cypress/reports
+cypress.env.json
+
+src/modules/src.*.js

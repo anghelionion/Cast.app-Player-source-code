@@ -1,0 +1,8 @@
+/env
+/reference
+/server/*.js
+/src/*
+build
+
+!/src/modules
+src/modules/src.*.js

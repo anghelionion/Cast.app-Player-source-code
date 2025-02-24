@@ -1,0 +1,127 @@
+<body>
+
+
+  <script>
+ 
+
+      function avg(x) {
+        let s = 0;
+        x.forEach((a) => { s += a });
+        return (x.length > 0) ? (s / x.length) : 0;
+      }
+
+      function kMeans(iterations, x, k, means) {
+        if (k === 0 || k > x.length) throw new Error('Invalid k');
+
+        let seen = {};
+        if (!means) {
+          means = [];
+          // Randomly choose k means from the data and make sure that no point is chosen twice. This bit inspired by polymaps
+          while (means.length < k) {
+            let idx = Math.floor(Math.random() * (x.length - 1));
+            if (!seen[idx]) {
+              means.push({ val: x[idx], vals: [] });
+              seen[idx] = true;
+            }
+          }
+        }
+
+        for (let i = 0; i < x.length; i++) {
+          let dists = [];
+          for (let j = 0; j < means.length; j++) {
+            dists.push(Math.abs(x[i] - means[j].val));
+          }
+          let closest_index = dists.indexOf(Math.min.apply(null, dists));
+          means[closest_index].vals.push(x[i]);
+        }
+
+        // Create new centers from the centroids of the values in each group.
+        // In the case of one-dimensional data, centroid is the arithmetic average of the values of the points in a cluster.
+        // [Vance Faber](http://bit.ly/LHCh2y)
+        let v = [];
+        for (i = 0; i < means.length; i++) {
+          let centroid = avg(means[i].vals);
+          v.push({ val: centroid, vals: [] });
+        }
+
+        if (iterations-- === 0) return v;
+        // console.log(v);
+        console.log(logpipes(v.map(function (x) { return x.val; })));
+        return kMeans(iterations, x, k, v);
+      }
+
+
+
+
+
+
+
+
+      //https://gist.github.com/tmcw/3161750
+      function logpipes(x) {
+        let o = '';
+        x = x.map(function (y) { return ~~y; });
+        for (let i = 0; i < 200; i++) {
+          if (x.indexOf(i) === -1) {
+            o += ' ';
+          } else {
+            o += '|';
+          }
+        }
+        return o;
+      }
+
+      let x = [];
+      for (let i = 0; i < 200; i++) {
+        x.push(Math.floor((Math.random() * 200)));
+      }
+
+      let means = kMeans(20, x, 10);
+
+
+
+        let centers = new Map();
+        for (let xi = 0; xi < x.length; xi++) {
+          centers.set(xi, means[0].val);
+          means.forEach((m) => {
+            distCurr = Math.abs(x[xi] - m.val);
+            distSave = Math.abs(x[xi] - centers.get(xi));
+            if (distCurr < distSave) centers.set(xi, m.val);
+          });
+        }
+
+        // let frequency = new Map();
+        // for (let centeroidIndex = 0; centeroidIndex < centers.size; centeroidIndex++) {
+        //   let c = centers.get(centeroidIndex);
+        //   let f = frequency.get(c) || 0;
+        //   frequency.set(c, ++f);
+        // }
+
+        // console.log("points:");
+        // console.log(x);        
+        // console.log("means: ");
+        // console.log(means);
+        // let sortedMeanMap = new Map([...means.entries()].sort((a, b) => a[1].val - b[1].val));
+        
+        let meansArr = [];
+        means.forEach((m) => meansArr.push(m.val));
+        
+        meansArr.sort((a, b) => a - b);
+
+        console.log("centers: ");
+        console.log(centers);
+        console.log("meansArr: ");
+        console.log(meansArr);
+        // console.log("freq. Distr:");
+        // console.log(frequency);
+        // let tt=0;
+        // freqDist = new Map([...frequency.entries()].sort((a, b) => a[1] - b[1]));
+
+        // console.log("freq. Distribution sorted:");
+        // console.log(freqDist);
+
+
+
+  </script>
+</body>
+

@@ -1,0 +1,18 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "noEmit": true,
+    "lib": ["dom", "esnext"]
+  },
+  "include": [
+    ".eslintrc.js",
+    "*.js",
+    "*.ts",
+    "cypress/**/*.js",
+    "cypress/**/*.ts",
+    "server/**/*.ts",
+    "src/modules/**/*.js"
+  ],
+  "exclude": ["src/modules/src.*.js"]
+}

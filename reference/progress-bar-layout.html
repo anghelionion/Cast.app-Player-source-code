@@ -1,0 +1,86 @@
+<style>
+  div.progressContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+  }
+
+  div.progressTitle,
+  div.progressText {
+    text-align: center;
+    margin: 5px 0px;
+  }
+
+  div div.progressBackground {
+    height: 20px;
+    border-radius: 8px;
+  }
+
+  div.progressBar {
+    min-width: 14px;
+    /* border-radius*2-2 */
+    height: calc(20px - 2px);
+    border-radius: 8px;
+
+    left: 1px;
+  }
+
+  div.progressText,
+  div.progressBar {
+    position: relative;
+    top: calc(-1 * 20px + 1px);
+  }
+</style>
+
+
+<div id="genId1" class="progressContainer">
+  <div class="progressTitle">This is the progressTitle1 This is the progressTitle1 This is the progressTitle1 This is
+    the progressTitle1 This is the progressTitle1 This is the progressTitle1 This is the progressTitle1 This is the
+    progressTitle1</div>
+  <div class="progressBackground" style="background-color: purple;"></div>
+  <div class="progressBar" style="width:calc(80% - 2px); background-color: green;"></div>
+  <div class="progressText">
+    <span class="prefix">Profit: </span>
+    <span class="value">79.6</span>
+    <span class="suffix">%</span>
+  </div>
+</div>
+
+
+
+<div id="genId2" class="progressContainer">
+  <div class="progressTitle">progressTitle</div>
+  <div class="progressBackground" style="background-color: blue;"></div>
+  <div class="progressBar" style="width:calc(0% - 2px); background-color: yellowgreen;"></div>
+  <div class="progressText">
+    <span class="prefix">prefix</span>
+    <span class="value">value</span>
+    <span class="suffix">suffix</span>
+  </div>
+</div>
+
+<div id="genId3" class="progressContainer">
+  <div class="progressTitle">progressTitle</div>
+  <div class="progressBackground" style="background-color: blue;"></div>
+  <div class="progressBar" style="width:calc(100% - 2px); background-color: yellowgreen;"></div>
+  <div class="progressText">
+    <span class="prefix">prefix</span>
+    <span class="value">value</span>
+    <span class="suffix">suffix</span>
+  </div>
+</div>
+
+<div id="genId4" class="progressContainer">
+  <div class="progressTitle">progressTitle</div>
+  <div class="progressBackground" style="background-color: blue; width:calc(100% + 2px)"></div>
+  <div class="progressBar" style="width:100%; background-color: yellowgreen;"></div>
+  <div class="progressText">
+    <span class="prefix">prefix</span>
+    <span class="value">value</span>
+    <span class="suffix">suffix</span>
+  </div>
+</div>

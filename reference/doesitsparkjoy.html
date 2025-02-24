@@ -1,0 +1,321 @@
+<div>
+  <div id="svgID"></div>
+
+  <div id=yMin>abcdefgh abcdefgh abcdefgh</div>
+  <div id="yAxis">
+    <div>This is the YY axis</div>
+  </div>
+  <div id=yMax>200</div>
+
+  <div id="xMin">00</div><div id=xAxis>This is the x axis</div><div id="x-Max">200</div>
+
+</div>
+<!-- https://codepen.io/vineethtr/pen/XKKEgM -->
+
+<style>
+  :root {
+    --banner: 26px;
+    --width-y-axis: 100%;
+  }
+
+  * {
+    margin: 0;
+    padding: 0
+  }
+
+  #svgID {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - var(--banner));
+    height: calc(100% - var(--banner));
+  }
+
+
+
+  div#xMin {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    top: calc(100% - var(--banner));
+    font-size: 16px;
+    background-color: yellow;
+    width: 60px;
+    height: var(--banner);
+    text-align: left;
+    padding-left: var(--banner);
+  }
+
+    div#xAxis {
+    position: absolute;
+    top: calc(100% - var(--banner));
+    left: calc(60px + var(--banner));
+    display: inline-block;
+    background-color: lightblue;
+    font-size: 16px;
+    width: calc(100% - 120px - 2*var(--banner));
+    height: var(--banner);
+    text-align: center;
+  }
+
+  div#x-Max {
+    position: absolute;
+    right: var(--banner);
+    display: inline-block;
+    background-color: lightblue;
+    top: calc(100% - var(--banner));
+    font-size: 16px;
+    width: calc(100% - 120px );
+    height: var(--banner);
+    text-align: center;
+
+    width: 60px;
+    text-align: right;
+    background-color: salmon;
+    padding-right: var(--banner);
+  }
+
+  div#yMin {
+    position: absolute;
+    bottom: 80px;
+    left: 100%;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80px;
+    text-align: right;
+    background-color: orange;
+  }
+
+  div#yAxis {
+    background-color: orangered;
+    position: absolute;
+    left: calc(100% - var(--banner));
+    top: calc(50% - var(--width-y-axis) / 2);
+    height: var(--width-y-axis);
+    width: var(--banner);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: -10;
+  }
+
+  div#yAxis div {
+    transform: rotate(90deg);
+  }
+
+  div#yMax {
+    position: absolute;
+    top: 4px;
+    left: 100%;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    background-color: purple;
+  }
+</style>
+
+<script>
+
+
+  function gdefs() {
+    let defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
+    let lg = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
+    lg.setAttribute('id', 'lg');
+    lg.setAttribute('x1', '0');
+    lg.setAttribute('y1', '0');
+    lg.setAttribute('x2', '0');
+    lg.setAttribute('y2', '1');
+
+
+    let stopColorTop = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+    stopColorTop.setAttribute('offset', '0%');
+    stopColorTop.setAttribute('stop-color', 'rgba(0,150,0, 1)');
+
+    let stopColorBottom = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+    stopColorBottom.setAttribute('offset', '95%');
+    stopColorBottom.setAttribute('stop-color', 'rgba(0,120,0, 0.0)');
+    // stopColorBottom.setAttribute('stop-color', 'transparent');
+
+    lg.appendChild(stopColorTop);
+    lg.appendChild(stopColorBottom);
+    defs.appendChild(lg);
+    return defs;
+  }
+
+
+  function fix(points, width, height) {
+    let scaleX = 0, scaleY = 0;
+    for (var i = points.length - 1; i >= 0; i--) {
+      scaleX = Math.max(scaleX, points[i][0]);
+      scaleY = Math.max(scaleY, points[i][1]);
+    }
+
+    //scaleY *= 1.1;
+
+    //fix scale
+    for (var i = points.length - 1; i >= 0; i--) {
+      points[i][1] = scaleY - points[i][1];
+    }
+
+
+    let first = points[0];
+    points.unshift([first[0], scaleY]);
+
+    let last = points[points.length - 1];
+    points.push([last[0], scaleY]);
+
+    for (var i = points.length - 1; i >= 0; i--) {
+      points[i][0] = points[i][0] * width / scaleX;
+      points[i][1] = points[i][1] * height / scaleY;
+    }
+
+
+    return points;
+  }
+
+  const line = (pointA, pointB) => {
+    const lengthX = pointB[0] - pointA[0]
+    const lengthY = pointB[1] - pointA[1]
+    return {
+      length: Math.sqrt(Math.pow(lengthX, 2) + Math.pow(lengthY, 2)),
+      angle: Math.atan2(lengthY, lengthX)
+    }
+  }
+
+  const controlPoint = (current, previous, next, reverse) => {
+    const smoothing = 0.04;
+    const o = line(previous || current, next || current);
+    const angle = o.angle + (reverse ? Math.PI : 0);
+    const length = o.length * smoothing;
+    const x = current[0] + Math.cos(angle) * length;
+    const y = current[1] + Math.sin(angle) * length;
+    return [x, y];
+  }
+
+  const bezierCommand = (point, i, a) => {
+    const cps = controlPoint(a[i - 1], a[i - 2], point)
+    const cpe = controlPoint(point, a[i - 1], a[i + 1], true)
+    return `C ${cps[0]},${cps[1]} ${cpe[0]},${cpe[1]} ${point[0]},${point[1]}`
+  }
+
+  const getD = (points, command) => {
+    return points.reduce((acc, point, i, a) => i === 0
+      ? `M ${point[0]},${point[1]}`
+      : `${acc} ${command(point, i, a)}`
+      , '');
+  }
+
+
+  const getSvg = (points, width, height) => {
+    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("id", "svgElement");
+    svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+    svg.setAttribute("width", "100%");
+    svg.setAttribute("height", "100%");
+    svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
+
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const pp = fix(points, width, height);
+    path.setAttribute("d", getD(pp, bezierCommand));
+
+
+    path.setAttribute("stroke-width", ".25");
+    path.setAttribute("fill", "url(#lg)");
+    //path.setAttribute("fill", "rgba(0,100,0, .5)");
+    path.setAttribute("stroke", "rgba(0,100,0, 1)");
+    path.setAttribute("id", "red");
+    path.setAttribute("stroke-linecap", "round");
+    path.setAttribute("stroke-linejoin", "round");
+    const scale = .2;
+
+    var circle = document.createElementNS("http://www.w3.org/2000/svg", 'circle');
+    circle.setAttributeNS(null, 'cx', pp[5][0]);
+    circle.setAttributeNS(null, 'cy', pp[5][1]);
+    circle.setAttributeNS(null, 'r', 25);
+    circle.setAttributeNS(null, 'style', 'fill: #00A2FF99');
+
+    let min=120;
+
+    let vmarker = document.createElementNS("http://www.w3.org/2000/svg", 'line');
+    vmarker.setAttribute('x1', pp[5][0]);
+    vmarker.setAttribute('y1', 0);
+    vmarker.setAttribute('x2', pp[5][0]);
+    vmarker.setAttribute('y2', height);
+    vmarker.setAttributeNS(null, 'style', `stroke: rgba(0,100,0, .5); stroke-width:2px;`);
+
+    // let hmarker = document.createElementNS("http://www.w3.org/2000/svg", 'line');
+    // hmarker.setAttribute('x1', 0);
+    // hmarker.setAttribute('y1', pp[5][1]);
+    // hmarker.setAttribute('x2', width);
+    // hmarker.setAttribute('y2', pp[5][1]);
+    // hmarker.setAttributeNS(null, 'style', 'stroke: rgba(0,100,0, .5); stroke-width:4px;');
+
+    // var svgimg = document.createElementNS('http://www.w3.org/2000/svg', 'image');
+    // svgimg.setAttribute('height', '100');
+    // svgimg.setAttribute('width', '100');
+    // svgimg.setAttribute('id', 'testimg2');
+    // svgimg.setAttributeNS('http://www.w3.org/1999/xlink', 'href', 'https://cast.app/images/highlight.png');
+    // svgimg.setAttribute('x', pp[5][0]);
+    // svgimg.setAttribute('y', pp[5][1]);
+
+    // svg.appendChild(svgimg);
+    // svg.appendChild(hmarker);
+    svg.appendChild(vmarker);
+
+    svg.appendChild(path);
+    svg.appendChild(circle);
+
+    svg.appendChild(gdefs());
+
+
+    return svg;
+  }
+
+  const xyPoints = [
+    [0, 70],
+    [10, 40],
+    [20, 60],
+    [30, 80],
+    [40, 30],
+    [50, 45],
+    [70, 80],
+    [80, 20],
+    [90, 20],
+    [100, 55],
+    [170, 10],
+    [200, 20],
+    [220, 4],
+    [300, 80]
+  ];
+
+    document.getElementById("svgID").appendChild(
+      getSvg(xyPoints, window.innerWidth, window.innerHeight));
+
+
+    // function draw() {
+    //   console.log(window.innerWidth, ", ", window.innerHeight);
+
+    //   if (document.getElementById("svgElement")) {
+    //     document.getElementById("svgID").replaceChild(
+    //       getSvg(xyPoints, window.innerWidth, window.innerHeight),
+    //       document.getElementById("svgElement")
+    //     );
+    //   } else {
+    //     document.getElementById("svgID").appendChild(
+    //       getSvg(xyPoints, window.innerWidth, window.innerHeight));
+    //   }
+    // }
+
+  // window.addEventListener("resize", draw);
+  // draw();
+
+</script>

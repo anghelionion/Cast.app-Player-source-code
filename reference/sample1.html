@@ -1,0 +1,304 @@
+<html>
+<style>
+  body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: navy;
+  }
+
+  hr {
+    color: border-left: 8px solid #555555;
+  }
+</style>
+
+</html>
+
+
+
+
+
+<!-- OLD FORMAT -->
+<script>
+  const story = {
+    "metadata": {
+      "id": "IC-guid1",
+      "style": "default",
+      "channel": {
+        "id": "CH-guid2",
+        "name": "Customer Operations Insights"
+      },
+      "frequency": "daily",
+      "recipient": {
+        "name": "recipient Name",
+        "id": "AU-guid3"
+      },
+      "tags": [
+        "Operations",
+        "Customer Support",
+        "Ops",
+        "COps",
+        "Support",
+        "Customer",
+        "Customer Insights"
+      ],
+      "generatedGmt": "2019-06-28T00:00:00.000Z",
+      "templatesource": "TS-guid4"
+    },
+    "sceneSequence": [
+      "SN-guid25",
+      "SN-guid26",
+      "SN-guid40",
+      "SN-guid29"
+    ],
+    "scene": [
+      {
+        "id": "SN-guid1",
+        "name": "Support Categories",
+        "viz": [
+          "VZ-guid5",
+          "VZ-guid26"
+        ],
+        "narration": [
+          "1: What is this?",
+          "2: This shows the various customer support categories",
+          "1: how does it work?",
+          "1: and  what is its importance",
+          "2: this is..."
+        ]
+      },
+      {
+        "id": "SN-guid25",
+        "viz": [
+          "VZ-guid15",
+          "VIZ-guid56"
+        ]
+      },
+      {
+        "SceneID": "SN-guid24",
+        "viz": [
+          "VZ-guid16"
+        ]
+      },
+      {
+        "sceneID": "SN-guid23",
+        "viz": [
+          "VZ-guid19"
+        ]
+      }
+    ],
+    "viz": [
+      {
+        "id": "VZ-guid25",
+        "charts": [
+          "CH-guid2",
+          "CH-guid3"
+        ],
+        "narration": [
+          "1:...",
+          "2:...",
+          "2: ..."
+        ]
+      },
+      {
+        "id": "VZ-guid23",
+        "charts": [
+          "CH-guid4"
+        ],
+        "narration": [
+          "1:...",
+          "2:...",
+          "2: ..."
+        ]
+      },
+      {
+        "id": "VZ-guid56",
+        "charts": [
+          "CH-guid4"
+        ],
+        "narration": [
+          "1:...",
+          "2:...",
+          "2: ..."
+        ]
+      }
+    ],
+    "chart": [
+      {
+        "ChartID": "CH—Scene12-Viz12-Chart4",
+        "Title": "Sales",
+        "Type": "horizontal-bar",
+        "collection": [
+          {
+            "segments": [
+              {
+                "Value": 12.5,
+                "Title": "iPhone",
+                "ColorIndex": 4,
+                "opacity": 0.9
+              },
+              {
+                "value": 22.5,
+                "colorIndex": 1,
+                "opacity": 1,
+                "title": "iPad"
+              },
+              {
+                "value": 12.5,
+                "colorIndex": 2,
+                "opacity": 0.9
+              }
+            ]
+          },
+          {
+            "segments": [
+              {
+                "value": 90,
+                "title": "banana",
+                "colorIndex": 3,
+                "opacity": 0.7
+              },
+              {
+                "title": "segment-1",
+                "value": 10
+              }
+            ]
+          }
+        ],
+        "legend": [
+          {
+            "colorIndex": 1,
+            "value": "iPad"
+          },
+          {
+            "colorIndex": 1,
+            "value": "iPhone"
+          }
+        ]
+      },
+      {
+        "id": "CH—guid3",
+        "type": "funnel",
+        "collection": [
+          {
+            "segments": [
+              {
+                "value": 12.5,
+                "title": "iPhone",
+                "colorIndex": 4,
+                "opacity": 0.9
+              },
+              {
+                "value": 22.5,
+                "colorIndex": 1,
+                "opacity": 1,
+                "title": "iPad",
+                "step": "true",
+                "narration": "iPad sales increased 10%"
+              },
+              {
+                "value": 1,
+                "colorIndex": 2,
+                "opacity": 0.9
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  };
+
+
+  class Metadata {
+    constructor(metadataJSON) {
+      this._metadataJSON = metadataJSON;
+      this._id = metadataJSON["id"];
+      this._style = metadataJSON["style"];
+      this._frequency = metadataJSON["frequency"];
+      this._generatedGmt = metadataJSON["generatedGmt"];
+      this._templatesource = metadataJSON["templatesource"];
+    }
+
+    get id() { return this._id; }
+    set id(id) { this._id = id; }
+
+    get style() { return this._style; }
+    set style(style) { this._style = style; }
+
+    get frequency() { return this._frequency; }
+    set frequency(frequency) { this._frequency = frequency; }
+
+    get generatedGmt() { return this._generatedGmt; }
+    set generatedGmt(generatedGmt) { this._generatedGmt = generatedGmt; }
+
+    get style() { return this._style; }
+    set style(style) { this._style = style; }
+  }
+
+
+  printValues(story);
+
+  // Define recursive function to print nested values
+  function printValues(obj) {
+    document.write("<hr>" + "<br>");
+    for (var k in obj) {
+      switch (typeof obj[k]) {
+        case 'number':
+        case 'string':
+          document.write(k + " = " + obj[k] + "<br>");
+          break;
+        case 'object':
+          document.write(k + " - object <br>");
+          printValues(obj[k]);
+          break;
+        case 'array':
+          document.write(k + " Array <br>");
+          break;
+        case 'function':
+          document.write(k + " function <br>");
+          break;
+        case 'symbol':
+          document.write(k + " symbol <br>");
+          break;
+        case 'undefined':
+          document.write(k + " - undefined <br>");
+          break;
+      }
+
+    }
+  };
+
+
+
+
+
+  document.write("<br><br>JSON<br>");
+  var metadataJSON = story["metadata"];
+  printValues(metadataJSON);
+
+  metadata = new Metadata(story["metadata"]);
+  document.write("Generated GMT: " + metadata.generatedGmt + "<br>");
+
+
+  printValues(story["sceneSequence"]);
+
+
+
+
+
+  // document.write("------------<br><br>");
+  // printValues(story.metadata);
+  // document.write("------------<br><br>");
+
+  // // Printing all the values from the resulting object
+  // printValues(obj);
+
+  document.write("<hr>");
+
+  // Printing a single value
+  //  document.write(obj["book"]["recipient"] + "<br>");  // Prints: J. K. Rowling
+  //document.write(obj["book"]["characters"][0] + "<br>");  // Prints: Harry Potter
+  //document.write(obj["book"]["price"]["hardcover"]);  // Prints: $20.32
+
+  document.write("end of Story<hr>");
+
+</script>

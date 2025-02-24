@@ -1,0 +1,208 @@
+.transcripts-container {
+    border-radius: 10px;
+    background-color: rgba(57, 53, 49, 1);
+    padding: 0px 6px 0 6px;
+    /*height: 100%;*/
+    display: flex;
+    flex-flow: column nowrap;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.static-action-menu-heading {
+    /*background: red;*/
+}
+
+#transcript-chart-box {
+    overflow: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#transcript-chart-containers mark,
+#transcriptContent mark {
+    background-color: transparent;
+    color: unset;
+    border-bottom: 1.5px dotted #ffffff99;
+}
+
+#transcript-chart-containers mark.nospeechfootnote,
+#transcriptContent mark.nospeechfootnote {
+    background-color: transparent;
+    color: unset;
+    display: block;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+#transcript-chart-containers mark.nospeechfootnote {
+    border-bottom: 0px;
+}
+
+#transcript-chart-containers::-webkit-scrollbar,
+#transcript-chart-box::-webkit-scrollbar {
+    width: 5px;
+}
+
+#transcript-chart-containers::-webkit-scrollbar-thumb,
+#transcript-chart-box::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+#transcript-chart-containers .transcript-chart-container {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0px 0px 6px 0px;
+}
+
+#transcript-chart-containers .transcript-chart-container .transcript-chart-title {
+    align-content: normal;
+    align-items: center;
+    border-radius: 6px;
+    border: 0px solid var(--cast-back-outer);
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 14px;
+    font-weight: 700;
+    justify-content: flex-start;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+#transcript-chart-containers .transcript-chart-container .transcript-chart-title .transcript-chart-play-pause-button svg {
+    height: 25px;
+    width: 25px;
+}
+
+#transcript-chart-containers .transcript-chart-container .transcript-chart-title .transcript-chart-play-pause-button svg path {
+    fill: rgba(255, 255, 255, 0.5);
+}
+
+#transcript-chart-containers .transcript-chart-container .transcript-chart-title .transcript-chart-name {
+    margin-left: 10px;
+    width: 100%;
+}
+
+#transcript-chart-containers .transcript-chart-container .transcript-chart-title .transcript-chart-name .friendly-chart-name {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 5px 0;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    #transcript-chart-containers .transcript-chart-container .transcript-chart-title:hover {
+        cursor: pointer;
+    }
+}
+
+#transcript-chart-containers .transcript-chart-container .transcript-step-narration {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 2px 20px 2px 32px;
+    text-align: left;
+}
+
+.action {
+    align-content: normal;
+    align-items: stretch;
+    background-color: #494541;
+    border-radius: 10px;
+    border: 1px solid #494541;
+    cursor: pointer;
+    display: flex;
+    flex-flow: column nowrap;
+    font-weight: 700;
+    justify-content: space-around;
+    margin: 6px 10px 6px 2px;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.action .action-heading {
+    align-content: normal;
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.action-item-icon {
+    position: absolute;
+    right: 18px;
+    top: 8px;
+}
+
+.action-item-icon svg {
+    width: 80px;
+    height: 80px;
+}
+
+.action-title-dynamic-bell-icon {
+    height: 20px;
+    margin-left: auto;
+    width: 20px;
+}
+.action-title-dynamic-bell-icon svg {
+    height: 100%;
+    width: 100%;
+}
+
+.action .action-title-text {
+    font-size: 15px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.action .action-title-content {
+    font-size: 13px;
+    font-weight: 400;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.show-more-action-content {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+}
+
+.action .action-body {
+    align-content: normal;
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    padding: 10px 0 2px 0;
+}
+
+.transcripts-title-icon {
+    align-content: normal;
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 auto;
+    height: 20px;
+    justify-content: center;
+    margin: 2px 6px 0 6px;
+    width: 20px;
+}
+
+.transcripts-title-icon svg {
+    width: 100%;
+}
+
+.transcript-chart-container .action {
+    margin: 6px 10px 6px 32px;
+}

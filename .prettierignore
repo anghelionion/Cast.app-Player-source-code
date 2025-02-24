@@ -1,0 +1,7 @@
+/.github/**/*.md
+/js/public
+/env
+/reference
+/server/*.js
+build
+src/modules/src.*.js
