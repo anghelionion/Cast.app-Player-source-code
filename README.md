@@ -1,5 +1,12 @@
 # Cast Player
 
+## Run with
+
+<PRE>
+        npm install
+        webpack serve
+</PRE>
+
 ## Demos
 
 - [Localhost](http://localhost:5001/play/demo/demo)
